@@ -1,0 +1,511 @@
+{
+  "Rows": {
+    "Sizes": {
+      "2": 28.0,
+      "4": 28.0,
+      "5": 81.0
+    },
+    "InLogicalVisibleIndexes": [
+      0
+    ],
+    "Count": 10
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,1": "会员状态",
+    "4,1": "说明",
+    "7,6": "确定"
+  },
+  "AttachInfos": {
+    "2,6": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ]
+      },
+      "BindingInfo": {
+        "TableName": "会员卡状态字典表",
+        "ColumnName": "卡状态"
+      }
+    },
+    "4,6": {
+      "CellType": {
+        "$type": "Forguncy.MultilineTextBox, Forguncy"
+      },
+      "BindingInfo": {
+        "TableName": "会员卡状态字典表",
+        "ColumnName": "说明"
+      }
+    },
+    "7,6": {
+      "CellType": {
+        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=会员卡状态!A1"
+                      }
+                    ]
+                  },
+                  "value": "新增",
+                  "Id": "2517867a-5ec4-4cec-9a8b-84afdead408c"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "会员卡状态字典表",
+                    "UpdateType": "add",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定添加这条记录?",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "3dae0f0d-4fc9-4bd9-8ba0-80de00dbf058"
+              },
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=会员卡状态!A1"
+                      }
+                    ]
+                  },
+                  "value": "编辑",
+                  "Id": "363cc54e-fbe3-4202-8e6d-dfa4be5c267b"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "会员卡状态字典表",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": []
+                  }
+                ],
+                "ID": "ec972a8f-3b26-4b96-8bd7-7f2da281d1a8"
+              }
+            ]
+          },
+          {
+            "$type": "Forguncy.Model.ClosePopupCommand, Forguncy",
+            "ReloadData": true
+          }
+        ],
+        "Text": "确定",
+        "ClickMode": 1
+      },
+      "CssName": "button"
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "FontWeight": 1,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "FontWeight": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "VerticalAlignment": 4,
+        "WordWrap": true,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Formatter": 2,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null
+      },
+      {
+        "BorderBottom": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 5,
+        "FontStretch": 6,
+        "FontStyle": 6,
+        "FontWeight": 6,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 8,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 9,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 9,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 9,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "Underline": false,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderLeft": null
+      },
+      {
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 9,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 9,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "Foreground": 9,
+        "Formatter": 2,
+        "TextIndent": 0,
+        "HorizontalAlignment": 8,
+        "Underline": false,
+        "BorderBottom": 1,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "BorderTop": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "微软雅黑",
+        "Bold",
+        "[AUTO]General",
+        "#FFA9A9A9",
+        "Top",
+        "宋体",
+        "Normal",
+        "General",
+        "Center",
+        "#FF0000FF",
+        "#FF2BC4CA"
+      ],
+      "Borders": [
+        {
+          "Color": 3
+        },
+        {
+          "Color": 10
+        }
+      ]
+    },
+    "CellStyles": {
+      "2,1": 0,
+      "2,2": 1,
+      "2,3": 1,
+      "2,4": 1,
+      "2,5": 2,
+      "2,6": 3,
+      "2,7": 4,
+      "2,8": 4,
+      "2,9": 4,
+      "2,10": 4,
+      "2,11": 4,
+      "2,12": 4,
+      "2,13": 4,
+      "2,14": 4,
+      "2,15": 4,
+      "2,16": 5,
+      "3,1": 2,
+      "3,2": 2,
+      "3,3": 2,
+      "3,4": 2,
+      "3,5": 2,
+      "3,6": 2,
+      "3,7": 2,
+      "3,8": 2,
+      "3,9": 2,
+      "3,10": 2,
+      "3,11": 2,
+      "3,12": 2,
+      "3,13": 2,
+      "4,1": 0,
+      "4,2": 1,
+      "4,3": 1,
+      "4,4": 1,
+      "4,5": 2,
+      "4,6": 6,
+      "4,7": 7,
+      "4,8": 7,
+      "4,9": 7,
+      "4,10": 7,
+      "4,11": 7,
+      "4,12": 7,
+      "4,13": 7,
+      "4,14": 7,
+      "4,15": 7,
+      "4,16": 8,
+      "5,0": 9,
+      "5,1": 10,
+      "5,2": 11,
+      "5,3": 11,
+      "5,4": 11,
+      "5,5": 11,
+      "5,6": 12,
+      "5,7": 13,
+      "5,8": 13,
+      "5,9": 13,
+      "5,10": 13,
+      "5,11": 13,
+      "5,12": 13,
+      "5,13": 13,
+      "5,14": 13,
+      "5,15": 13,
+      "5,16": 14,
+      "5,17": 9,
+      "6,1": 2,
+      "6,2": 2,
+      "6,3": 2,
+      "6,4": 2,
+      "6,5": 2,
+      "6,6": 15,
+      "6,7": 15,
+      "6,8": 15,
+      "6,9": 15,
+      "6,10": 15,
+      "6,11": 15,
+      "6,12": 15,
+      "6,13": 15,
+      "6,14": 16,
+      "6,15": 16,
+      "6,16": 16,
+      "7,1": 17,
+      "7,2": 17,
+      "7,3": 17,
+      "7,4": 17,
+      "7,5": 17,
+      "7,6": 18,
+      "7,7": 19,
+      "7,8": 19,
+      "7,9": 19,
+      "7,10": 19,
+      "7,11": 19,
+      "7,12": 19,
+      "7,13": 19,
+      "7,14": 19,
+      "7,15": 19,
+      "7,16": 20,
+      "7,17": 21,
+      "8,5": 22,
+      "8,6": 23,
+      "8,7": 24,
+      "8,8": 24,
+      "8,9": 24,
+      "8,10": 24,
+      "8,11": 24,
+      "8,12": 24,
+      "8,13": 24,
+      "8,14": 24,
+      "8,15": 24,
+      "8,16": 25,
+      "8,17": 21,
+      "9,6": 26,
+      "9,7": 26,
+      "9,8": 26,
+      "9,9": 26,
+      "9,10": 26,
+      "9,11": 26,
+      "9,12": 26,
+      "9,13": 26,
+      "9,14": 26,
+      "9,15": 26,
+      "9,16": 26
+    },
+    "SheetStyle": {
+      "FontFamily": 5
+    }
+  },
+  "Spans": [
+    "2,1,1,4",
+    "4,1,1,4",
+    "2,6,1,11",
+    "7,6,2,11",
+    "4,6,2,11"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "Title": "卡状态",
+    "AuthorizeInfo": {
+      "VisitMode": 4,
+      "AllowVisitedRoles": [
+        "系统管理员"
+      ]
+    },
+    "RowBreakLines": [],
+    "RepeatRangeSettings": []
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

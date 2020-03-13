@@ -1,0 +1,426 @@
+{
+  "Rows": {
+    "Count": 25
+  },
+  "Cols": {
+    "Count": 18
+  },
+  "Values": {
+    "2,5": "修改用户信息",
+    "13,2": "显示名",
+    "17,2": "电子邮箱",
+    "21,2": "保存",
+    "21,10": "取消"
+  },
+  "AttachInfos": {
+    "6,5": {
+      "CellType": {
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "ForguncyAttribute": "ChangeProfile_Picture"
+      }
+    },
+    "14,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "ForguncyAttribute": "ChangeProfile_FullName"
+      }
+    },
+    "18,2": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "ForguncyAttribute": "ChangeProfile_Email"
+      }
+    },
+    "21,2": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "Text": "保存",
+        "AutoExecute": true,
+        "ForguncyAttribute": "ChangeProfile_Button"
+      }
+    },
+    "21,10": {
+      "CellType": {
+        "$type": "Forguncy.ButtonCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+            "NavigateType": "back",
+            "PassValues": []
+          }
+        ],
+        "Text": "取消"
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null
+      },
+      {
+        "BorderRight": null
+      },
+      {
+        "FontSize": 21.333333969116211,
+        "Foreground": 0,
+        "Formatter": 1,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderLeft": null
+      },
+      {
+        "BorderBottom": 0
+      },
+      {
+        "BorderBottom": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": 0,
+        "BorderLeft": null
+      },
+      {
+        "BorderTop": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontSize": 14.666666984558105,
+        "Foreground": 5,
+        "Formatter": 1,
+        "BorderBottom": null
+      },
+      {
+        "FontSize": 16.0,
+        "Foreground": 5,
+        "BorderBottom": null,
+        "BorderTop": 1,
+        "BorderLeft": 1,
+        "BorderRight": null
+      },
+      {
+        "BorderTop": 1
+      },
+      {
+        "BorderTop": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderLeft": 1
+      },
+      {
+        "BorderBottom": 1
+      },
+      {
+        "BorderBottom": 1,
+        "BorderRight": 1
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null
+      },
+      {
+        "Background": 7,
+        "FontSize": 16.0,
+        "FontWeight": 8,
+        "Foreground": 9,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 9,
+        "FontSize": 16.0,
+        "FontWeight": 8,
+        "Foreground": 10,
+        "Formatter": 1,
+        "BorderBottom": null,
+        "BorderTop": 2,
+        "BorderLeft": 2,
+        "BorderRight": null
+      },
+      {
+        "Background": 9,
+        "BorderTop": 2
+      },
+      {
+        "Background": 9,
+        "BorderTop": 2,
+        "BorderRight": 2
+      },
+      {
+        "Background": 9,
+        "BorderBottom": 2,
+        "BorderLeft": 2
+      },
+      {
+        "Background": 9,
+        "BorderBottom": 2
+      },
+      {
+        "Background": 9,
+        "BorderBottom": 2,
+        "BorderRight": 2
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FF09519D",
+        "[AUTO]General",
+        "Center",
+        "Bottom",
+        "#FFA9BCD1",
+        "#FF7F7F7F",
+        "#FFA9A9A9",
+        "#FF248FFF",
+        "Bold",
+        "#FFFFFFFF",
+        "#FF238EFF",
+        "微软雅黑",
+        "#FF000000"
+      ],
+      "Borders": [
+        {
+          "Color": 4
+        },
+        {
+          "Color": 6
+        },
+        {
+          "Color": 10
+        }
+      ]
+    },
+    "CellStyles": {
+      "1,5": 0,
+      "1,6": 0,
+      "1,7": 0,
+      "1,8": 0,
+      "1,9": 0,
+      "1,10": 0,
+      "1,11": 0,
+      "1,12": 0,
+      "2,4": 1,
+      "2,5": 2,
+      "2,13": 3,
+      "3,1": 4,
+      "3,2": 4,
+      "3,3": 4,
+      "3,4": 5,
+      "3,13": 6,
+      "3,14": 4,
+      "3,15": 4,
+      "3,16": 4,
+      "4,1": 7,
+      "4,2": 7,
+      "4,3": 7,
+      "4,4": 7,
+      "4,5": 7,
+      "4,6": 7,
+      "4,7": 7,
+      "4,8": 7,
+      "4,9": 7,
+      "4,10": 7,
+      "4,11": 7,
+      "4,12": 7,
+      "4,13": 7,
+      "4,14": 7,
+      "4,15": 7,
+      "4,16": 7,
+      "6,5": 8,
+      "13,2": 9,
+      "13,3": 0,
+      "13,4": 0,
+      "13,5": 0,
+      "13,6": 0,
+      "13,7": 0,
+      "13,8": 0,
+      "13,9": 0,
+      "13,10": 0,
+      "13,11": 0,
+      "13,12": 0,
+      "13,13": 0,
+      "13,14": 0,
+      "13,15": 0,
+      "14,1": 1,
+      "14,2": 10,
+      "14,3": 11,
+      "14,4": 11,
+      "14,5": 11,
+      "14,6": 11,
+      "14,7": 11,
+      "14,8": 11,
+      "14,9": 11,
+      "14,10": 11,
+      "14,11": 11,
+      "14,12": 11,
+      "14,13": 11,
+      "14,14": 11,
+      "14,15": 12,
+      "14,16": 3,
+      "15,1": 1,
+      "15,2": 13,
+      "15,3": 14,
+      "15,4": 14,
+      "15,5": 14,
+      "15,6": 14,
+      "15,7": 14,
+      "15,8": 14,
+      "15,9": 14,
+      "15,10": 14,
+      "15,11": 14,
+      "15,12": 14,
+      "15,13": 14,
+      "15,14": 14,
+      "15,15": 15,
+      "15,16": 3,
+      "16,2": 7,
+      "16,3": 7,
+      "16,4": 7,
+      "16,5": 7,
+      "16,6": 7,
+      "16,7": 7,
+      "16,8": 7,
+      "16,9": 7,
+      "16,10": 7,
+      "16,11": 7,
+      "16,12": 7,
+      "16,13": 7,
+      "16,14": 7,
+      "16,15": 7,
+      "17,2": 9,
+      "17,3": 0,
+      "17,4": 0,
+      "17,5": 0,
+      "17,6": 0,
+      "17,7": 0,
+      "17,8": 0,
+      "17,9": 0,
+      "17,10": 0,
+      "17,11": 0,
+      "17,12": 0,
+      "17,13": 0,
+      "17,14": 0,
+      "17,15": 0,
+      "18,1": 1,
+      "18,2": 10,
+      "18,3": 11,
+      "18,4": 11,
+      "18,5": 11,
+      "18,6": 11,
+      "18,7": 11,
+      "18,8": 11,
+      "18,9": 11,
+      "18,10": 11,
+      "18,11": 11,
+      "18,12": 11,
+      "18,13": 11,
+      "18,14": 11,
+      "18,15": 12,
+      "18,16": 3,
+      "19,1": 1,
+      "19,2": 13,
+      "19,3": 14,
+      "19,4": 14,
+      "19,5": 14,
+      "19,6": 14,
+      "19,7": 14,
+      "19,8": 14,
+      "19,9": 14,
+      "19,10": 14,
+      "19,11": 14,
+      "19,12": 14,
+      "19,13": 14,
+      "19,14": 14,
+      "19,15": 15,
+      "19,16": 3,
+      "20,2": 7,
+      "20,3": 7,
+      "20,4": 7,
+      "20,5": 7,
+      "20,6": 7,
+      "20,7": 7,
+      "20,8": 7,
+      "20,9": 7,
+      "20,10": 16,
+      "20,11": 16,
+      "20,12": 16,
+      "20,13": 16,
+      "20,14": 16,
+      "20,15": 16,
+      "21,2": 17,
+      "21,9": 1,
+      "21,10": 18,
+      "21,11": 19,
+      "21,12": 19,
+      "21,13": 19,
+      "21,14": 19,
+      "21,15": 20,
+      "21,16": 3,
+      "22,9": 1,
+      "22,10": 21,
+      "22,11": 22,
+      "22,12": 22,
+      "22,13": 22,
+      "22,14": 22,
+      "22,15": 23,
+      "22,16": 3,
+      "23,10": 7,
+      "23,11": 7,
+      "23,12": 7,
+      "23,13": 7,
+      "23,14": 7,
+      "23,15": 7
+    },
+    "SheetStyle": {
+      "FontFamily": 11,
+      "FontSize": 13.333333015441895,
+      "Foreground": 12
+    }
+  },
+  "Spans": [
+    "2,5,2,8",
+    "14,2,2,14",
+    "18,2,2,14",
+    "21,2,2,6",
+    "21,10,2,6",
+    "6,5,6,8"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "Title": "修改用户信息",
+    "RowBreakLines": [],
+    "RepeatRangeSettings": [],
+    "IsBuiltInPage": true,
+    "IsMobilePage": true
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}

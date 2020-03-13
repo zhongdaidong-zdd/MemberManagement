@@ -1,0 +1,28 @@
+﻿.button a
+{
+  color:#2BC4CA !important;
+  background-color:white !important;
+}
+
+
+.button:hover 
+{
+  color:white !important;
+  background-color:#2BC4CA !important;
+}
+
+.button:hover a
+{
+  color:white !important;
+  background-color:#2BC4CA !important;
+}
+
+.popupContainer .popupTitleBar {
+    background-color: #2BC4CA;
+    height: 30px;
+    border-color: #2BC4CA;
+}
+.backgroundImage{
+  width:1080px !important;
+  height:170px !important;
+}

@@ -1,0 +1,807 @@
+{
+  "Rows": {
+    "Sizes": {
+      "1": 43.0,
+      "2": 24.0,
+      "3": 22.0
+    },
+    "Count": 51
+  },
+  "Cols": {
+    "Sizes": {
+      "0": 30.0,
+      "1": 30.0,
+      "2": 30.0,
+      "3": 30.0,
+      "4": 30.0,
+      "5": 30.0,
+      "6": 30.0
+    },
+    "Count": 61
+  },
+  "AttachInfos": {
+    "0,7": {
+      "IsPlaceHolderCell": true
+    },
+    "1,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "ImagePath": "administrator.png"
+      }
+    },
+    "1,2": {
+      "CellType": {
+        "$type": "Forguncy.CurrentUserCellType, Forguncy",
+        "ShowUserPicture": false,
+        "ShowNotification": false,
+        "CellCustomValue": "%CurrentUser%"
+      }
+    },
+    "2,1": {
+      "CellType": {
+        "$type": "Forguncy.ImageCellType, Forguncy",
+        "CommandList": [
+          {
+            "$type": "Forguncy.Model.ShowPopupCommand, Forguncy",
+            "PageName": "会员信息",
+            "PassValues": [
+              {
+                "Source": "新增",
+                "TargetCell": {
+                  "SerializeProperty": "=会员信息!A1"
+                }
+              }
+            ]
+          }
+        ],
+        "ImagePath": "Image 25.png"
+      }
+    },
+    "4,0": {
+      "CellType": {
+        "$type": "Forguncy.CustomMenu.ForguncyMenuCellType, Forguncy.CustomMenu",
+        "Items": [
+          {
+            "Value": "首页",
+            "Text": "首页",
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "首页",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_LoginUser"
+            ]
+          },
+          {
+            "Value": "会员中心",
+            "Text": "会员中心",
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "首页",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_LoginUser"
+            ],
+            "SubItems": [
+              {
+                "Value": "会员信息列表",
+                "Text": "会员信息列表",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "会员中心",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "会员历史查询",
+            "Text": "会员历史查询",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "充值历史",
+                "Text": "充值历史",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "会员充值列表",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "消费历史",
+                "Text": "消费历史",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "会员消费列表",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "积分兑换历史",
+                "Text": "积分兑换历史",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "积分兑换列表",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "会员升级历史",
+                "Text": "会员升级历史",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "会员升级列表",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "卡状态历史",
+                "Text": "卡状态历史",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "卡状态变更列表",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "数据设置",
+            "Text": "数据设置",
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ],
+            "SubItems": [
+              {
+                "Value": "会员状态",
+                "Text": "会员状态",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "会员卡状态列表",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "会员类型",
+                "Text": "会员类型",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "会员类型列表",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "支付方式",
+                "Text": "支付方式",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "支付类型列表",
+                    "PassValues": [],
+                    "DeleteCachedQuery": true
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "证件类型",
+                "Text": "证件类型",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "证件类型列表",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              },
+              {
+                "Value": "商品服务",
+                "Text": "商品服务",
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                    "PageName": "商品和服务列表",
+                    "PassValues": []
+                  }
+                ],
+                "CanVisitRoleList": [
+                  "FGC_LoginUser"
+                ]
+              }
+            ]
+          },
+          {
+            "Value": "了解活字格...",
+            "Text": "了解活字格...",
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
+                "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
+                "ID": "1667b8986ae1420593f056b720238914"
+              },
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "URL": "http://www.grapecity.com.cn/enterprise-solutions/huozige/",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
+        "MenuLevelsStyle": [
+          {
+            "BackColor": "#3f4651",
+            "ForeColor": "#D6D6D6",
+            "SelectedBackColor": "#363d47",
+            "SelectedForeColor": "#ffffff",
+            "HoverBackColor": "#363d47",
+            "FontSize": 18.6666666666667
+          },
+          {
+            "BackColor": "#3f4651",
+            "ForeColor": "#D6D6D6",
+            "SelectedBackColor": "#363d47",
+            "SelectedForeColor": "#ffffff",
+            "HoverBackColor": "#363d47",
+            "FontSize": 14.6666666666667
+          }
+        ]
+      }
+    }
+  },
+  "StyleDatas": {
+    "Styles": [
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 0
+      },
+      {
+        "Background": 1,
+        "FontFamily": 2,
+        "FontStretch": 3,
+        "FontStyle": 3,
+        "FontWeight": 3,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": 1,
+        "FontFamily": 6,
+        "FontSize": 16.0,
+        "FontStretch": 3,
+        "FontStyle": 3,
+        "FontWeight": 3,
+        "Foreground": 7,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 8,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 12.0,
+        "TextIndent": 0,
+        "HorizontalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 6,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 3,
+        "FontStyle": 3,
+        "FontWeight": 3,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 2,
+        "FontStretch": 3,
+        "FontStyle": 3,
+        "FontWeight": 3,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 5,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      }
+    ],
+    "Types": {
+      "Strs": [
+        "#FFD3D3D3",
+        "#FF3F4651",
+        "宋体",
+        "Normal",
+        "General",
+        "Center",
+        "微软雅黑",
+        "#FFFFFFFF",
+        "Left"
+      ]
+    },
+    "CellStyles": {
+      "0,5": 0,
+      "0,7": 1,
+      "1,1": 2,
+      "1,2": 3,
+      "1,3": 3,
+      "1,4": 3,
+      "1,5": 3,
+      "1,6": 3,
+      "2,0": 4,
+      "2,1": 4,
+      "2,2": 4,
+      "2,3": 4,
+      "2,4": 4,
+      "2,5": 4,
+      "2,6": 4,
+      "3,0": 4,
+      "3,1": 4,
+      "3,2": 4,
+      "3,3": 4,
+      "3,4": 4,
+      "3,5": 4,
+      "3,6": 4,
+      "4,0": 5,
+      "4,1": 5,
+      "4,2": 5,
+      "4,3": 5,
+      "4,4": 5,
+      "4,5": 5,
+      "4,6": 5,
+      "5,0": 5,
+      "5,1": 5,
+      "5,2": 5,
+      "5,3": 5,
+      "5,4": 5,
+      "5,5": 5,
+      "5,6": 5,
+      "6,0": 5,
+      "6,1": 5,
+      "6,2": 5,
+      "6,3": 5,
+      "6,4": 5,
+      "6,5": 5,
+      "6,6": 5,
+      "7,0": 5,
+      "7,1": 5,
+      "7,2": 5,
+      "7,3": 5,
+      "7,4": 5,
+      "7,5": 5,
+      "7,6": 5,
+      "8,0": 5,
+      "8,1": 5,
+      "8,2": 5,
+      "8,3": 5,
+      "8,4": 5,
+      "8,5": 5,
+      "8,6": 5,
+      "9,0": 5,
+      "9,1": 5,
+      "9,2": 5,
+      "9,3": 5,
+      "9,4": 5,
+      "9,5": 5,
+      "9,6": 5,
+      "10,0": 5,
+      "10,1": 5,
+      "10,2": 5,
+      "10,3": 5,
+      "10,4": 5,
+      "10,5": 5,
+      "10,6": 5,
+      "11,0": 5,
+      "11,1": 5,
+      "11,2": 5,
+      "11,3": 5,
+      "11,4": 5,
+      "11,5": 5,
+      "11,6": 5,
+      "12,0": 5,
+      "12,1": 5,
+      "12,2": 5,
+      "12,3": 5,
+      "12,4": 5,
+      "12,5": 5,
+      "12,6": 5,
+      "13,0": 5,
+      "13,1": 5,
+      "13,2": 5,
+      "13,3": 5,
+      "13,4": 5,
+      "13,5": 5,
+      "13,6": 5,
+      "14,0": 5,
+      "14,1": 5,
+      "14,2": 5,
+      "14,3": 5,
+      "14,4": 5,
+      "14,5": 5,
+      "14,6": 5,
+      "15,0": 5,
+      "15,1": 5,
+      "15,2": 5,
+      "15,3": 5,
+      "15,4": 5,
+      "15,5": 5,
+      "15,6": 5,
+      "16,0": 5,
+      "16,1": 5,
+      "16,2": 5,
+      "16,3": 5,
+      "16,4": 5,
+      "16,5": 5,
+      "16,6": 5,
+      "17,0": 5,
+      "17,1": 5,
+      "17,2": 5,
+      "17,3": 5,
+      "17,4": 5,
+      "17,5": 5,
+      "17,6": 5,
+      "18,0": 5,
+      "18,1": 5,
+      "18,2": 5,
+      "18,3": 5,
+      "18,4": 5,
+      "18,5": 5,
+      "18,6": 5,
+      "19,0": 5,
+      "19,1": 5,
+      "19,2": 5,
+      "19,3": 5,
+      "19,4": 5,
+      "19,5": 5,
+      "19,6": 5,
+      "20,0": 5,
+      "20,1": 5,
+      "20,2": 5,
+      "20,3": 5,
+      "20,4": 5,
+      "20,5": 5,
+      "20,6": 5,
+      "21,0": 5,
+      "21,1": 5,
+      "21,2": 5,
+      "21,3": 5,
+      "21,4": 5,
+      "21,5": 5,
+      "21,6": 5,
+      "22,0": 5,
+      "22,1": 5,
+      "22,2": 5,
+      "22,3": 5,
+      "22,4": 5,
+      "22,5": 5,
+      "22,6": 5,
+      "23,0": 5,
+      "23,1": 5,
+      "23,2": 5,
+      "23,3": 5,
+      "23,4": 5,
+      "23,5": 5,
+      "23,6": 5,
+      "24,0": 5,
+      "24,1": 5,
+      "24,2": 5,
+      "24,3": 5,
+      "24,4": 5,
+      "24,5": 5,
+      "24,6": 5,
+      "25,0": 5,
+      "25,1": 5,
+      "25,2": 5,
+      "25,3": 5,
+      "25,4": 5,
+      "25,5": 5,
+      "25,6": 5,
+      "26,0": 5,
+      "26,1": 5,
+      "26,2": 5,
+      "26,3": 5,
+      "26,4": 5,
+      "26,5": 5,
+      "26,6": 5,
+      "27,0": 5,
+      "27,1": 5,
+      "27,2": 5,
+      "27,3": 5,
+      "27,4": 5,
+      "27,5": 5,
+      "27,6": 5,
+      "28,0": 5,
+      "28,1": 5,
+      "28,2": 5,
+      "28,3": 5,
+      "28,4": 5,
+      "28,5": 5,
+      "28,6": 5,
+      "29,0": 5,
+      "29,1": 5,
+      "29,2": 5,
+      "29,3": 5,
+      "29,4": 5,
+      "29,5": 5,
+      "29,6": 5,
+      "30,0": 5,
+      "30,1": 5,
+      "30,2": 5,
+      "30,3": 5,
+      "30,4": 5,
+      "30,5": 5,
+      "30,6": 5,
+      "31,0": 5,
+      "31,1": 5,
+      "31,2": 5,
+      "31,3": 5,
+      "31,4": 5,
+      "31,5": 5,
+      "31,6": 5,
+      "32,0": 5,
+      "32,1": 5,
+      "32,2": 5,
+      "32,3": 5,
+      "32,4": 5,
+      "32,5": 5,
+      "32,6": 5,
+      "33,0": 5,
+      "33,1": 5,
+      "33,2": 5,
+      "33,3": 5,
+      "33,4": 5,
+      "33,5": 5,
+      "33,6": 5,
+      "34,0": 5,
+      "34,1": 5,
+      "34,2": 5,
+      "34,3": 5,
+      "34,4": 5,
+      "34,5": 5,
+      "34,6": 5,
+      "35,0": 5,
+      "35,1": 5,
+      "35,2": 5,
+      "35,3": 5,
+      "35,4": 5,
+      "35,5": 5,
+      "35,6": 5,
+      "36,0": 5,
+      "36,1": 5,
+      "36,2": 5,
+      "36,3": 5,
+      "36,4": 5,
+      "36,5": 5,
+      "36,6": 5,
+      "37,0": 5,
+      "37,1": 5,
+      "37,2": 5,
+      "37,3": 5,
+      "37,4": 5,
+      "37,5": 5,
+      "37,6": 5,
+      "38,0": 5,
+      "38,1": 5,
+      "38,2": 5,
+      "38,3": 5,
+      "38,4": 5,
+      "38,5": 5,
+      "38,6": 5,
+      "39,0": 5,
+      "39,1": 5,
+      "39,2": 5,
+      "39,3": 5,
+      "39,4": 5,
+      "39,5": 5,
+      "39,6": 5,
+      "40,0": 5,
+      "40,1": 5,
+      "40,2": 5,
+      "40,3": 5,
+      "40,4": 5,
+      "40,5": 5,
+      "40,6": 5,
+      "41,0": 5,
+      "41,1": 5,
+      "41,2": 5,
+      "41,3": 5,
+      "41,4": 5,
+      "41,5": 5,
+      "41,6": 5,
+      "42,0": 5,
+      "42,1": 5,
+      "42,2": 5,
+      "42,3": 5,
+      "42,4": 5,
+      "42,5": 5,
+      "42,6": 5,
+      "43,0": 5,
+      "43,1": 5,
+      "43,2": 5,
+      "43,3": 5,
+      "43,4": 5,
+      "43,5": 5,
+      "43,6": 5,
+      "44,0": 5,
+      "44,1": 5,
+      "44,2": 5,
+      "44,3": 5,
+      "44,4": 5,
+      "44,5": 5,
+      "44,6": 5,
+      "45,0": 5,
+      "45,1": 5,
+      "45,2": 5,
+      "45,3": 5,
+      "45,4": 5,
+      "45,5": 5,
+      "45,6": 5,
+      "46,0": 5,
+      "46,1": 5,
+      "46,2": 5,
+      "46,3": 5,
+      "46,4": 5,
+      "46,5": 5,
+      "46,6": 5,
+      "47,0": 5,
+      "47,1": 5,
+      "47,2": 5,
+      "47,3": 5,
+      "47,4": 5,
+      "47,5": 5,
+      "47,6": 5,
+      "48,0": 5,
+      "48,1": 5,
+      "48,2": 5,
+      "48,3": 5,
+      "48,4": 5,
+      "48,5": 5,
+      "48,6": 5,
+      "49,0": 5,
+      "49,1": 5,
+      "49,2": 5,
+      "49,3": 5,
+      "49,4": 5,
+      "49,5": 5,
+      "49,6": 5,
+      "50,0": 5,
+      "50,1": 5,
+      "50,2": 5,
+      "50,3": 5,
+      "50,4": 5,
+      "50,5": 5,
+      "50,6": 5
+    },
+    "ColStyles": {
+      "0": 2,
+      "1": 2,
+      "2": 2,
+      "3": 2,
+      "4": 2,
+      "5": 2,
+      "6": 2,
+      "7": 6,
+      "8": 6
+    },
+    "SheetStyle": {
+      "FontFamily": 2
+    }
+  },
+  "Spans": [
+    "1,2,1,5",
+    "0,7,51,54",
+    "2,1,2,5",
+    "4,0,47,7"
+  ],
+  "PageInfo": {
+    "$type": "Forguncy.Model.Pages.MasterPage, Forguncy"
+  },
+  "PrintInfo": {
+    "Margin": {},
+    "PaperSize": {}
+  }
+}
