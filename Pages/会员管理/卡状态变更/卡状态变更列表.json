@@ -90,7 +90,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=卡状态变更列表!U4"
               },
-              "Id": "27df72ad-ddc1-4b6a-b41b-d325cdd18098"
+              "Id": "9a59f91a-fd7b-4d00-9778-2006bd476ba8"
             },
             "Params": [
               "=U4"
@@ -124,12 +124,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "018a5fea-34c7-46e9-8ece-1f51ae4c6b90"
+          "Id": "27f164ba-4bf3-4dae-9258-140f03a9bafe"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "7e43be01-32bd-4129-b9e0-c7f06cc5903d"
+          "Id": "36a89999-280b-43e5-8539-d060be884d1f"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -141,7 +141,7 @@
               "Order": 1
             }
           ],
-          "Id": "29828a84-2109-4f06-91d3-8fd2cb5eeed0"
+          "Id": "b32e02fd-61db-4e39-8341-5783a4e87acf"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

@@ -277,7 +277,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-                "ID": "1667b8986ae1420593f056b720238914"
+                "ID": "824dc4597a66485ca4ef8bf5e696817d"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",

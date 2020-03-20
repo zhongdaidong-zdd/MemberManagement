@@ -93,7 +93,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "6334825e-9b49-45fa-a8eb-ef842c2254eb"
+          "Id": "1716821f-2a9b-49e9-8276-adf94740caab"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -115,7 +115,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "939c4e3c-1819-43e1-b3aa-ab77c9526f84"
+          "Id": "3fcac5e3-7ac8-405a-bbae-64300c465497"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -160,7 +160,7 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=会员消费!AW25"
           },
-          "Id": "852c68dd-26f7-4bd5-8c55-4711e90caf64"
+          "Id": "6fcc9e92-d02a-4520-9bb5-58b66b19e8b2"
         }
       },
       "BindingInfo": {
@@ -268,7 +268,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "98c5bc1b-1bc1-4ffd-a242-033e26b1083d"
+          "Id": "9883fab4-926b-419f-b69c-144fa85143f3"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -335,7 +335,7 @@
                     ]
                   },
                   "value": "用户余额不足",
-                  "Id": "28be3667-5e86-441b-9b59-85e0269a9085"
+                  "Id": "f30fadd7-6e28-4812-8b72-71330752a074"
                 },
                 "CommandList": [
                   {
@@ -390,7 +390,7 @@
                                 ]
                               },
                               "value": "10",
-                              "Id": "e23a36a7-2835-41d9-b394-73e7e5c66c24"
+                              "Id": "4a4ef0f6-eee1-4629-9c7e-d565387c0037"
                             },
                             "CommandList": [
                               {
@@ -430,7 +430,7 @@
                             ]
                           },
                           "value": "新增",
-                          "Id": "0c90e565-aaa1-424c-a24d-83300e609a50"
+                          "Id": "5a990358-8535-4654-a2a6-e0a1bb896caf"
                         },
                         "CommandList": [
                           {
@@ -600,7 +600,7 @@
                               "SerializeProperty": "=TODAY()"
                             },
                             "compareType": 3,
-                            "Id": "13ca819e-ad70-48fb-8d2b-ed6860266d4a"
+                            "Id": "9f46e3dc-2150-4333-ab17-bbc80df45c7c"
                           },
                           "Condition2": {
                             "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -613,9 +613,9 @@
                               ]
                             },
                             "value": "失效",
-                            "Id": "df54b32b-a5d7-4123-b19c-854fb50233df"
+                            "Id": "0af1c328-fe9c-4bbb-8011-07c3730e7b6d"
                           },
-                          "Id": "2b9f6b06-e4e1-4bba-a394-19c6b900d283"
+                          "Id": "9cd8d5b6-f0a0-42a6-8067-2ffc72ef98da"
                         },
                         "CommandList": [
                           {

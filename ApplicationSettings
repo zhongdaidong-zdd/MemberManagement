@@ -3,7 +3,6 @@
   <IntegrateWithOtherApplication>
     <Password>YbZ2kEZeS5il</Password>
   </IntegrateWithOtherApplication>
-  <StartPage>首页</StartPage>
   <UserServicePort>63539</UserServicePort>
   <WebSitePort>43612</WebSitePort>
 </ApplicationSettings>

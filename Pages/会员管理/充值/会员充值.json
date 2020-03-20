@@ -102,7 +102,7 @@
             "ColumnName": "ID"
           },
           "Value": "6",
-          "Id": "94810592-8b82-4d86-97cd-e815bfba8f68"
+          "Id": "034776df-666e-40d2-b8d0-39a556530aaf"
         },
         "CellDefaultValue": 1
       },
@@ -124,7 +124,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "703e6af6-1cc1-4a6d-ab30-b611ea4e6d86"
+          "Id": "844f9770-26d1-45a8-9dbd-82db709c5abc"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -179,7 +179,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "0caba4ea-4c92-4067-bb7c-b40aa6d37076"
+                  "Id": "60e75384-3c43-4e15-bc0c-453a2508bf46"
                 },
                 "CommandList": [
                   {

@@ -1,5 +1,157 @@
 [
   {
+    "ModuleName": "Pages\\主数据",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\主数据\\会员卡状态",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "会员卡状态",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员卡状态列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\主数据\\会员类型",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "会员类型",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员类型列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\主数据\\会员证件类型",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "证件类型",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "证件类型列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\主数据\\商品和服务",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "商品和服务列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "商品服务详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\主数据\\支付类型",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "支付类型",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "支付类型列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\会员管理",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "Pages\\会员管理\\会员信息",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "会员中心",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员中心_会员详情",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员卡信息",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "挂失成功",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\会员管理\\会员升级",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "会员升级",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员升级列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\会员管理\\会员消费",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "会员消费",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员消费列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\会员管理\\充值",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "会员充值",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "会员充值列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\会员管理\\卡状态变更",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "卡状态变更",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "卡状态变更列表",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "Pages\\会员管理\\积分兑换",
+    "ModuleType": 6
+  },
+  {
+    "ModuleName": "积分兑换",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "积分兑换列表",
+    "ModuleType": 1
+  },
+  {
     "ModuleName": "Pages\\内建手机页面",
     "ModuleType": 6
   },
@@ -8,7 +160,11 @@
     "ModuleType": 2
   },
   {
-    "ModuleName": "FGC_登录_手机版",
+    "ModuleName": "FGC_修改密码_手机版",
+    "ModuleType": 2
+  },
+  {
+    "ModuleName": "FGC_修改用户信息_手机版",
     "ModuleType": 2
   },
   {
@@ -16,15 +172,11 @@
     "ModuleType": 2
   },
   {
+    "ModuleName": "FGC_登录_手机版",
+    "ModuleType": 2
+  },
+  {
     "ModuleName": "FGC_维护中_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "FGC_修改密码_手机版",
-    "ModuleType": 2
-  },
-  {
-    "ModuleName": "FGC_修改用户信息_手机版",
     "ModuleType": 2
   },
   {
@@ -48,7 +200,11 @@
     "ModuleType": 1
   },
   {
-    "ModuleName": "FGC_登录",
+    "ModuleName": "FGC_修改密码",
+    "ModuleType": 1
+  },
+  {
+    "ModuleName": "FGC_修改用户信息",
     "ModuleType": 1
   },
   {
@@ -56,15 +212,11 @@
     "ModuleType": 1
   },
   {
+    "ModuleName": "FGC_登录",
+    "ModuleType": 1
+  },
+  {
     "ModuleName": "FGC_维护中",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_修改密码",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "FGC_修改用户信息",
     "ModuleType": 1
   },
   {
@@ -77,158 +229,6 @@
   },
   {
     "ModuleName": "FGC_重置密码发送邮件成功",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\主数据",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "Pages\\主数据\\会员类型",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "会员类型列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员类型",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\主数据\\会员证件类型",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "证件类型列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "证件类型",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\主数据\\会员卡状态",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "会员卡状态列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员卡状态",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\主数据\\支付类型",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "支付类型列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "支付类型",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\主数据\\商品和服务",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "商品和服务列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "商品服务详情",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\会员管理",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "Pages\\会员管理\\卡状态变更",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "卡状态变更列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "卡状态变更",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\会员管理\\充值",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "会员充值",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员充值列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\会员管理\\积分兑换",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "积分兑换列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "积分兑换",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\会员管理\\会员消费",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "会员消费列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员消费",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\会员管理\\会员升级",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "会员升级",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员升级列表",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "Pages\\会员管理\\会员信息",
-    "ModuleType": 6
-  },
-  {
-    "ModuleName": "会员中心",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员卡信息",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员信息",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "会员中心_会员详情",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "挂失成功",
     "ModuleType": 1
   },
   {

@@ -53,7 +53,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "b5df3777-68b2-4e1b-a261-4134f5147f76"
+          "Id": "306c1a5d-38b1-4113-b644-adaedfab4c94"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -184,7 +184,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AF10"
             },
-            "Id": "bfc09b6a-9b21-4567-98aa-1592146f3cff"
+            "Id": "01e1538c-753d-4a6c-9472-06537156cb63"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -197,9 +197,9 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AE10"
             },
-            "Id": "a5279221-fe7b-4381-b360-8371d107fb89"
+            "Id": "f78224ef-9b74-4dca-a5ab-be9c54080012"
           },
-          "Id": "50825f88-71cc-4743-901c-403ab28c664f"
+          "Id": "24c78a44-3738-43dd-b731-7f7f46e52893"
         }
       },
       "BindingInfo": {
@@ -270,7 +270,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "3823d915-da79-4e00-9334-5c9c262c1b6b"
+                  "Id": "bedad29e-57a9-424a-a89e-35a40d0ee020"
                 },
                 "CommandList": [
                   {
@@ -345,7 +345,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=会员升级!AD3"
                       },
-                      "Id": "6404b76c-c629-4051-af9b-e1526c6c6630"
+                      "Id": "2fcb7246-dbfd-4987-9f82-f312655ceb22"
                     },
                     "UpdateValues": []
                   },
@@ -1403,7 +1403,7 @@
                   ]
                 },
                 "value": "新增",
-                "Id": "01bc1767-7938-46be-91c3-d6f8b5082124"
+                "Id": "d0bf26ba-4ac9-4d62-8e2b-52f0764c86c0"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1417,9 +1417,9 @@
                 },
                 "value": "%Null%",
                 "compareType": 1,
-                "Id": "8e6f2de5-550b-48c6-8fe1-b53c7bb8b3c4"
+                "Id": "6d1f18d7-1479-4506-882c-21fd99a77035"
               },
-              "Id": "8b5e5985-1fca-4a1d-b68e-6980059b0abe"
+              "Id": "723b3b2a-b2c4-4eec-8924-497c0c8c1a86"
             },
             "CommandList": [
               {

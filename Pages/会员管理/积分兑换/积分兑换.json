@@ -52,7 +52,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "486a3504-6e52-43f8-a61b-21098718f7ae"
+          "Id": "00a00fa3-46fa-4cd1-925f-09db4c610e44"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -135,7 +135,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "a625c605-ffff-4502-8a2c-2e97edc8824d"
+                  "Id": "aa9481ec-4cd0-499d-9ea3-48a73a9917fe"
                 },
                 "CommandList": [
                   {
