@@ -197,19 +197,19 @@
     },
     "28,13": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, Forguncy"
           }
         ],
         "Text": "取消",
-        "ClickMode": 1
+        "TemplateKey": "_RS_Outline_Style3"
       }
     },
     "28,22": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -226,7 +226,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "0af9ae60-973c-4045-b063-a2ed6cf88c1d"
+                  "Id": "6243dbeb-1519-42e4-b56d-388e7bd57898"
                 },
                 "CommandList": [
                   {
@@ -288,7 +288,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "317e8ef6-ade7-4cbb-b4d2-1ecffc9d0a71"
+                  "Id": "ac7825b0-d2a5-4e3d-b5a5-c0472a0345cb"
                 },
                 "CommandList": [
                   {
@@ -313,7 +313,7 @@
           }
         ],
         "Text": "确定",
-        "ClickMode": 1
+        "TemplateKey": "_RS_Normal_Style3"
       }
     }
   },
@@ -552,166 +552,7 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": null,
-        "BorderRight": 2
-      },
-      {
-        "Background": 9,
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 10,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 10,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 10,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": null,
-        "BorderRight": 2
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": 2,
-        "BorderTop": null,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": 2,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": 2,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 2
-      },
-      {
-        "Background": 9,
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 10,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": 2,
-        "BorderTop": null,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 10,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": 2,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 10,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 5,
-        "Underline": false,
-        "BorderBottom": 2,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 2
+        "FontFamily": null
       }
     ],
     "Types": {
@@ -723,10 +564,7 @@
         "宋体",
         "Center",
         "@",
-        "#FFA6A6A6",
-        "#FF000000",
-        "#FF2BC4CA",
-        "#FFFFFFFF"
+        "#FFA6A6A6"
       ],
       "Borders": [
         {
@@ -734,9 +572,6 @@
         },
         {
           "Color": 7
-        },
-        {
-          "Color": 9
         }
       ]
     },
@@ -1489,39 +1324,13 @@
       "28,3": 0,
       "28,11": 0,
       "28,13": 34,
-      "28,14": 35,
-      "28,15": 35,
-      "28,16": 35,
-      "28,17": 35,
-      "28,18": 35,
-      "28,19": 36,
       "28,21": 0,
-      "28,22": 37,
-      "28,23": 38,
-      "28,24": 38,
-      "28,25": 38,
-      "28,26": 38,
-      "28,27": 38,
-      "28,28": 39,
+      "28,22": 34,
       "29,1": 0,
       "29,2": 0,
       "29,3": 0,
       "29,11": 0,
-      "29,13": 40,
-      "29,14": 41,
-      "29,15": 41,
-      "29,16": 41,
-      "29,17": 41,
-      "29,18": 41,
-      "29,19": 42,
       "29,21": 0,
-      "29,22": 43,
-      "29,23": 44,
-      "29,24": 44,
-      "29,25": 44,
-      "29,26": 44,
-      "29,27": 44,
-      "29,28": 45,
       "30,1": 0,
       "30,2": 0,
       "30,3": 0,
@@ -1568,8 +1377,6 @@
     "18,3,2,6",
     "21,3,2,6",
     "24,3,2,6",
-    "28,13,2,7",
-    "28,22,2,7",
     "3,9,2,13",
     "6,9,2,13",
     "9,9,2,13",
@@ -1577,7 +1384,9 @@
     "18,9,2,13",
     "21,9,2,13",
     "24,9,2,13",
-    "12,9,2,13"
+    "12,9,2,13",
+    "28,13,2,7",
+    "28,22,2,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

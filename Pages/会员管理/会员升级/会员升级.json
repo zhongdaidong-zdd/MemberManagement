@@ -53,7 +53,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "306c1a5d-38b1-4113-b644-adaedfab4c94"
+          "Id": "4ea02dd1-24af-41ee-9dc2-a47fdf33df6f"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -184,7 +184,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AF10"
             },
-            "Id": "01e1538c-753d-4a6c-9472-06537156cb63"
+            "Id": "88697b2c-71d4-4039-88bf-ddd089f29336"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -197,9 +197,9 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AE10"
             },
-            "Id": "f78224ef-9b74-4dca-a5ab-be9c54080012"
+            "Id": "58b4c678-930a-487f-9171-cd63eb354db9"
           },
-          "Id": "24c78a44-3738-43dd-b731-7f7f46e52893"
+          "Id": "6be0f15a-94b3-4b9e-99b2-c4288eeff7fc"
         }
       },
       "BindingInfo": {
@@ -241,19 +241,19 @@
     },
     "10,9": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, Forguncy"
           }
         ],
         "Text": "取消",
-        "ClickMode": 1
+        "TemplateKey": "_RS_Outline_Style3"
       }
     },
     "10,20": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -270,7 +270,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "bedad29e-57a9-424a-a89e-35a40d0ee020"
+                  "Id": "294a02f7-eede-48a3-a104-fdc596ce414e"
                 },
                 "CommandList": [
                   {
@@ -345,7 +345,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=会员升级!AD3"
                       },
-                      "Id": "2fcb7246-dbfd-4987-9f82-f312655ceb22"
+                      "Id": "7d493e9d-368f-4c26-90f8-8ce3c2424ab9"
                     },
                     "UpdateValues": []
                   },
@@ -375,7 +375,7 @@
           }
         ],
         "Text": "确定",
-        "ClickMode": 1
+        "TemplateKey": "_RS_Normal_Style3"
       }
     }
   },
@@ -752,166 +752,7 @@
         "BorderRight": 0
       },
       {
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 6,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 6,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 6,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "Background": 10,
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 11,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "Background": 10,
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 11,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 10,
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 11,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 6,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 6,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 6,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "Background": 10,
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 11,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "Background": 10,
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 11,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 10,
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "Foreground": 11,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 1
+        "FontFamily": null
       }
     ],
     "Types": {
@@ -925,16 +766,11 @@
         "#FF000000",
         "[AUTO]General",
         "Left",
-        "#FFA9A9A9",
-        "#FF2BC4CA",
-        "#FFFFFFFF"
+        "#FFA9A9A9"
       ],
       "Borders": [
         {
           "Color": 9
-        },
-        {
-          "Color": 10
         }
       ]
     },
@@ -1266,44 +1102,18 @@
       "10,7": 0,
       "10,8": 0,
       "10,9": 34,
-      "10,10": 35,
-      "10,11": 35,
-      "10,12": 35,
-      "10,13": 35,
-      "10,14": 35,
-      "10,15": 36,
       "10,16": 17,
       "10,17": 14,
       "10,19": 1,
-      "10,20": 37,
-      "10,21": 38,
-      "10,22": 38,
-      "10,23": 38,
-      "10,24": 38,
-      "10,25": 38,
-      "10,26": 39,
+      "10,20": 34,
       "10,32": 0,
       "10,33": 0,
       "10,34": 0,
       "11,7": 0,
       "11,8": 0,
-      "11,9": 40,
-      "11,10": 41,
-      "11,11": 41,
-      "11,12": 41,
-      "11,13": 41,
-      "11,14": 41,
-      "11,15": 42,
       "11,16": 17,
       "11,17": 14,
       "11,19": 1,
-      "11,20": 43,
-      "11,21": 44,
-      "11,22": 44,
-      "11,23": 44,
-      "11,24": 44,
-      "11,25": 44,
-      "11,26": 45,
       "11,33": 1,
       "11,34": 1,
       "12,1": 20,
@@ -1378,10 +1188,10 @@
     "4,3,2,5",
     "7,3,2,5",
     "7,9,2,18",
-    "10,9,2,7",
-    "10,20,2,7",
     "3,29,4,6",
-    "4,9,2,18"
+    "4,9,2,18",
+    "10,9,2,7",
+    "10,20,2,7"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
@@ -1403,7 +1213,7 @@
                   ]
                 },
                 "value": "新增",
-                "Id": "d0bf26ba-4ac9-4d62-8e2b-52f0764c86c0"
+                "Id": "3061a864-fd28-4378-a528-2435a68ed7ee"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1417,9 +1227,9 @@
                 },
                 "value": "%Null%",
                 "compareType": 1,
-                "Id": "6d1f18d7-1479-4506-882c-21fd99a77035"
+                "Id": "f47e0acc-507b-4556-a051-8c56a4151fbb"
               },
-              "Id": "723b3b2a-b2c4-4eec-8924-497c0c8c1a86"
+              "Id": "c7d64380-ed43-4f78-9a87-81e4a2b5ec13"
             },
             "CommandList": [
               {

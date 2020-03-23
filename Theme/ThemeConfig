@@ -2,7 +2,7 @@
   "BasePathName": "01Forguncy",
   "FontFamily": "微软雅黑",
   "ThemeColors": {
-    "Name": "Forguncy",
+    "Name": "自定义1",
     "Colors": {
       "Name": "",
       "ColorList": [
@@ -11,7 +11,7 @@
         "#FF000000",
         "#FF042531",
         "#FF0087CD",
-        "#FF8BB73D",
+        "#FF3AC5A6",
         "#FFEBC54B",
         "#FFEA772A",
         "#FFD03736",
@@ -24,7 +24,7 @@
       "TextColor1": "#FF000000",
       "TextColor2": "#FF042531",
       "Accent1": "#FF0087CD",
-      "Accent2": "#FF8BB73D",
+      "Accent2": "#FF3AC5A6",
       "Accent3": "#FFEBC54B",
       "Accent4": "#FFEA772A",
       "Accent5": "#FFD03736",
@@ -32,6 +32,6 @@
       "Hyperlink": "#00FFFFFF",
       "FollowedHyperlink": "#00FFFFFF"
     },
-    "Category": "内建"
+    "Category": "自定义"
   }
 }

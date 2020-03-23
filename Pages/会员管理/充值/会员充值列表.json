@@ -100,7 +100,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=会员充值列表!W4"
               },
-              "Id": "42f8472e-3ff2-4a8f-bcc6-b8e3b8273c55"
+              "Id": "adbbc05e-ecb7-4f9c-8566-27e56424f430"
             },
             "Params": [
               "=W4"
@@ -118,7 +118,6 @@
         "ColumnIndex": 2,
         "ColumnCount": 52,
         "RowCount": 41,
-        "EvenRowBackcolor": "#FFECF5F5",
         "ColumnOperation": 1,
         "ShowGridLine": true,
         "Name": "表格1",
@@ -131,7 +130,7 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "1",
-            "Id": "21447ca7-8be6-42a2-9453-bfedbc3710a1"
+            "Id": "16ec8ece-7891-4e81-a538-b38d44b8cb4b"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -146,14 +145,14 @@
               }
             },
             "Value": "%Null%",
-            "Id": "42cf8edf-ba71-4dec-8c8d-3a8136c30e31"
+            "Id": "6f341fba-1500-4b63-a17e-41b0dfb0cbff"
           },
-          "Id": "3c62b6cc-d3bf-488e-b134-eaaa017c7141"
+          "Id": "3933d66a-ba39-4c03-b617-cb3c21bf4751"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "fc5c1479-35d0-435b-9718-f18eb0951490"
+          "Id": "4e6e4922-44aa-44b1-bf12-f9ae425a26c1"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -165,11 +164,12 @@
               "Order": 1
             }
           ],
-          "Id": "5ceb42ca-5908-4b2c-a126-e7cdc2dbe188"
+          "Id": "fcb7c973-2b48-48c2-b09c-a63ec43bc4c3"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
-        }
+        },
+        "ListViewStyleName": "_RS_Light3"
       }
     },
     "7,2": {

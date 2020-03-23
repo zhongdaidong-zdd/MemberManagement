@@ -96,7 +96,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=会员升级列表!V4"
               },
-              "Id": "fbf7756f-af40-422b-8cc7-1b938e371834"
+              "Id": "ea8a2b47-ae91-4889-aa94-41eed254d0fc"
             },
             "Params": [
               "=V4"
@@ -114,7 +114,6 @@
         "ColumnIndex": 2,
         "ColumnCount": 51,
         "RowCount": 27,
-        "EvenRowBackcolor": "#FFECF5F5",
         "ColumnOperation": 1,
         "ShowGridLine": true,
         "Name": "表格1",
@@ -131,12 +130,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "0900fa98-25ca-4e90-8a4d-b9bb6d9f5f58"
+          "Id": "4e637b5d-ef1f-4d1f-8eb4-6ea470f95e66"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "ba5c81b4-a31d-4605-902b-4ca879a07f3a"
+          "Id": "2b2788b4-ce96-44af-aed6-341a12146d36"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -148,11 +147,12 @@
               "Order": 1
             }
           ],
-          "Id": "6047d2d0-6c85-4a96-93fc-8a71c5f8753b"
+          "Id": "1b57624e-ff49-4b5e-9b1c-296a06a80887"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
-        }
+        },
+        "ListViewStyleName": "_RS_Light3"
       }
     },
     "7,2": {

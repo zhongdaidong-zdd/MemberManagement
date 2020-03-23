@@ -88,7 +88,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=积分兑换列表!V4"
               },
-              "Id": "5d14ac8a-3124-448c-8b96-786318b73582"
+              "Id": "9a2d1c57-cf64-46ee-b7dd-3693109fd3d5"
             },
             "Params": [
               "=V4"
@@ -106,7 +106,6 @@
         "ColumnIndex": 2,
         "ColumnCount": 51,
         "RowCount": 41,
-        "EvenRowBackcolor": "#FFECF5F5",
         "ColumnOperation": 1,
         "ShowGridLine": true,
         "Name": "表格1",
@@ -123,12 +122,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "0200313f-891a-42ba-9701-cb318ed7831d"
+          "Id": "974605b9-fd50-446e-9336-004efd6c1bae"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "ae69a1c2-5283-453d-adf9-3b21fe7b88cc"
+          "Id": "a6df7e12-9137-44c6-88f7-c7bbb4c254b9"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -140,11 +139,12 @@
               "Order": 1
             }
           ],
-          "Id": "e2ca3b8b-f851-4018-b17f-4ee0541af0fb"
+          "Id": "c9d3c5f6-cb77-43a9-87c5-11b47494e9d4"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
-        }
+        },
+        "ListViewStyleName": "_RS_Light3"
       }
     },
     "7,2": {

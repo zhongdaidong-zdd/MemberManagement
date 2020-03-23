@@ -12,7 +12,7 @@
   "AttachInfos": {
     "7,3": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ClosePopupCommand, Forguncy",
@@ -20,9 +20,9 @@
           }
         ],
         "Text": "确定",
-        "ClickMode": 1
+        "TemplateKey": "_RS_Outline_Style3"
       },
-      "CssName": "button"
+      "CssName": ""
     }
   },
   "StyleDatas": {
@@ -58,85 +58,10 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 4,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 4,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 4,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": 0
+        "FontFamily": null
       },
       {
         "BorderBottom": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 4,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 4,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 4,
-        "Formatter": 2,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "Underline": false,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 0
       },
       {
         "BorderLeft": null
@@ -157,14 +82,7 @@
         "Bold",
         "[AUTO]General",
         "Center",
-        "#FF0000FF",
-        "#FF2BC4CA",
         "宋体"
-      ],
-      "Borders": [
-        {
-          "Color": 5
-        }
       ]
     },
     "CellStyles": {
@@ -253,37 +171,22 @@
       "6,12": 2,
       "6,13": 2,
       "7,3": 3,
-      "7,4": 4,
-      "7,5": 4,
-      "7,6": 4,
-      "7,7": 4,
-      "7,8": 4,
-      "7,9": 4,
-      "7,10": 5,
-      "7,11": 6,
-      "8,3": 7,
-      "8,4": 8,
-      "8,5": 8,
-      "8,6": 8,
-      "8,7": 8,
-      "8,8": 8,
-      "8,9": 8,
-      "8,10": 9,
-      "8,12": 10,
-      "9,0": 11,
-      "9,1": 11,
-      "9,2": 11,
-      "9,3": 11,
-      "9,12": 11,
-      "9,13": 11
+      "7,11": 4,
+      "8,12": 5,
+      "9,0": 6,
+      "9,1": 6,
+      "9,2": 6,
+      "9,3": 6,
+      "9,12": 6,
+      "9,13": 6
     },
     "RowStyles": {
-      "1": 12,
-      "2": 12,
-      "3": 12
+      "1": 7,
+      "2": 7,
+      "3": 7
     },
     "SheetStyle": {
-      "FontFamily": 6
+      "FontFamily": 4
     }
   },
   "Spans": [

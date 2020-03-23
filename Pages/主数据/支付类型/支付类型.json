@@ -44,7 +44,7 @@
     },
     "7,8": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -61,7 +61,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "b5f78b1f-44d7-42c4-967e-71e1d47111c5"
+                  "Id": "ed128ba5-480a-47dd-a0b4-40b549bbdbeb"
                 },
                 "CommandList": [
                   {
@@ -87,7 +87,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "50862cf6-b1b4-4b23-87c8-a872e2f05a50"
+                  "Id": "2acf064a-d5e1-4002-985e-621ab6d4dec4"
                 },
                 "CommandList": [
                   {
@@ -108,9 +108,9 @@
           }
         ],
         "Text": "确定",
-        "ClickMode": 1
+        "TemplateKey": "_RS_Outline_Style3"
       },
-      "CssName": "button"
+      "CssName": ""
     }
   },
   "StyleDatas": {
@@ -233,85 +233,10 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 1,
-        "TextIndent": 0,
-        "HorizontalAlignment": 6,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 1,
-        "TextIndent": 0,
-        "HorizontalAlignment": 6,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 1,
-        "TextIndent": 0,
-        "HorizontalAlignment": 6,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": 1
+        "FontFamily": null
       },
       {
         "BorderLeft": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 1,
-        "TextIndent": 0,
-        "HorizontalAlignment": 6,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 1,
-        "TextIndent": 0,
-        "HorizontalAlignment": 6,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 14.666666984558105,
-        "Foreground": 8,
-        "Formatter": 1,
-        "TextIndent": 0,
-        "HorizontalAlignment": 6,
-        "Underline": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 1
       },
       {
         "BorderTop": null
@@ -326,16 +251,11 @@
         "Normal",
         "General",
         "Center",
-        "Top",
-        "#FF0000FF",
-        "#FF2BC4CA"
+        "Top"
       ],
       "Borders": [
         {
           "Color": 2
-        },
-        {
-          "Color": 9
         }
       ]
     },
@@ -431,41 +351,20 @@
       "6,18": 15,
       "7,7": 16,
       "7,8": 17,
-      "7,9": 18,
-      "7,10": 18,
-      "7,11": 18,
-      "7,12": 18,
-      "7,13": 18,
-      "7,14": 18,
-      "7,15": 18,
-      "7,16": 18,
-      "7,17": 18,
-      "7,18": 19,
-      "7,19": 20,
+      "7,19": 18,
       "8,7": 16,
-      "8,8": 21,
-      "8,9": 22,
-      "8,10": 22,
-      "8,11": 22,
-      "8,12": 22,
-      "8,13": 22,
-      "8,14": 22,
-      "8,15": 22,
-      "8,16": 22,
-      "8,17": 22,
-      "8,18": 23,
-      "8,19": 20,
-      "9,8": 24,
-      "9,9": 24,
-      "9,10": 24,
-      "9,11": 24,
-      "9,12": 24,
-      "9,13": 24,
-      "9,14": 24,
-      "9,15": 24,
-      "9,16": 24,
-      "9,17": 24,
-      "9,18": 24
+      "8,19": 18,
+      "9,8": 19,
+      "9,9": 19,
+      "9,10": 19,
+      "9,11": 19,
+      "9,12": 19,
+      "9,13": 19,
+      "9,14": 19,
+      "9,15": 19,
+      "9,16": 19,
+      "9,17": 19,
+      "9,18": 19
     },
     "SheetStyle": {
       "FontFamily": 3

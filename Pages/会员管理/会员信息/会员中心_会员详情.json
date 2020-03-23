@@ -172,7 +172,7 @@
     },
     "10,2": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -189,7 +189,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "6073ea52-7877-4a71-b2f9-27215a272c5e"
+                  "Id": "984ba949-8f0f-4990-b952-61ebd3b0a659"
                 },
                 "CommandList": [
                   {
@@ -230,23 +230,7 @@
           }
         ],
         "Text": "充  值",
-        "ClickMode": 1
-      },
-      "ConditionFormatRulesCollection": {
-        "Rules": [
-          {
-            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
-            "Formula": {
-              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=IF(会员中心_会员详情!$AP$7=\"作废\",TRUE,FALSE)"
-            },
-            "StyleInfo": {
-              "Parent": "",
-              "Underline": null,
-              "Strikethrough": true
-            }
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style3"
       }
     },
     "10,8": {
@@ -269,7 +253,7 @@
     },
     "10,11": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -286,7 +270,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "ce570260-68a7-406e-9e61-7bde12e3fb43"
+                  "Id": "23d86f25-3811-4137-88d2-eceb59a84279"
                 },
                 "CommandList": [
                   {
@@ -327,28 +311,12 @@
           }
         ],
         "Text": "消  费",
-        "ClickMode": 1
-      },
-      "ConditionFormatRulesCollection": {
-        "Rules": [
-          {
-            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
-            "Formula": {
-              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=IF(会员中心_会员详情!$AP$7=\"作废\",TRUE,FALSE)"
-            },
-            "StyleInfo": {
-              "Parent": "",
-              "Underline": null,
-              "Strikethrough": true
-            }
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style3"
       }
     },
     "10,20": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -365,7 +333,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "63b87d68-b7de-4c26-8c5a-661dc7185194"
+                  "Id": "3595ec61-acac-431d-8b73-fa1c58fb1a81"
                 },
                 "CommandList": [
                   {
@@ -387,7 +355,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "f90e25de-2cec-4dbe-bcfa-6e2cb57b28cc"
+                  "Id": "8e5076f1-0688-48c9-9c87-d3e3790615a1"
                 },
                 "CommandList": [
                   {
@@ -428,28 +396,12 @@
           }
         ],
         "Text": "积分兑换",
-        "ClickMode": 1
-      },
-      "ConditionFormatRulesCollection": {
-        "Rules": [
-          {
-            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
-            "Formula": {
-              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=IF(OR(会员中心_会员详情!$AP$7=\"作废\",会员中心_会员详情!$AP$7=\"失效\"),TRUE,FALSE)"
-            },
-            "StyleInfo": {
-              "Parent": "",
-              "Underline": null,
-              "Strikethrough": true
-            }
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style3"
       }
     },
     "10,29": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -466,7 +418,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "2cc162cb-7bae-4070-9c11-c98b5bed82a5"
+                  "Id": "a1bb10bd-3366-4ff2-ae78-8fd0c3b3b327"
                 },
                 "CommandList": [
                   {
@@ -488,7 +440,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "9145f2ce-f1ed-412a-aad4-1e7a25cff574"
+                  "Id": "65d0c5e9-9805-4dc6-bc22-839daa358d55"
                 },
                 "CommandList": [
                   {
@@ -656,28 +608,12 @@
           }
         ],
         "Text": "挂  失",
-        "ClickMode": 1
-      },
-      "ConditionFormatRulesCollection": {
-        "Rules": [
-          {
-            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
-            "Formula": {
-              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=IF(OR(会员中心_会员详情!$AP$7=\"作废\",会员中心_会员详情!$AP$7=\"失效\"),TRUE,FALSE)"
-            },
-            "StyleInfo": {
-              "Parent": "",
-              "Underline": null,
-              "Strikethrough": true
-            }
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style3"
       }
     },
     "10,38": {
       "CellType": {
-        "$type": "Forguncy.HyperlinkCellType, Forguncy",
+        "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
             "$type": "Forguncy.Model.ConditionCommand, Forguncy",
@@ -694,7 +630,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "a5db1660-7495-43e0-beed-dd07c2ad1137"
+                  "Id": "62cd7ee1-3673-4892-86cd-52d68b776bad"
                 },
                 "CommandList": [
                   {
@@ -716,7 +652,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "74199798-0c8d-4617-8287-a926ff8cd8c4"
+                  "Id": "df1834eb-bdd8-414e-9b51-12ece9799fdd"
                 },
                 "CommandList": [
                   {
@@ -757,23 +693,7 @@
           }
         ],
         "Text": "升  级",
-        "ClickMode": 1
-      },
-      "ConditionFormatRulesCollection": {
-        "Rules": [
-          {
-            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
-            "Formula": {
-              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=IF(OR(会员中心_会员详情!$AP$7=\"作废\",会员中心_会员详情!$AP$7=\"失效\"),TRUE,FALSE)"
-            },
-            "StyleInfo": {
-              "Parent": "",
-              "Underline": null,
-              "Strikethrough": true
-            }
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style3"
       }
     },
     "11,8": {
@@ -859,7 +779,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "bd261e60-8298-40c6-b5a8-26a1e3d10ecc"
+          "Id": "f6bed645-224c-4655-8119-ea16e281ec08"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1002,12 +922,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "1",
-          "Id": "a670b4b1-40c7-49b0-906d-c778dd580168"
+          "Id": "c70c9f36-7189-40d7-ba68-ed47de16b888"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "46a581e7-2b14-4815-bb18-1088714c238f"
+          "Id": "3d5fbe1e-13c2-4d2c-84c5-b6fef983c575"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1026,7 +946,7 @@
               "Order": 1
             }
           ],
-          "Id": "cc235b98-1f72-4793-873c-5713f1423d68"
+          "Id": "344ea199-8894-4234-9b24-20603b19b3d5"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1085,7 +1005,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "c9e9c849-5367-4fb2-8e60-2ed5615dd8bf"
+                  "Id": "aec30afe-c1b9-4c7b-a888-85cef308ceea"
                 },
                 "CommandList": [
                   {
@@ -1107,7 +1027,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "a4160e7b-42cd-46d5-80a8-d5eefedd3e99"
+                  "Id": "a76d8a8c-a465-4e5c-98c5-8f4d3dfed507"
                 },
                 "CommandList": [
                   {
@@ -1213,12 +1133,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "2",
-          "Id": "a4e741af-09cf-47b5-af8d-c6ef539ff10e"
+          "Id": "430b1e20-77a7-48a7-82fa-87bab48d626e"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "b4dc51d6-1e6d-4baa-8142-81474d051f18"
+          "Id": "c1da4240-657c-405c-ac69-dca6c43c4a3f"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1237,7 +1157,7 @@
               "Order": 1
             }
           ],
-          "Id": "1fd6beeb-6819-4600-8c88-feb5d3070019"
+          "Id": "7236437b-4747-4eb9-9a10-a3b91d9adff1"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1296,7 +1216,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "7c40348e-6b62-40f2-9cde-5616acd804a9"
+                  "Id": "cd004407-b037-4532-ba52-92c54b135ab1"
                 },
                 "CommandList": [],
                 "ID": "cb52fced-c11d-4b27-8fa5-e8d2bbebeeeb"
@@ -1313,7 +1233,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "993450b5-225a-41c2-8e9d-7c27615242df"
+                  "Id": "74774e58-6d07-4c02-821c-c4a883a4ee53"
                 },
                 "CommandList": [],
                 "ID": "37a56409-dfe1-4dd0-b6ef-29962a9615e4"
@@ -1601,20 +1521,11 @@
         "BorderRight": 0
       },
       {
-        "Background": 9,
-        "FontFamily": 5,
-        "Foreground": 10,
-        "Formatter": 8,
-        "TextIndent": 0,
-        "HorizontalAlignment": 4,
-        "Underline": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "Background": null,
+        "FontFamily": null
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1
       },
       {
@@ -1626,7 +1537,7 @@
         "Foreground": null,
         "Formatter": 8,
         "TextIndent": 20,
-        "HorizontalAlignment": 12,
+        "HorizontalAlignment": 11,
         "VerticalAlignment": 4,
         "WordWrap": false,
         "Underline": false,
@@ -1645,7 +1556,7 @@
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 12,
+        "HorizontalAlignment": 11,
         "VerticalAlignment": 4,
         "WordWrap": false,
         "Underline": false,
@@ -1694,7 +1605,7 @@
         "BorderRight": null
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "FontStretch": 2,
         "FontStyle": 2,
@@ -1721,7 +1632,7 @@
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 12,
+        "HorizontalAlignment": 11,
         "VerticalAlignment": 4,
         "WordWrap": false,
         "Underline": false,
@@ -1814,7 +1725,7 @@
         "FontStretch": 2,
         "FontStyle": 2,
         "FontWeight": 2,
-        "Foreground": 13,
+        "Foreground": 12,
         "Formatter": null,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
@@ -1834,8 +1745,8 @@
         "FontStretch": 2,
         "FontStyle": 2,
         "FontWeight": 2,
-        "Foreground": 13,
-        "Formatter": 14,
+        "Foreground": 12,
+        "Formatter": 13,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 4,
@@ -1873,8 +1784,8 @@
         "FontStretch": 2,
         "FontStyle": 2,
         "FontWeight": 2,
-        "Foreground": 13,
-        "Formatter": 16,
+        "Foreground": 12,
+        "Formatter": 15,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 4,
@@ -1899,7 +1810,7 @@
         "BorderLeft": 1
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "BorderBottom": null,
         "BorderTop": null,
@@ -2003,7 +1914,7 @@
         "FontStyle": 2,
         "FontWeight": 2,
         "Foreground": null,
-        "Formatter": 14,
+        "Formatter": 13,
         "TextIndent": 0,
         "HorizontalAlignment": 4,
         "VerticalAlignment": 4,
@@ -2023,7 +1934,7 @@
         "FontStyle": 2,
         "FontWeight": 2,
         "Foreground": null,
-        "Formatter": 18,
+        "Formatter": 17,
         "TextIndent": 0,
         "HorizontalAlignment": 4,
         "VerticalAlignment": 4,
@@ -2042,7 +1953,7 @@
         "FontStretch": 2,
         "FontStyle": 2,
         "FontWeight": 2,
-        "Foreground": 19,
+        "Foreground": 18,
         "Formatter": 8,
         "TextIndent": 0,
         "HorizontalAlignment": 4,
@@ -2062,7 +1973,7 @@
         "FontStretch": 2,
         "FontStyle": 2,
         "FontWeight": 2,
-        "Foreground": 19,
+        "Foreground": 18,
         "Formatter": 8,
         "TextIndent": 0,
         "HorizontalAlignment": 4,
@@ -2170,17 +2081,17 @@
         "BorderRight": null
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "BorderLeft": 1
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "BorderRight": 1
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "FontStretch": 2,
         "FontStyle": 2,
@@ -2199,7 +2110,7 @@
         "BorderRight": null
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "FontStretch": 2,
         "FontStyle": 2,
@@ -2218,7 +2129,7 @@
         "BorderRight": 1
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "FontStretch": 2,
         "FontStyle": 2,
@@ -2237,7 +2148,7 @@
         "BorderRight": null
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "FontStretch": 2,
         "FontStyle": 2,
@@ -2256,7 +2167,7 @@
         "BorderRight": null
       },
       {
-        "Background": 11,
+        "Background": 9,
         "FontFamily": 1,
         "FontStretch": 2,
         "FontStyle": 2,
@@ -2278,7 +2189,7 @@
         "Background": 10
       },
       {
-        "Background": 11
+        "Background": 9
       }
     ],
     "Types": {
@@ -2292,9 +2203,8 @@
         "#FFA6A6A6",
         "Bold",
         "[AUTO]General",
-        "#FF2BC4CA",
-        "#FFFFFFFF",
         "#FFEBECED",
+        "#FFFFFFFF",
         "Left",
         "#FF2D5B8F",
         "yyyy\"年\"m\"月\"d\"日\";@",
@@ -2309,11 +2219,11 @@
           "Color": 6
         },
         {
-          "Color": 15
+          "Color": 14
         },
         {
           "Style": 5,
-          "Color": 17
+          "Color": 16
         }
       ]
     },
@@ -3113,36 +3023,11 @@
       "10,0": 3,
       "10,1": 2,
       "10,2": 23,
-      "10,3": 23,
-      "10,4": 23,
-      "10,5": 23,
-      "10,6": 23,
-      "10,7": 23,
       "10,8": 24,
       "10,11": 23,
-      "10,12": 23,
-      "10,13": 23,
-      "10,14": 23,
-      "10,15": 23,
-      "10,16": 23,
       "10,20": 23,
-      "10,21": 23,
-      "10,22": 23,
-      "10,23": 23,
-      "10,24": 23,
-      "10,25": 23,
       "10,29": 23,
-      "10,30": 23,
-      "10,31": 23,
-      "10,32": 23,
-      "10,33": 23,
-      "10,34": 23,
       "10,38": 23,
-      "10,39": 23,
-      "10,40": 23,
-      "10,41": 23,
-      "10,42": 23,
-      "10,43": 23,
       "10,62": 2,
       "10,63": 0,
       "10,64": 0,
@@ -3165,37 +3050,7 @@
       "10,81": 0,
       "11,0": 3,
       "11,1": 2,
-      "11,2": 23,
-      "11,3": 23,
-      "11,4": 23,
-      "11,5": 23,
-      "11,6": 23,
-      "11,7": 23,
       "11,8": 24,
-      "11,11": 23,
-      "11,12": 23,
-      "11,13": 23,
-      "11,14": 23,
-      "11,15": 23,
-      "11,16": 23,
-      "11,20": 23,
-      "11,21": 23,
-      "11,22": 23,
-      "11,23": 23,
-      "11,24": 23,
-      "11,25": 23,
-      "11,29": 23,
-      "11,30": 23,
-      "11,31": 23,
-      "11,32": 23,
-      "11,33": 23,
-      "11,34": 23,
-      "11,38": 23,
-      "11,39": 23,
-      "11,40": 23,
-      "11,41": 23,
-      "11,42": 23,
-      "11,43": 23,
       "11,62": 2,
       "11,63": 0,
       "11,64": 0,
@@ -6438,15 +6293,15 @@
     "33,42,1,6",
     "25,42,2,5",
     "27,42,2,5",
+    "19,20,2,5",
+    "19,25,2,11",
+    "19,36,2,4",
+    "19,40,2,8",
     "10,2,2,6",
     "10,11,2,6",
     "10,20,2,6",
     "10,29,2,6",
-    "10,38,2,6",
-    "19,20,2,5",
-    "19,25,2,11",
-    "19,36,2,4",
-    "19,40,2,8"
+    "10,38,2,6"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
