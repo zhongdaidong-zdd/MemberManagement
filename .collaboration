@@ -221,7 +221,16 @@
   },
   {
     "ModuleName": "挂失成功",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-23T17:54:05.8177866+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\会员管理\\会员信息\\挂失成功.json"
+    ]
   },
   {
     "ModuleName": "Pages\\会员管理\\会员升级",
