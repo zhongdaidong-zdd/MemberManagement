@@ -322,7 +322,18 @@
   },
   {
     "ModuleName": "70c30736-7f75-4535-8aaa-82f185d976bb",
-    "ModuleType": 12
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-23T17:06:11.0127205+08:00",
+    "ModuleType": 12,
+    "ToRemoveFiles": [
+      "CustomLibraries",
+      "UserFile\\ga.js",
+      "UserFile\\StyleSheet.css"
+    ]
   },
   {
     "ModuleName": "a7048ae8-d3c8-4136-ae00-39002dbdc3d8",
