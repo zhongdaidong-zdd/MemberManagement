@@ -72,7 +72,16 @@
   },
   {
     "ModuleName": "商品和服务列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-23T16:15:35.2050747+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\主数据\\商品和服务\\商品和服务列表.json"
+    ]
   },
   {
     "ModuleName": "商品服务详情",
