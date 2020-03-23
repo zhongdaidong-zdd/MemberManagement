@@ -407,7 +407,16 @@
   },
   {
     "ModuleName": "积分兑换列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-23T18:08:09.5873845+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\会员管理\\积分兑换\\积分兑换列表.json"
+    ]
   },
   {
     "ModuleName": "Pages\\内建手机页面",
