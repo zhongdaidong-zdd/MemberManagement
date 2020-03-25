@@ -54,7 +54,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "94d5d4af-055e-4cae-8a22-44b0ee35cbb7"
+          "Id": "1b5739a1-b076-4e70-83d1-37e5ff282165"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1378,10 +1378,10 @@
     "7,2,1,7",
     "7,46,1,4",
     "7,9,1,37",
+    "3,2,1,4",
     "6,2,1,7",
     "6,9,1,37",
-    "6,46,1,4",
-    "3,2,1,4"
+    "6,46,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

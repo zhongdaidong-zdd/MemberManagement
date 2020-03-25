@@ -88,7 +88,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=积分兑换列表!V4"
               },
-              "Id": "9a2d1c57-cf64-46ee-b7dd-3693109fd3d5"
+              "Id": "3a2a0a97-3b67-4b1f-90a3-f90236e6a622"
             },
             "Params": [
               "=V4"
@@ -122,12 +122,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "974605b9-fd50-446e-9336-004efd6c1bae"
+          "Id": "84c78df9-2490-4ffa-9534-2b5a10979518"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "a6df7e12-9137-44c6-88f7-c7bbb4c254b9"
+          "Id": "8be691ed-a4c1-4e18-add8-83bde3a0e61c"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -139,7 +139,7 @@
               "Order": 1
             }
           ],
-          "Id": "c9d3c5f6-cb77-43a9-87c5-11b47494e9d4"
+          "Id": "5f8a1db9-a214-4de7-b4b9-d90fade09705"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

@@ -220,7 +220,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "045416b3-643e-43ce-8479-ba7b2c13712d"
+                  "Id": "a43ac0ae-f861-474d-b496-1e560e103b5e"
                 },
                 "CommandList": [
                   {
@@ -247,7 +247,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=卡状态变更!I2"
                       },
-                      "Id": "a89db42f-a927-41f5-b14b-bfea9a19adac"
+                      "Id": "8330d1d2-b572-42c4-b333-44fae9f02519"
                     },
                     "UpdateValues": [
                       {
@@ -287,7 +287,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=卡状态变更!I2"
                       },
-                      "Id": "ad5dc141-bd21-46e1-b2eb-de58e8410154"
+                      "Id": "a5cef53d-2128-4feb-abb0-1101c567ec82"
                     },
                     "UpdateValues": [
                       {

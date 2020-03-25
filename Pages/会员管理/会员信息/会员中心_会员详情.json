@@ -189,7 +189,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "984ba949-8f0f-4990-b952-61ebd3b0a659"
+                  "Id": "fdfce8ef-9af1-4d19-a81d-4806fe8e5259"
                 },
                 "CommandList": [
                   {
@@ -270,7 +270,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "23d86f25-3811-4137-88d2-eceb59a84279"
+                  "Id": "dd66942f-7faa-47ef-8e8d-29c3d83731da"
                 },
                 "CommandList": [
                   {
@@ -333,7 +333,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "3595ec61-acac-431d-8b73-fa1c58fb1a81"
+                  "Id": "be1950b0-3944-4d76-ab18-a620312a8825"
                 },
                 "CommandList": [
                   {
@@ -355,7 +355,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "8e5076f1-0688-48c9-9c87-d3e3790615a1"
+                  "Id": "40457067-0891-4e03-9495-f380d683cee3"
                 },
                 "CommandList": [
                   {
@@ -418,7 +418,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "a1bb10bd-3366-4ff2-ae78-8fd0c3b3b327"
+                  "Id": "d30dff83-8d30-4690-8e95-dfc4d1377ed7"
                 },
                 "CommandList": [
                   {
@@ -440,7 +440,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "65d0c5e9-9805-4dc6-bc22-839daa358d55"
+                  "Id": "6a5f2d81-18e8-4fc8-8bda-dae6433b340a"
                 },
                 "CommandList": [
                   {
@@ -630,7 +630,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "62cd7ee1-3673-4892-86cd-52d68b776bad"
+                  "Id": "e4afd23d-cad6-47f5-b9a6-1a00ae534209"
                 },
                 "CommandList": [
                   {
@@ -652,7 +652,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "df1834eb-bdd8-414e-9b51-12ece9799fdd"
+                  "Id": "2e5d4a6a-3bbb-4b0c-a57a-c5b81662641c"
                 },
                 "CommandList": [
                   {
@@ -779,7 +779,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f6bed645-224c-4655-8119-ea16e281ec08"
+          "Id": "6f3d5ae9-36bb-4890-87ca-a5def5e41ee0"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -922,12 +922,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "1",
-          "Id": "c70c9f36-7189-40d7-ba68-ed47de16b888"
+          "Id": "63188b38-189c-43f7-a3fc-ba4d3c91b65f"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "3d5fbe1e-13c2-4d2c-84c5-b6fef983c575"
+          "Id": "278d9e70-a661-4578-84b6-f5917a28e351"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -946,7 +946,7 @@
               "Order": 1
             }
           ],
-          "Id": "344ea199-8894-4234-9b24-20603b19b3d5"
+          "Id": "fded5174-7df0-47ab-9193-50c9492947d4"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1005,7 +1005,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "aec30afe-c1b9-4c7b-a888-85cef308ceea"
+                  "Id": "8434d8b5-11ce-4738-a439-cc5faac16033"
                 },
                 "CommandList": [
                   {
@@ -1027,7 +1027,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "a76d8a8c-a465-4e5c-98c5-8f4d3dfed507"
+                  "Id": "e530bb12-2b17-4f72-b447-7bdf1da89c34"
                 },
                 "CommandList": [
                   {
@@ -1133,12 +1133,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "2",
-          "Id": "430b1e20-77a7-48a7-82fa-87bab48d626e"
+          "Id": "c957e026-f633-40c6-91aa-4bd8f966bf17"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "c1da4240-657c-405c-ac69-dca6c43c4a3f"
+          "Id": "654902fd-e725-4229-9817-21639d42f557"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1157,7 +1157,7 @@
               "Order": 1
             }
           ],
-          "Id": "7236437b-4747-4eb9-9a10-a3b91d9adff1"
+          "Id": "d2f954b8-7037-4f54-9ef4-1f50056abb6a"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1216,7 +1216,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "cd004407-b037-4532-ba52-92c54b135ab1"
+                  "Id": "9d73bdc7-69f2-454d-a133-d8e62e8a131e"
                 },
                 "CommandList": [],
                 "ID": "cb52fced-c11d-4b27-8fa5-e8d2bbebeeeb"
@@ -1233,7 +1233,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "74774e58-6d07-4c02-821c-c4a883a4ee53"
+                  "Id": "1dab788e-8a1b-44b8-8038-dbe6f2f5f9c0"
                 },
                 "CommandList": [],
                 "ID": "37a56409-dfe1-4dd0-b6ef-29962a9615e4"

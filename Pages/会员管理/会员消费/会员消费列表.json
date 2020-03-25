@@ -96,7 +96,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=会员消费列表!V4"
               },
-              "Id": "9d92b187-acd9-472c-9502-1357a19c0a29"
+              "Id": "6615760f-548e-472c-b943-b6a893a10f3d"
             },
             "Params": [
               "=V4"
@@ -126,7 +126,7 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "2",
-            "Id": "c1550143-1266-458c-bb44-ec575adee1d7"
+            "Id": "add33e30-9be2-4673-85a1-9eb3cf3c27e4"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -141,14 +141,14 @@
               }
             },
             "Value": "%Null%",
-            "Id": "1d23e1c2-c866-4415-9f4c-23c95b0014bf"
+            "Id": "41247480-a52a-44ed-ba40-fa2a96a4baa1"
           },
-          "Id": "28bd896f-b91b-4269-9e3d-81b17f472394"
+          "Id": "20a5eabf-53aa-46d4-86ad-e13d3d689317"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "641a9dca-2414-425d-8eee-17b4fe4524a7"
+          "Id": "f60981de-8e53-4e6d-9709-3f312ea830a0"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -160,7 +160,7 @@
               "Order": 1
             }
           ],
-          "Id": "13e71889-261c-48de-89fa-fd5bde5b6f78"
+          "Id": "f9bc3467-62c9-4828-95f2-df3f85377e23"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
