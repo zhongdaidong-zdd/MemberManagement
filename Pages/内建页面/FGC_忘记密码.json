@@ -25,6 +25,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "ForguncyAttribute": "ForgotPassword_UserOrEmail"
       },
       "DataValidationInfo": {

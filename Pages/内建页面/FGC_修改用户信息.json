@@ -42,6 +42,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "ForguncyAttribute": "ChangeProfile_FullName"
       },
       "DataValidationInfo": {
@@ -66,6 +67,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "ForguncyAttribute": "ChangeProfile_Email"
       },
       "DataValidationInfo": {

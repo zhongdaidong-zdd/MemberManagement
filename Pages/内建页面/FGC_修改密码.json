@@ -35,6 +35,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "ForguncyAttribute": "ChangePassword_OldPassword"
       },
       "DataValidationInfo": {
@@ -60,6 +61,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "ForguncyAttribute": "ChangePassword_NewPassword"
       },
       "DataValidationInfo": {
@@ -85,6 +87,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "ForguncyAttribute": "ChangePassword_ConfirmPassword"
       },
       "DataValidationInfo": {
