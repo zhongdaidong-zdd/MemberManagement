@@ -1,1 +1,69 @@
-{}
+{
+  "Forguncy.CustomMenu.ForguncyMenuCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "样式1",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "LEVEL0": {
+          "NormalStyle": {
+            "FontColor": "Background 1 -15",
+            "Background": "#FF15426A",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "FontColor": "Background 1 0",
+            "Background": "#FF20639F"
+          },
+          "FocusStyle": {
+            "Background": "Accent 1 20"
+          },
+          "SelectedStyle": {
+            "FontColor": "Background 1 0",
+            "Background": "#FF20639F"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL1": {
+          "NormalStyle": {
+            "FontColor": "Background 1 -15",
+            "Background": "#FF15426A",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "HoverStyle": {
+            "FontColor": "Background 1 0",
+            "Background": "#FF20639F"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "SelectedStyle": {
+            "FontColor": "Background 1 0",
+            "Background": "#FF20639F"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL2": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        },
+        "LEVEL3": {
+          "NormalStyle": {
+            "BorderRadiusString": "0px 0px 0px 0px"
+          },
+          "FocusStyle": {
+            "FontColor": "Accent 1",
+            "Background": "Background 1"
+          },
+          "Transition": "0.15s"
+        }
+      }
+    }
+  ]
+}
