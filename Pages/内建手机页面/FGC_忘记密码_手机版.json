@@ -29,6 +29,7 @@
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "Text": "发送",
         "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "ForgotPassword_Send"
       }
     },
@@ -42,7 +43,8 @@
             "PassValues": []
           }
         ],
-        "Text": "取消发送"
+        "Text": "取消发送",
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -125,49 +127,9 @@
         "BorderRight": 1
       },
       {
-        "Background": 8,
-        "FontSize": 16.0,
-        "FontWeight": 9,
-        "Foreground": 10,
-        "Formatter": 1,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 10,
-        "FontSize": 16.0,
-        "FontWeight": 9,
-        "Foreground": 11,
-        "Formatter": 1,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "Background": 10,
-        "BorderTop": 2
-      },
-      {
-        "Background": 10,
-        "BorderTop": 2,
-        "BorderRight": 2
-      },
-      {
-        "Background": 10,
-        "BorderBottom": 2,
-        "BorderLeft": 2
-      },
-      {
-        "Background": 10,
-        "BorderBottom": 2
-      },
-      {
-        "Background": 10,
-        "BorderBottom": 2,
-        "BorderRight": 2
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "Foreground": null
       }
     ],
     "Types": {
@@ -180,10 +142,6 @@
         "#FF3F3F3F",
         "#FF7F7F7F",
         "#FFA9A9A9",
-        "#FF248FFF",
-        "Bold",
-        "#FFFFFFFF",
-        "#FF238EFF",
         "微软雅黑",
         "#FF000000"
       ],
@@ -193,9 +151,6 @@
         },
         {
           "Color": 7
-        },
-        {
-          "Color": 11
         }
       ]
     },
@@ -312,36 +267,9 @@
       "18,14": 0,
       "18,15": 0,
       "19,1": 1,
-      "19,2": 17,
-      "19,3": 18,
-      "19,4": 18,
-      "19,5": 18,
-      "19,6": 18,
-      "19,7": 18,
-      "19,8": 18,
-      "19,9": 18,
-      "19,10": 18,
-      "19,11": 18,
-      "19,12": 18,
-      "19,13": 18,
-      "19,14": 18,
-      "19,15": 19,
+      "19,2": 16,
       "19,16": 3,
       "20,1": 1,
-      "20,2": 20,
-      "20,3": 21,
-      "20,4": 21,
-      "20,5": 21,
-      "20,6": 21,
-      "20,7": 21,
-      "20,8": 21,
-      "20,9": 21,
-      "20,10": 21,
-      "20,11": 21,
-      "20,12": 21,
-      "20,13": 21,
-      "20,14": 21,
-      "20,15": 22,
       "20,16": 3,
       "21,2": 7,
       "21,3": 7,
@@ -359,9 +287,9 @@
       "21,15": 7
     },
     "SheetStyle": {
-      "FontFamily": 12,
+      "FontFamily": 8,
       "FontSize": 13.333333015441895,
-      "Foreground": 13
+      "Foreground": 9
     }
   },
   "Spans": [

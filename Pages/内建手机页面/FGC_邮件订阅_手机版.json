@@ -48,6 +48,7 @@
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "Text": "保存",
         "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "MailSubscription_Button"
       }
     },
@@ -61,7 +62,8 @@
             "PassValues": []
           }
         ],
-        "Text": "取消"
+        "Text": "取消",
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -117,49 +119,9 @@
         "BorderRight": null
       },
       {
-        "Background": 7,
-        "FontSize": 16.0,
-        "FontWeight": 8,
-        "Foreground": 9,
-        "Formatter": 1,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "FontSize": 16.0,
-        "FontWeight": 8,
-        "Foreground": 10,
-        "Formatter": 1,
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "BorderTop": 1
-      },
-      {
-        "Background": 9,
-        "BorderTop": 1,
-        "BorderRight": 1
-      },
-      {
-        "Background": 9,
-        "BorderBottom": 1,
-        "BorderLeft": 1
-      },
-      {
-        "Background": 9,
-        "BorderBottom": 1
-      },
-      {
-        "Background": 9,
-        "BorderBottom": 1,
-        "BorderRight": 1
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "Foreground": null
       }
     ],
     "Types": {
@@ -171,19 +133,12 @@
         "#FFA9BCD1",
         "#FF3F3F3F",
         "Top",
-        "#FF248FFF",
-        "Bold",
-        "#FFFFFFFF",
-        "#FF238EFF",
         "微软雅黑",
         "#FF000000"
       ],
       "Borders": [
         {
           "Color": 4
-        },
-        {
-          "Color": 10
         }
       ]
     },
@@ -233,20 +188,9 @@
       "20,15": 0,
       "21,2": 10,
       "21,9": 1,
-      "21,10": 11,
-      "21,11": 12,
-      "21,12": 12,
-      "21,13": 12,
-      "21,14": 12,
-      "21,15": 13,
+      "21,10": 10,
       "21,16": 3,
       "22,9": 1,
-      "22,10": 14,
-      "22,11": 15,
-      "22,12": 15,
-      "22,13": 15,
-      "22,14": 15,
-      "22,15": 16,
       "22,16": 3,
       "23,10": 7,
       "23,11": 7,
@@ -256,9 +200,9 @@
       "23,15": 7
     },
     "SheetStyle": {
-      "FontFamily": 11,
+      "FontFamily": 7,
       "FontSize": 13.333333015441895,
-      "Foreground": 12
+      "Foreground": 8
     }
   },
   "Spans": [

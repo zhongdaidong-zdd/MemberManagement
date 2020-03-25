@@ -22,7 +22,8 @@
           }
         ],
         "Text": "登录",
-        "AutoExecute": true
+        "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },
@@ -74,15 +75,9 @@
         "BorderRight": null
       },
       {
-        "Background": 6,
-        "FontSize": 16.0,
-        "FontWeight": 7,
-        "Foreground": 8,
-        "Formatter": 1,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "Foreground": null
       }
     ],
     "Types": {
@@ -93,9 +88,6 @@
         "Bottom",
         "#FFA9BCD1",
         "#FF3F3F3F",
-        "#FF248FFF",
-        "Bold",
-        "#FFFFFFFF",
         "微软雅黑",
         "#FF000000"
       ],
@@ -145,9 +137,9 @@
       "16,3": 9
     },
     "SheetStyle": {
-      "FontFamily": 9,
+      "FontFamily": 6,
       "FontSize": 13.333333015441895,
-      "Foreground": 10
+      "Foreground": 7
     }
   },
   "Spans": [

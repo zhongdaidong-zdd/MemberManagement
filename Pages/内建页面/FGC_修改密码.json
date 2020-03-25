@@ -106,6 +106,7 @@
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "Text": "修改密码",
         "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "ChangePassword_Button"
       }
     },
@@ -126,47 +127,40 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Background": 0,
         "BorderTop": 0,
         "BorderLeft": 0
       },
       {
-        "Background": 0,
         "BorderBottom": null,
         "BorderTop": 0,
         "BorderRight": null
       },
       {
-        "Background": 0,
         "BorderBottom": null,
         "BorderTop": 0,
         "BorderRight": 0
       },
       {
-        "Background": 0,
         "BorderBottom": null,
         "BorderLeft": 0,
         "BorderRight": null
       },
       {
-        "Background": 0,
         "BorderBottom": null,
         "BorderRight": null
       },
       {
-        "Background": 0,
         "FontSize": 37.333332061767578,
-        "Foreground": 2,
-        "Formatter": 3
+        "Foreground": 1,
+        "Formatter": 2
       },
       {
-        "Background": 0,
         "BorderBottom": null,
         "BorderRight": 0
       },
       {
-        "Foreground": 4,
-        "HorizontalAlignment": 5
+        "Foreground": 3,
+        "HorizontalAlignment": 4
       },
       {
         "FontSize": 14.0,
@@ -183,16 +177,14 @@
         "BorderRight": 0
       },
       {
-        "Background": 0,
         "BorderBottom": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "Background": 0,
-        "Foreground": 4,
-        "Formatter": 3,
-        "HorizontalAlignment": 5
+        "Foreground": 3,
+        "Formatter": 2,
+        "HorizontalAlignment": 4
       },
       {
         "BorderLeft": 0
@@ -212,78 +204,58 @@
         "BorderRight": 0
       },
       {
-        "Background": 0,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderRight": null
       },
       {
-        "Background": 0,
         "FontSize": 14.0,
-        "Foreground": 4,
-        "Formatter": 3,
-        "HorizontalAlignment": 5
+        "Foreground": 3,
+        "Formatter": 2,
+        "HorizontalAlignment": 4
       },
       {
-        "Background": 0,
         "FontSize": 14.0,
         "BorderTop": null
       },
       {
-        "Background": 0,
-        "FontFamily": 6,
+        "FontFamily": 5,
         "BorderBottom": null,
         "BorderRight": 0
       },
       {
-        "Background": 7,
-        "FontSize": 14.0,
-        "FontWeight": 8,
-        "Foreground": 9,
-        "Formatter": 3,
-        "BorderTop": null
+        "FontFamily": null
       },
       {
-        "Background": 0,
         "FontSize": 14.0,
-        "FontWeight": 8,
-        "Foreground": 10,
-        "Formatter": 3
+        "FontWeight": 6,
+        "Foreground": 7,
+        "Formatter": 2
       },
       {
-        "Background": 0,
         "BorderBottom": 0,
         "BorderLeft": 0,
         "BorderRight": null
       },
       {
-        "Background": 0,
         "BorderBottom": 0,
         "BorderRight": null
-      },
-      {
-        "Background": 0,
-        "BorderBottom": 0,
-        "BorderRight": 0
       }
     ],
     "Types": {
       "Strs": [
-        "#FFF7F7F7",
         "#FFBABABA",
         "#FF333333",
         "[AUTO]General",
         "#FF595959",
         "Right",
         "微软雅黑",
-        "#FF2690EB",
         "Bold",
-        "#FFFFFFFF",
         "#FF0070C0"
       ],
       "Borders": [
         {
-          "Color": 1
+          "Color": 0
         }
       ]
     },
@@ -891,19 +863,30 @@
       "25,33": 25,
       "25,34": 25,
       "25,35": 25,
-      "25,36": 26
+      "25,36": 17
     },
     "SheetStyle": {
-      "FontFamily": 6
+      "FontFamily": 5
     }
   },
   "Spans": [
     "5,12,3,13",
-    "22,25,2,5",
-    "22,31,2,5",
     "9,19,3,16",
     "13,19,3,16",
-    "17,19,3,16"
+    "17,19,3,16",
+    "22,31,2,5",
+    "22,25,2,5"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Name": "ef59b672-f1a3-4a81-92fc-ac3a6df2a822.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

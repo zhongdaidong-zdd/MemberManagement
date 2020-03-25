@@ -55,6 +55,7 @@
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "Text": "修改密码",
         "AutoExecute": true,
+        "TemplateKey": "_RS_Normal_Style2",
         "ForguncyAttribute": "ChangePassword_Button"
       }
     },
@@ -68,7 +69,8 @@
             "PassValues": []
           }
         ],
-        "Text": "取消修改"
+        "Text": "取消修改",
+        "TemplateKey": "_RS_Outline_Style2"
       }
     }
   },
@@ -142,49 +144,9 @@
         "BorderRight": 1
       },
       {
-        "Background": 7,
-        "FontSize": 16.0,
-        "FontWeight": 8,
-        "Foreground": 9,
-        "Formatter": 1,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "FontSize": 16.0,
-        "FontWeight": 8,
-        "Foreground": 10,
-        "Formatter": 1,
-        "BorderBottom": null,
-        "BorderTop": 2,
-        "BorderLeft": 2,
-        "BorderRight": null
-      },
-      {
-        "Background": 9,
-        "BorderTop": 2
-      },
-      {
-        "Background": 9,
-        "BorderTop": 2,
-        "BorderRight": 2
-      },
-      {
-        "Background": 9,
-        "BorderBottom": 2,
-        "BorderLeft": 2
-      },
-      {
-        "Background": 9,
-        "BorderBottom": 2
-      },
-      {
-        "Background": 9,
-        "BorderBottom": 2,
-        "BorderRight": 2
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "Foreground": null
       }
     ],
     "Types": {
@@ -196,10 +158,6 @@
         "#FFA9BCD1",
         "#FF7F7F7F",
         "#FFA9A9A9",
-        "#FF248FFF",
-        "Bold",
-        "#FFFFFFFF",
-        "#FF238EFF",
         "微软雅黑",
         "#FF000000"
       ],
@@ -209,9 +167,6 @@
         },
         {
           "Color": 6
-        },
-        {
-          "Color": 10
         }
       ]
     },
@@ -421,32 +376,9 @@
       "21,13": 0,
       "21,14": 0,
       "22,2": 1,
-      "22,3": 16,
-      "22,4": 17,
-      "22,5": 17,
-      "22,6": 17,
-      "22,7": 17,
-      "22,8": 17,
-      "22,9": 17,
-      "22,10": 17,
-      "22,11": 17,
-      "22,12": 17,
-      "22,13": 17,
-      "22,14": 18,
+      "22,3": 15,
       "22,15": 3,
       "23,2": 1,
-      "23,3": 19,
-      "23,4": 20,
-      "23,5": 20,
-      "23,6": 20,
-      "23,7": 20,
-      "23,8": 20,
-      "23,9": 20,
-      "23,10": 20,
-      "23,11": 20,
-      "23,12": 20,
-      "23,13": 20,
-      "23,14": 21,
       "23,15": 3,
       "24,3": 7,
       "24,4": 7,
@@ -462,9 +394,9 @@
       "24,14": 7
     },
     "SheetStyle": {
-      "FontFamily": 11,
+      "FontFamily": 7,
       "FontSize": 13.333333015441895,
-      "Foreground": 12
+      "Foreground": 8
     }
   },
   "Spans": [
@@ -472,8 +404,8 @@
     "7,3,2,12",
     "11,3,2,12",
     "15,3,2,12",
-    "19,3,2,12",
-    "22,3,2,12"
+    "22,3,2,12",
+    "19,3,2,12"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

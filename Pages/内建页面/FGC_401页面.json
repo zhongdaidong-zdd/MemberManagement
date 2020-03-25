@@ -30,94 +30,78 @@
   "StyleDatas": {
     "Styles": [
       {
-        "Background": 0,
         "BorderTop": 0,
         "BorderLeft": 0
       },
       {
-        "Background": 0,
         "BorderTop": 0
       },
       {
-        "Background": 0,
         "BorderTop": 0,
         "BorderRight": 0
       },
       {
-        "Background": 0,
         "BorderLeft": 0
       },
       {
-        "Background": 0,
-        "FontWeight": 2,
-        "Foreground": 3
+        "FontWeight": 1,
+        "Foreground": 2
       },
       {
-        "Background": 0,
         "FontSize": 37.333332061767578,
-        "Foreground": 3
+        "Foreground": 2
       },
       {
-        "Background": 0,
         "BorderRight": 0
       },
       {
-        "Background": 0,
-        "Foreground": 3,
-        "HorizontalAlignment": 4,
-        "VerticalAlignment": 5,
+        "Foreground": 2,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
         "WordWrap": true
       },
       {
-        "Background": 0,
         "FontSize": 18.0,
-        "FontWeight": 2,
-        "Foreground": 3,
-        "VerticalAlignment": 5
+        "FontWeight": 1,
+        "Foreground": 2,
+        "VerticalAlignment": 4
       },
       {
-        "Background": 0,
         "FontSize": 14.0,
-        "Foreground": 3,
-        "Formatter": 6,
-        "HorizontalAlignment": 7,
-        "VerticalAlignment": 5
+        "Foreground": 2,
+        "Formatter": 5,
+        "HorizontalAlignment": 6,
+        "VerticalAlignment": 4
       },
       {
-        "Background": 0,
         "FontSize": 14.0,
-        "Foreground": 8,
+        "Foreground": 7,
         "TextIndent": 5,
-        "HorizontalAlignment": 4,
-        "VerticalAlignment": 5,
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4,
         "Underline": true
       },
       {
-        "Background": 0,
         "FontSize": 14.0,
-        "Foreground": 3,
+        "Foreground": 2,
         "TextIndent": 5,
-        "HorizontalAlignment": 4,
-        "VerticalAlignment": 5
+        "HorizontalAlignment": 3,
+        "VerticalAlignment": 4
       },
       {
-        "Background": 0,
         "BorderBottom": 0,
         "BorderLeft": 0
       },
       {
-        "Background": 0,
         "BorderBottom": 0
       },
       {
-        "Background": 0,
         "BorderBottom": 0,
         "BorderRight": 0
       }
     ],
     "Types": {
       "Strs": [
-        "#FFF7F7F7",
         "#FFBABABA",
         "Bold",
         "#FF333333",
@@ -130,7 +114,7 @@
       ],
       "Borders": [
         {
-          "Color": 1
+          "Color": 0
         }
       ]
     },
@@ -266,7 +250,7 @@
       "21,36": 14
     },
     "SheetStyle": {
-      "FontFamily": 9
+      "FontFamily": 8
     }
   },
   "Spans": [
@@ -281,6 +265,17 @@
     "20,11,1,2",
     "18,13,2,23",
     "10,12,2,21"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Name": "2f880044-4772-4bb7-a171-e575552c23bd.png",
+      "Location": "200,80",
+      "Size": "540,360"
+    }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
