@@ -65,5 +65,20 @@
         }
       }
     }
+  ],
+  "Forguncy.ButtonCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "样式1",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "BUTTON": {
+          "NormalStyle": {
+            "FontColor": "Background 1 0",
+            "Background": "Background 1 0",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        }
+      }
+    }
   ]
 }
