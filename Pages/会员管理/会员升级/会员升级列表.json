@@ -156,7 +156,7 @@
             "PageName": "会员升级",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "查看",
                 "TargetCell": {
                   "SerializeProperty": "=会员升级!A1"
                 }

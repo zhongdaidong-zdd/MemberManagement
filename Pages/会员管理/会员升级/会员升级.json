@@ -34,6 +34,16 @@
   },
   "AttachInfos": {
     "1,9": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "ReadOnly": true
+      },
       "BindingInfo": {
         "TableName": "会员信息表",
         "ColumnName": "积分"
@@ -53,7 +63,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "0c79d06f-f527-4e41-a67d-96a7cdfdad40"
+          "Id": "fe446ecd-01d9-4341-816a-ecbf08880f02"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -114,6 +124,7 @@
     "4,9": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "IsBounding": true,
         "Items": [
           {
@@ -137,7 +148,8 @@
         "DisplayColumnBindingInfo": {
           "TableName": "会员类型字典表",
           "ColumnName": "会员类型"
-        }
+        },
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员卡升级记录表",
@@ -147,6 +159,7 @@
     "7,9": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "IsBounding": true,
         "Items": [
           {
@@ -184,7 +197,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AF10"
             },
-            "Id": "a7cad504-6c50-410a-a219-1ec94ef2c4e3"
+            "Id": "38495084-9251-439a-bda1-8c301c0d5fb9"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -197,9 +210,9 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AE10"
             },
-            "Id": "2fa14ae7-fca2-4b41-b708-00db8524003a"
+            "Id": "1fd8d7f0-ffa2-4f40-b597-28b22a939fa3"
           },
-          "Id": "970539b3-4134-457b-89f9-fe57188eff5b"
+          "Id": "2a075d17-355d-4cd3-ba41-251299537cd9"
         }
       },
       "BindingInfo": {
@@ -270,7 +283,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "35cf4fa9-2d24-4779-bc51-df788550ffc4"
+                  "Id": "3d025ff5-a46d-43fa-b7ae-1f31a9267708"
                 },
                 "CommandList": [
                   {
@@ -345,7 +358,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=会员升级!AD3"
                       },
-                      "Id": "f1cab989-2de3-4d2c-9894-5e399332bed8"
+                      "Id": "f1d7fa40-a2c0-496e-a47b-e19420e69dec"
                     },
                     "UpdateValues": []
                   },
@@ -427,63 +440,26 @@
         "BorderRight": null
       },
       {
-        "Background": null,
         "FontFamily": 4,
         "FontSize": 13.333333015441895,
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
+        "Formatter": 8,
         "TextIndent": 10,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "VerticalAlignment": 3,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false,
-        "BorderBottom": null,
         "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
+        "BorderLeft": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 13.333333015441895,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderTop": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 13.333333015441895,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
         "BorderTop": 0,
-        "BorderLeft": null,
         "BorderRight": 0
       },
       {
@@ -525,63 +501,14 @@
         "BorderRight": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 13.333333015441895,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
         "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
+        "BorderLeft": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 13.333333015441895,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderBottom": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 13.333333015441895,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
         "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
         "BorderRight": 0
       },
       {
@@ -649,6 +576,24 @@
         "BorderRight": null
       },
       {
+        "FontFamily": 4,
+        "FontSize": 13.333333015441895,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Formatter": null,
+        "TextIndent": 10,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
         "BorderBottom": 0,
         "BorderTop": null,
         "BorderLeft": 0,
@@ -695,17 +640,10 @@
         "BorderRight": 0
       },
       {
-        "BorderBottom": 0
-      },
-      {
-        "BorderBottom": 0,
-        "BorderRight": 0
-      },
-      {
         "FontFamily": 4,
         "FontSize": 13.333333015441895,
         "TextIndent": 10,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "BorderBottom": null,
         "BorderTop": 0,
         "BorderLeft": null,
@@ -715,7 +653,7 @@
         "FontFamily": 4,
         "FontSize": 13.333333015441895,
         "TextIndent": 10,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "BorderBottom": null,
         "BorderTop": 0,
         "BorderLeft": null,
@@ -725,7 +663,7 @@
         "FontFamily": 4,
         "FontSize": 13.333333015441895,
         "TextIndent": 10,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "BorderBottom": 0,
         "BorderTop": null,
         "BorderLeft": 0,
@@ -735,7 +673,7 @@
         "FontFamily": 4,
         "FontSize": 13.333333015441895,
         "TextIndent": 10,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "BorderBottom": 0,
         "BorderTop": null,
         "BorderLeft": null,
@@ -745,7 +683,7 @@
         "FontFamily": 4,
         "FontSize": 13.333333015441895,
         "TextIndent": 10,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "BorderBottom": 0,
         "BorderTop": null,
         "BorderLeft": null,
@@ -765,12 +703,13 @@
         "Bold",
         "#FF000000",
         "[AUTO]General",
+        "@",
         "Left",
         "#FFA9A9A9"
       ],
       "Borders": [
         {
-          "Color": 9
+          "Color": 10
         }
       ]
     },
@@ -918,7 +857,7 @@
       "4,5": 2,
       "4,6": 2,
       "4,7": 2,
-      "4,9": 3,
+      "4,9": 21,
       "4,10": 8,
       "4,11": 8,
       "4,12": 8,
@@ -950,24 +889,24 @@
       "5,5": 2,
       "5,6": 2,
       "5,7": 2,
-      "5,9": 21,
-      "5,10": 22,
-      "5,11": 22,
-      "5,12": 22,
-      "5,13": 22,
-      "5,14": 22,
-      "5,15": 22,
-      "5,16": 22,
-      "5,17": 22,
-      "5,18": 22,
-      "5,19": 22,
-      "5,20": 22,
-      "5,21": 22,
-      "5,22": 22,
-      "5,23": 22,
-      "5,24": 22,
-      "5,25": 22,
-      "5,26": 23,
+      "5,9": 22,
+      "5,10": 23,
+      "5,11": 23,
+      "5,12": 23,
+      "5,13": 23,
+      "5,14": 23,
+      "5,15": 23,
+      "5,16": 23,
+      "5,17": 23,
+      "5,18": 23,
+      "5,19": 23,
+      "5,20": 23,
+      "5,21": 23,
+      "5,22": 23,
+      "5,23": 23,
+      "5,24": 23,
+      "5,25": 23,
+      "5,26": 24,
       "5,27": 0,
       "5,28": 0,
       "5,29": 16,
@@ -1002,12 +941,12 @@
       "6,26": 0,
       "6,27": 0,
       "6,28": 0,
-      "6,29": 24,
-      "6,30": 25,
-      "6,31": 25,
-      "6,32": 26,
-      "6,33": 27,
-      "6,34": 28,
+      "6,29": 25,
+      "6,30": 26,
+      "6,31": 26,
+      "6,32": 27,
+      "6,33": 11,
+      "6,34": 12,
       "7,1": 20,
       "7,2": 0,
       "7,3": 2,
@@ -1015,24 +954,24 @@
       "7,5": 2,
       "7,6": 2,
       "7,7": 2,
-      "7,9": 3,
-      "7,10": 29,
-      "7,11": 29,
-      "7,12": 29,
-      "7,13": 29,
-      "7,14": 29,
-      "7,15": 29,
-      "7,16": 29,
-      "7,17": 29,
-      "7,18": 29,
-      "7,19": 29,
-      "7,20": 29,
-      "7,21": 29,
-      "7,22": 29,
-      "7,23": 29,
-      "7,24": 29,
-      "7,25": 29,
-      "7,26": 30,
+      "7,9": 21,
+      "7,10": 28,
+      "7,11": 28,
+      "7,12": 28,
+      "7,13": 28,
+      "7,14": 28,
+      "7,15": 28,
+      "7,16": 28,
+      "7,17": 28,
+      "7,18": 28,
+      "7,19": 28,
+      "7,20": 28,
+      "7,21": 28,
+      "7,22": 28,
+      "7,23": 28,
+      "7,24": 28,
+      "7,25": 28,
+      "7,26": 29,
       "7,27": 0,
       "7,28": 0,
       "7,31": 1,
@@ -1045,24 +984,24 @@
       "8,5": 2,
       "8,6": 2,
       "8,7": 2,
-      "8,9": 31,
-      "8,10": 32,
-      "8,11": 32,
-      "8,12": 32,
-      "8,13": 32,
-      "8,14": 32,
-      "8,15": 32,
-      "8,16": 32,
-      "8,17": 32,
-      "8,18": 32,
-      "8,19": 32,
-      "8,20": 32,
-      "8,21": 32,
-      "8,22": 32,
-      "8,23": 32,
-      "8,24": 32,
-      "8,25": 32,
-      "8,26": 33,
+      "8,9": 30,
+      "8,10": 31,
+      "8,11": 31,
+      "8,12": 31,
+      "8,13": 31,
+      "8,14": 31,
+      "8,15": 31,
+      "8,16": 31,
+      "8,17": 31,
+      "8,18": 31,
+      "8,19": 31,
+      "8,20": 31,
+      "8,21": 31,
+      "8,22": 31,
+      "8,23": 31,
+      "8,24": 31,
+      "8,25": 31,
+      "8,26": 32,
       "8,27": 0,
       "8,28": 0,
       "8,33": 1,
@@ -1101,11 +1040,11 @@
       "9,32": 1,
       "10,7": 0,
       "10,8": 0,
-      "10,9": 34,
+      "10,9": 33,
       "10,16": 17,
       "10,17": 14,
       "10,19": 1,
-      "10,20": 34,
+      "10,20": 33,
       "10,32": 0,
       "10,33": 0,
       "10,34": 0,
@@ -1184,18 +1123,53 @@
   },
   "Spans": [
     "1,3,2,5",
-    "1,9,2,18",
     "4,3,2,5",
     "7,3,2,5",
     "7,9,2,18",
     "3,29,4,6",
     "4,9,2,18",
     "10,9,2,7",
-    "10,20,2,7"
+    "10,20,2,7",
+    "1,9,2,18"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
     "PageLoadedCommandList": [
+      {
+        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+        "ConditionAndCommandPairList": [
+          {
+            "Condition": {
+              "$type": "Forguncy.Model.IfCondition, Forguncy",
+              "param": {
+                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                "cellLocations": [
+                  {
+                    "SerializeProperty": "=会员升级!A1"
+                  }
+                ]
+              },
+              "value": "查看",
+              "Id": "2285b419-1d47-4b07-b4b5-8a3a48f7bfeb"
+            },
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                "PropertyItemsList": [
+                  {
+                    "Cell": {
+                      "SerializeProperty": "=会员升级!J8"
+                    },
+                    "PropertyType": 5,
+                    "Value": true
+                  }
+                ]
+              }
+            ],
+            "ID": "65b78ed2-c11d-471d-9960-79f75187e95f"
+          }
+        ]
+      },
       {
         "$type": "Forguncy.Model.ConditionCommand, Forguncy",
         "ConditionAndCommandPairList": [
@@ -1213,7 +1187,7 @@
                   ]
                 },
                 "value": "新增",
-                "Id": "ae959183-1969-4009-96fb-c4527779ed0b"
+                "Id": "fc610b92-1df1-4e1b-a478-4564a20afc2e"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1227,9 +1201,9 @@
                 },
                 "value": "%Null%",
                 "compareType": 1,
-                "Id": "9f48355e-7f20-4dc3-bdee-a5b67e87526b"
+                "Id": "4b9522ad-6802-46c0-9d33-e11f64c99c4c"
               },
-              "Id": "4307da57-508c-4b70-9ef7-bd191271f1f1"
+              "Id": "c68f43e8-d134-4d45-944e-57d59a68a5e6"
             },
             "CommandList": [
               {
