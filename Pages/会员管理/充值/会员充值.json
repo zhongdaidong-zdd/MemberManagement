@@ -131,7 +131,7 @@
             "ColumnName": "ID"
           },
           "Value": "6",
-          "Id": "c860f9e3-6094-4a20-9fed-5cdceb3d1e15"
+          "Id": "7428d125-9dd7-48b2-abd5-0f889253f72a"
         },
         "CellDefaultValue": 1
       },
@@ -153,7 +153,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "595b0e08-69f7-49a7-ab8b-764cbeae4614"
+          "Id": "5a92d214-de3c-4dfa-b351-c40510ad2c75"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -219,7 +219,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "9e65bd2c-5b21-4a52-b7cb-1c846c88140a"
+                  "Id": "aa596478-95f4-4635-8676-ec993958c65e"
                 },
                 "CommandList": [
                   {
@@ -458,9 +458,9 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Formatter": 13,
+        "Formatter": 2,
         "TextIndent": 0,
-        "HorizontalAlignment": 14,
+        "HorizontalAlignment": 13,
         "VerticalAlignment": 3,
         "WordWrap": false,
         "Underline": false,
@@ -576,7 +576,7 @@
       {
         "FontFamily": 4,
         "FontSize": 14.666666984558105,
-        "Foreground": 16,
+        "Foreground": 15,
         "Formatter": 7,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
@@ -615,7 +615,6 @@
         "#FFEBEBEB",
         "#FF2B2B2B",
         "Accent 3 -25",
-        "¥#,##0_);[Red](¥#,##0)",
         "Right",
         "#FFA9A9A9",
         "#FF0000FF"
@@ -625,7 +624,7 @@
           "Color": 10
         },
         {
-          "Color": 15
+          "Color": 14
         }
       ]
     },
