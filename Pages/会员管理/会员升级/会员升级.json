@@ -67,7 +67,8 @@
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
-        }
+        },
+        "ListViewStyleName": "_RS_Medium2"
       }
     },
     "2,29": {
