@@ -80,5 +80,20 @@
         }
       }
     }
+  ],
+  "Forguncy.TextCellTypeStyleTemplateSupportAttribute": [
+    {
+      "Key": "样式1",
+      "Category": "_RS_Custom",
+      "Styles": {
+        "MAIN": {
+          "NormalStyle": {
+            "FontColor": "#FF000000",
+            "Background": "Background 1 0",
+            "BorderRadiusString": "0px 0px 0px 0px"
+          }
+        }
+      }
+    }
   ]
 }
