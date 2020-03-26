@@ -96,7 +96,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=会员升级列表!V4"
               },
-              "Id": "0b1975c9-2a99-41b9-b7a1-c0d72318b7b0"
+              "Id": "9bd39f07-8823-494a-a3c6-a4e1ffd79f9a"
             },
             "Params": [
               "=V4"
@@ -130,12 +130,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "d590b669-57b7-45b1-b7a9-cc9965822f8f"
+          "Id": "360f80bf-ee50-4f06-a625-192f7c7ea38b"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "c025d43b-fa61-488b-8fc2-018d5fc74d57"
+          "Id": "5682876f-8073-4d53-b773-1403753bbba4"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -147,7 +147,7 @@
               "Order": 1
             }
           ],
-          "Id": "9caeae12-35d2-4baf-bee9-52227ee94632"
+          "Id": "acb5290c-5f1e-4b6c-98de-27d7e872f03f"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -514,7 +514,7 @@
         "#FFFFFFFF",
         "Bold",
         "#FF000000",
-        "#FF0000FF",
+        "Accent 2 0",
         "@",
         "yyyy\"年\"m\"月\"d\"日\";@",
         "h:mm:ss;@"

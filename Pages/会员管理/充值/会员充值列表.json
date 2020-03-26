@@ -521,7 +521,7 @@
         "#FFFFFFFF",
         "Bold",
         "#FF000000",
-        "#FF0000FF",
+        "Accent 2 0",
         "@",
         "yyyy\"年\"m\"月\"d\"日\";@",
         "h:mm:ss;@"
