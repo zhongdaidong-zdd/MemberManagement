@@ -97,16 +97,7 @@
   },
   {
     "ModuleName": "会员升级",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-26T16:58:21.3888385+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员升级\\会员升级.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员升级列表",
