@@ -69,6 +69,8 @@
           {
             "Value": "首页",
             "Text": "首页",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CommandList": [
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -83,13 +85,8 @@
           {
             "Value": "会员中心",
             "Text": "会员中心",
-            "CommandList": [
-              {
-                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
-                "PageName": "首页",
-                "PassValues": []
-              }
-            ],
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "FGC_LoginUser"
             ],
@@ -97,6 +94,8 @@
               {
                 "Value": "会员信息列表",
                 "Text": "会员信息列表",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -114,6 +113,8 @@
           {
             "Value": "会员历史查询",
             "Text": "会员历史查询",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "FGC_Anonymous"
             ],
@@ -121,6 +122,8 @@
               {
                 "Value": "充值历史",
                 "Text": "充值历史",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -136,6 +139,8 @@
               {
                 "Value": "消费历史",
                 "Text": "消费历史",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -151,6 +156,8 @@
               {
                 "Value": "积分兑换历史",
                 "Text": "积分兑换历史",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -166,6 +173,8 @@
               {
                 "Value": "会员升级历史",
                 "Text": "会员升级历史",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -181,6 +190,8 @@
               {
                 "Value": "卡状态历史",
                 "Text": "卡状态历史",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -198,6 +209,8 @@
           {
             "Value": "数据设置",
             "Text": "数据设置",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CanVisitRoleList": [
               "FGC_Anonymous"
             ],
@@ -205,6 +218,8 @@
               {
                 "Value": "会员状态",
                 "Text": "会员状态",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -219,6 +234,8 @@
               {
                 "Value": "会员类型",
                 "Text": "会员类型",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -233,6 +250,8 @@
               {
                 "Value": "支付方式",
                 "Text": "支付方式",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -248,6 +267,8 @@
               {
                 "Value": "证件类型",
                 "Text": "证件类型",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -262,6 +283,8 @@
               {
                 "Value": "商品服务",
                 "Text": "商品服务",
+                "SelectedIconColor": "Background 1",
+                "IsOldMenuPath": false,
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -278,11 +301,13 @@
           {
             "Value": "了解活字格...",
             "Text": "了解活字格...",
+            "SelectedIconColor": "Background 1",
+            "IsOldMenuPath": false,
             "CommandList": [
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-                "ID": "2d0bc9f83f164036b78128fcb69cac76"
+                "ID": "1867b9f02bfd4e93a2fdc7ae668a916a"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
