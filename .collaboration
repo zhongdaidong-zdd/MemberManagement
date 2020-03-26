@@ -13,16 +13,7 @@
   },
   {
     "ModuleName": "会员卡状态列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-26T09:50:09.1073337+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\会员卡状态\\会员卡状态列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\主数据\\会员类型",
