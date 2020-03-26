@@ -98,7 +98,7 @@
       "UserName": "GRAPECITY\\DavidZhong",
       "Email": "David.zhong@grapecity.com"
     },
-    "LockDateTime": "2020-03-26T10:59:21.9899498+08:00",
+    "LockDateTime": "2020-03-26T11:36:07.517533+08:00",
     "ModuleType": 1,
     "ToRemoveFiles": [
       "Pages\\会员管理\\会员信息\\会员中心_会员详情.json"
@@ -305,7 +305,19 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "ModuleType": 9
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-26T11:36:07.5165338+08:00",
+    "ModuleType": 9,
+    "ToRemoveFiles": [
+      "Theme\\CellTypeStyles",
+      "Theme\\ListViewStyles",
+      "Theme\\StyleDefaultNames",
+      "Theme\\ThemeConfig"
+    ]
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
