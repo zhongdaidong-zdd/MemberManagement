@@ -25,7 +25,7 @@
   "Values": {
     "1,3": "会员卡现积分",
     "4,3": "会员卡原类型",
-    "7,3": "会员卡新类型",
+    "7,3": "会员可升类型",
     "10,9": "取消",
     "10,20": "确定"
   },
@@ -63,7 +63,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "fe446ecd-01d9-4341-816a-ecbf08880f02"
+          "Id": "065af2be-1500-42c5-a330-d22fbd9f5fae"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -161,7 +161,7 @@
         "$type": "Forguncy.DropDownListCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "IsBounding": true,
-        "NoneItemText": "请选择可升级类型",
+        "NoneItemText": "",
         "Items": [
           {
             "Value": "项目1",
@@ -198,7 +198,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AF10"
             },
-            "Id": "38495084-9251-439a-bda1-8c301c0d5fb9"
+            "Id": "91b976f8-5090-4c3d-9e2e-33385647ac6c"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -211,9 +211,9 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AE10"
             },
-            "Id": "1fd8d7f0-ffa2-4f40-b597-28b22a939fa3"
+            "Id": "1f0cd5d4-3917-4e5e-8d44-17c131d7b5af"
           },
-          "Id": "2a075d17-355d-4cd3-ba41-251299537cd9"
+          "Id": "bada1bd5-b37d-4bb5-84ba-38171b8710e4"
         },
         "AddNullItemWhenBinding": true
       },
@@ -285,7 +285,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "3d025ff5-a46d-43fa-b7ae-1f31a9267708"
+                  "Id": "58764fa9-d3f6-4ea4-a731-a557d3786862"
                 },
                 "CommandList": [
                   {
@@ -360,7 +360,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=会员升级!AD3"
                       },
-                      "Id": "f1d7fa40-a2c0-496e-a47b-e19420e69dec"
+                      "Id": "d6cd1eb5-6ef6-430a-9ea8-e7dd0b1dccb3"
                     },
                     "UpdateValues": []
                   },
@@ -1152,7 +1152,7 @@
                 ]
               },
               "value": "查看",
-              "Id": "2285b419-1d47-4b07-b4b5-8a3a48f7bfeb"
+              "Id": "70d5f8cb-d076-48ca-9a83-47f0df60fcce"
             },
             "CommandList": [
               {
@@ -1189,7 +1189,7 @@
                   ]
                 },
                 "value": "新增",
-                "Id": "fc610b92-1df1-4e1b-a478-4564a20afc2e"
+                "Id": "d9aceeed-f8a8-4ab1-89f9-abf98e969de3"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1203,9 +1203,9 @@
                 },
                 "value": "%Null%",
                 "compareType": 1,
-                "Id": "4b9522ad-6802-46c0-9d33-e11f64c99c4c"
+                "Id": "ec713f23-8fee-4824-a773-1a0789280fc4"
               },
-              "Id": "c68f43e8-d134-4d45-944e-57d59a68a5e6"
+              "Id": "413310d8-b821-47ad-b187-631ed698d278"
             },
             "CommandList": [
               {
