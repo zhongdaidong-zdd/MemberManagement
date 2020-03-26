@@ -125,7 +125,16 @@
   },
   {
     "ModuleName": "会员充值列表",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-26T15:57:58.8786495+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\会员管理\\充值\\会员充值列表.json"
+    ]
   },
   {
     "ModuleName": "Pages\\会员管理\\卡状态变更",
