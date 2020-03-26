@@ -54,7 +54,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "64babaed-b75b-4129-979b-9e0c111aaf8c"
+          "Id": "19f5e06f-5a47-4385-ab1d-ef46037bc2d2"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -325,7 +325,7 @@
         "微软雅黑",
         "Bold",
         "#FFA9A9A9",
-        "#FF0000FF",
+        "Accent 2 0",
         "[AUTO]General"
       ],
       "Borders": [

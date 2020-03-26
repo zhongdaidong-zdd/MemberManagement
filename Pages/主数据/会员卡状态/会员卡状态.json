@@ -26,7 +26,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员卡状态字典表",
@@ -35,7 +36,8 @@
     },
     "4,6": {
       "CellType": {
-        "$type": "Forguncy.MultilineTextBox, Forguncy"
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员卡状态字典表",
@@ -61,7 +63,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "97bef20f-fd76-4b8d-8dd5-114d5251a8b9"
+                  "Id": "3bc679db-5528-4553-a3c6-ff3d184b5adf"
                 },
                 "CommandList": [
                   {
@@ -87,7 +89,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "d252cf36-1850-4a42-80e1-1b7b0c80365c"
+                  "Id": "e46e7eba-b8a4-4f4d-a7f1-a551c4760045"
                 },
                 "CommandList": [
                   {

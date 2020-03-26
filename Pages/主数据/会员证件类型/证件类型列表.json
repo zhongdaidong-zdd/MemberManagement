@@ -54,7 +54,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "2942c82d-d40a-4f4b-9fcd-28886c3f5973"
+          "Id": "f8b63bb9-e698-4b68-832f-738ea07f8b57"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -286,7 +286,7 @@
         "#FF000000",
         "#FFA9A9A9",
         "Left",
-        "#FF0000FF",
+        "Accent 2 0",
         "#FF0070C0"
       ],
       "Borders": [

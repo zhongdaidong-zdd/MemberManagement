@@ -26,7 +26,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
@@ -41,7 +42,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
@@ -51,7 +53,8 @@
     },
     "7,7": {
       "CellType": {
-        "$type": "Forguncy.MultilineTextBox, Forguncy"
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
@@ -89,7 +92,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "32d27f78-3c1b-42d4-b443-488566c43ce7"
+                  "Id": "60e0d238-767c-4a89-9ef2-1a2576800762"
                 },
                 "CommandList": [
                   {
@@ -171,16 +174,14 @@
         "BorderRight": null
       },
       {
-        "Background": null,
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -269,17 +270,15 @@
         "BorderBottom": null
       },
       {
-        "Background": null,
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 10,
+        "HorizontalAlignment": 7,
+        "VerticalAlignment": 9,
         "WordWrap": true,
         "Underline": false,
         "Strikethrough": false,
@@ -362,10 +361,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -382,10 +381,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -402,10 +401,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -422,10 +421,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -442,10 +441,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -462,10 +461,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -482,10 +481,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -502,10 +501,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -522,10 +521,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 7,
+        "Foreground": 10,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 7,
         "VerticalAlignment": 5,
         "WordWrap": false,
         "Underline": false,
@@ -548,15 +547,15 @@
         "[AUTO]General",
         "Center",
         "宋体",
-        "#FF2B2B2B",
         "Left",
         "#FFEBEBEB",
         "Top",
+        "#FF2B2B2B",
         "#FFF2F2F2"
       ],
       "Borders": [
         {
-          "Color": 9
+          "Color": 8
         },
         {
           "Color": 11

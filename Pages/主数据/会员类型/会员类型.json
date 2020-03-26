@@ -31,7 +31,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员类型字典表",
@@ -40,7 +41,8 @@
     },
     "4,8": {
       "CellType": {
-        "$type": "Forguncy.MultilineTextBox, Forguncy"
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员类型字典表",
@@ -49,7 +51,8 @@
     },
     "7,8": {
       "CellType": {
-        "$type": "Forguncy.NumberCellType, Forguncy"
+        "$type": "Forguncy.NumberCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员类型字典表",
@@ -60,6 +63,7 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "DecimalPlacesNumber": 2,
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "CellDefaultValue": 0.85
       },
       "BindingInfo": {
@@ -86,7 +90,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "022dccee-e8de-413b-a166-dd1fb7ccacbb"
+                  "Id": "dfb16f66-4d65-465b-b26c-c85fc41eff61"
                 },
                 "CommandList": [
                   {
@@ -112,7 +116,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "3faf2b4b-ce8b-4a86-85ef-76c198907087"
+                  "Id": "d1c1e8fa-8ec5-420a-a331-1611da05a3f8"
                 },
                 "CommandList": [
                   {

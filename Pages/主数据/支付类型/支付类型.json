@@ -26,7 +26,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "支付方式字典表",
@@ -35,7 +36,8 @@
     },
     "4,8": {
       "CellType": {
-        "$type": "Forguncy.MultilineTextBox, Forguncy"
+        "$type": "Forguncy.MultilineTextBox, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "支付方式字典表",
@@ -61,7 +63,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "e6da33fb-99de-4b57-bf3d-66cb2cbab8f6"
+                  "Id": "2e9209f9-dea4-4d75-a974-1a7a5307d8ca"
                 },
                 "CommandList": [
                   {
@@ -87,7 +89,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "ce8b9d30-73ba-488e-92c3-bce8982868b9"
+                  "Id": "bf2fe87a-7ecf-4444-8c7d-6ec4da363651"
                 },
                 "CommandList": [
                   {
