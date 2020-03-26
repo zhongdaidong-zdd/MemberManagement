@@ -109,16 +109,7 @@
   },
   {
     "ModuleName": "会员消费",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-26T17:55:35.5766649+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员消费\\会员消费.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员消费列表",
@@ -142,16 +133,7 @@
   },
   {
     "ModuleName": "卡状态变更",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-26T18:01:50.2675433+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\卡状态变更\\卡状态变更.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "卡状态变更列表",
@@ -163,16 +145,7 @@
   },
   {
     "ModuleName": "积分兑换",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-03-26T18:08:56.6973504+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\积分兑换\\积分兑换.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "积分兑换列表",

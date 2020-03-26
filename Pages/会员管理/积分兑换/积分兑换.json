@@ -33,6 +33,16 @@
   },
   "AttachInfos": {
     "1,7": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "ReadOnly": true
+      },
       "BindingInfo": {
         "TableName": "会员信息表",
         "ColumnName": "积分"
@@ -52,11 +62,12 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "9c85b213-bff1-443d-a740-dbfafb86a903"
+          "Id": "98af535f-1df5-4e3a-9209-f1397410abf4"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
-        }
+        },
+        "ListViewStyleName": "_RS_Medium2"
       }
     },
     "3,25": {
@@ -81,6 +92,7 @@
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -90,7 +102,7 @@
       "DataValidationInfo": {
         "NumberType": 1,
         "IgnoreBlank": false,
-        "FirstParamValue": "0",
+        "FirstParamValue": "1",
         "SecondParamValue": {
           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
           "SerializeProperty": "=积分兑换!H2"
@@ -99,6 +111,15 @@
       }
     },
     "7,7": {
+      "CellType": {
+        "$type": "Forguncy.TextCellType, Forguncy",
+        "SavedValidators": [
+          {
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+          }
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+      },
       "BindingInfo": {
         "TableName": "会员积分交易表",
         "ColumnName": "增加金额"
@@ -135,7 +156,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "604c690b-a950-4018-a6d1-50a888a1d19e"
+                  "Id": "2dc4bea7-764d-426e-8b6c-a8ab520e5f22"
                 },
                 "CommandList": [
                   {
@@ -333,123 +354,37 @@
         "BorderRight": null
       },
       {
-        "Background": null,
         "FontFamily": 4,
         "FontSize": 12.0,
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 8,
-        "Formatter": null,
+        "Formatter": 8,
         "TextIndent": 10,
         "HorizontalAlignment": 9,
         "VerticalAlignment": 3,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false,
-        "BorderBottom": null,
         "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
+        "BorderLeft": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 12.0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": 8,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 9,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderTop": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 12.0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": 8,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 9,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
         "BorderTop": 0,
-        "BorderLeft": null,
         "BorderRight": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 12.0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": 8,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 9,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
         "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
+        "BorderLeft": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 12.0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": 8,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 9,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderBottom": 0
       },
       {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 12.0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": 8,
-        "Formatter": null,
-        "TextIndent": 10,
-        "HorizontalAlignment": 9,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
         "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
         "BorderRight": 0
       },
       {
@@ -516,13 +451,11 @@
         "BorderRight": 1
       },
       {
-        "Background": null,
         "FontFamily": 4,
         "FontSize": 12.0,
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 8,
         "Formatter": null,
         "TextIndent": 50,
         "HorizontalAlignment": 9,
@@ -562,7 +495,7 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 8,
+        "Foreground": 12,
         "Formatter": null,
         "TextIndent": 0,
         "HorizontalAlignment": 9,
@@ -719,7 +652,7 @@
       {
         "FontFamily": 4,
         "FontSize": 14.666666984558105,
-        "Foreground": 12,
+        "Foreground": 13,
         "Formatter": 7,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
@@ -740,10 +673,11 @@
         "Bold",
         "#FF000000",
         "[AUTO]General",
-        "#FF2B2B2B",
+        "@",
         "Left",
         "#FFEBEBEB",
         "#FFA9A9A9",
+        "#FF2B2B2B",
         "#FF0000FF"
       ],
       "Borders": [
@@ -1132,13 +1066,13 @@
   "Spans": [
     "4,2,2,5",
     "1,2,2,5",
-    "1,7,2,15",
     "4,7,2,15",
-    "7,7,2,15",
     "4,25,7,3",
     "7,1,2,6",
     "11,7,2,6",
-    "11,16,2,6"
+    "11,16,2,6",
+    "1,7,2,15",
+    "7,7,2,15"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
