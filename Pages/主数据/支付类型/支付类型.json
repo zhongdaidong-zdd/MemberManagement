@@ -32,6 +32,9 @@
       "BindingInfo": {
         "TableName": "支付方式字典表",
         "ColumnName": "支付方式"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
       }
     },
     "4,8": {
@@ -42,7 +45,8 @@
       "BindingInfo": {
         "TableName": "支付方式字典表",
         "ColumnName": "说明"
-      }
+      },
+      "DataValidationInfo": {}
     },
     "7,8": {
       "CellType": {

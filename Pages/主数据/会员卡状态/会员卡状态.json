@@ -24,7 +24,8 @@
         "$type": "Forguncy.TextCellType, Forguncy",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy",
+            "Enabled": true
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2"
@@ -32,6 +33,9 @@
       "BindingInfo": {
         "TableName": "会员卡状态字典表",
         "ColumnName": "卡状态"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
       }
     },
     "4,6": {
@@ -42,7 +46,8 @@
       "BindingInfo": {
         "TableName": "会员卡状态字典表",
         "ColumnName": "说明"
-      }
+      },
+      "DataValidationInfo": {}
     },
     "7,6": {
       "CellType": {

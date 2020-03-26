@@ -19,8 +19,9 @@
     "2,1": "会员类型",
     "4,1": "说明",
     "7,1": "本等级积分下限",
+    "7,8": 0,
     "9,1": "折上折比例",
-    "9,8": 0.85,
+    "9,8": 1,
     "11,8": "确定"
   },
   "AttachInfos": {
@@ -29,7 +30,8 @@
         "$type": "Forguncy.TextCellType, Forguncy",
         "SavedValidators": [
           {
-            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
+            "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy",
+            "Enabled": true
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2"
@@ -37,6 +39,9 @@
       "BindingInfo": {
         "TableName": "会员类型字典表",
         "ColumnName": "会员类型"
+      },
+      "DataValidationInfo": {
+        "IgnoreBlank": false
       }
     },
     "4,8": {
@@ -47,16 +52,24 @@
       "BindingInfo": {
         "TableName": "会员类型字典表",
         "ColumnName": "说明"
-      }
+      },
+      "DataValidationInfo": {}
     },
     "7,8": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "CellDefaultValue": 0
       },
       "BindingInfo": {
         "TableName": "会员类型字典表",
         "ColumnName": "积分下限"
+      },
+      "DataValidationInfo": {
+        "NumberType": 1,
+        "CompareParamType": 6,
+        "IgnoreBlank": false,
+        "FirstParamValue": "0"
       }
     },
     "9,8": {
@@ -64,11 +77,17 @@
         "$type": "Forguncy.NumberCellType, Forguncy",
         "DecimalPlacesNumber": 2,
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "CellDefaultValue": 0.85
+        "WaterMark": "",
+        "CellDefaultValue": 1
       },
       "BindingInfo": {
         "TableName": "会员类型字典表",
         "ColumnName": "折上折比例"
+      },
+      "DataValidationInfo": {
+        "NumberType": 2,
+        "FirstParamValue": "0",
+        "SecondParamValue": "1"
       }
     },
     "11,8": {
