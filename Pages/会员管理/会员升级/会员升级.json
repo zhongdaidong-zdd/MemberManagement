@@ -161,6 +161,7 @@
         "$type": "Forguncy.DropDownListCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "IsBounding": true,
+        "NoneItemText": "请选择可升级类型",
         "Items": [
           {
             "Value": "项目1",
@@ -213,7 +214,8 @@
             "Id": "1fd8d7f0-ffa2-4f40-b597-28b22a939fa3"
           },
           "Id": "2a075d17-355d-4cd3-ba41-251299537cd9"
-        }
+        },
+        "AddNullItemWhenBinding": true
       },
       "BindingInfo": {
         "TableName": "会员卡升级记录表",
