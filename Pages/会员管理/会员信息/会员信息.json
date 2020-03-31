@@ -63,7 +63,9 @@
     "3,24": {
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "ImagePath": "Image 8.png"
+        "ImagePath": "Navigation/238_user_8.svg",
+        "BuiltIn": true,
+        "Color": "Accent 2 0"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -226,7 +228,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "c50c5c08-65fd-4d13-8c1b-df91adca739a"
+                  "Id": "f3179b6f-1057-4f60-b027-6d7f3d53e466"
                 },
                 "CommandList": [
                   {
@@ -288,7 +290,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "56676884-20dc-484f-9948-bbfec338f8cc"
+                  "Id": "de344481-e767-43de-9d5b-38d3de8c5ab8"
                 },
                 "CommandList": [
                   {
@@ -304,10 +306,6 @@
                   }
                 ],
                 "ID": "66562637-df09-4a91-8d06-d1f5f2daf253"
-              },
-              {
-                "CommandList": [],
-                "ID": "d7f7af34-96a4-4814-97a7-b7b5a02817e2"
               }
             ]
           }
