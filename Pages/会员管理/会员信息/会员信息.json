@@ -50,7 +50,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -80,7 +81,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -89,7 +91,8 @@
     },
     "9,9": {
       "CellType": {
-        "$type": "Forguncy.DateCellType, Forguncy"
+        "$type": "Forguncy.DateCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -120,6 +123,7 @@
     "15,9": {
       "CellType": {
         "$type": "Forguncy.DropDownListCellType, Forguncy",
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "IsBounding": true,
         "Items": [
           {
@@ -157,7 +161,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -171,7 +176,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -185,7 +191,8 @@
           {
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
-        ]
+        ],
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -228,7 +235,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "f3179b6f-1057-4f60-b027-6d7f3d53e466"
+                  "Id": "e3172f65-60bc-4118-ac56-baef21e0f759"
                 },
                 "CommandList": [
                   {
@@ -290,7 +297,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "de344481-e767-43de-9d5b-38d3de8c5ab8"
+                  "Id": "2e307469-0bd8-457d-b85e-af4a5960b34b"
                 },
                 "CommandList": [
                   {
