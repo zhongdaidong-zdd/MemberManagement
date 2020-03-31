@@ -146,7 +146,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "5963b6be-6e2f-4faf-b362-49cd0af7660a"
+                  "Id": "76cfd063-42f4-4b15-9131-293f6f5f3353"
                 },
                 "CommandList": [
                   {
@@ -190,7 +190,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "37c43f21-3142-4d27-a257-0627659632ff"
+                  "Id": "42af203f-2b8e-4193-a640-d049231fb6dc"
                 },
                 "CommandList": [
                   {
@@ -812,12 +812,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "1",
-          "Id": "77119cf0-d54a-4dfa-bbc8-e3adc9a9ac1b"
+          "Id": "abdb5ab1-a860-4b2a-883e-d5b433d843ca"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "4a37e8cd-3c64-4401-8f43-b2d1e21ed86b"
+          "Id": "7d98ee6e-5953-4b95-ad83-c1e1bb525a9a"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -836,7 +836,7 @@
               "Order": 1
             }
           ],
-          "Id": "6422d5bc-3236-4c65-b3f2-a116200a2d17"
+          "Id": "e2c882d0-7e48-4513-85b9-2aa424df3776"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -895,7 +895,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "4af42747-a746-47b3-8613-3af459f0f3e2"
+                  "Id": "ab9315c7-0c75-4aa6-b476-6196cfa6a938"
                 },
                 "CommandList": [
                   {
@@ -917,7 +917,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "bd842b11-3551-4e00-a76d-c9f11ba68522"
+                  "Id": "71df6baa-527a-41c9-81c2-9a93bf1c8f21"
                 },
                 "CommandList": [
                   {
@@ -1032,12 +1032,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "2",
-          "Id": "3b528bdb-1cf8-4fd2-80c7-fd7b84304787"
+          "Id": "66865ce0-588f-4d15-b381-5780da271406"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "87b22116-20b6-42aa-abca-77d27ff47232"
+          "Id": "d5d89a0a-de22-4127-8639-4e12230d12c4"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1056,7 +1056,7 @@
               "Order": 1
             }
           ],
-          "Id": "088426c1-bd89-4144-a54a-c0dd394bf00e"
+          "Id": "5338ba90-660a-4bb3-88b9-ccbd7359e594"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1115,9 +1115,14 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "d138405a-cd2d-4792-96f2-b3b7b54a21fa"
+                  "Id": "7446ede5-88ef-493d-b04b-5dae8fc7fe41"
                 },
-                "CommandList": [],
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                    "MessageFormula": "会员卡状态是作废，不能编辑消费记录"
+                  }
+                ],
                 "ID": "cb52fced-c11d-4b27-8fa5-e8d2bbebeeeb"
               },
               {
@@ -1132,9 +1137,14 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "c7ddc37b-245d-4cac-81be-cce2ddd7b5ee"
+                  "Id": "26337a81-bfc2-43e1-9bb7-3c4eee615cfc"
                 },
-                "CommandList": [],
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                    "MessageFormula": "会员卡状态是失效，不能编辑消费记录"
+                  }
+                ],
                 "ID": "37a56409-dfe1-4dd0-b6ef-29962a9615e4"
               },
               {
@@ -5448,7 +5458,7 @@
                 ]
               },
               "value": "失效",
-              "Id": "3f10fffb-b607-4b81-b384-60ae1a8d1e02"
+              "Id": "84cead5e-5ed2-47f3-9df5-5284f8ff3b5c"
             },
             "CommandList": [
               {
@@ -5492,7 +5502,7 @@
                 ]
               },
               "value": "作废",
-              "Id": "759416c5-ae49-489f-b2d2-3c4018372cf0"
+              "Id": "8a4dcb40-d4f1-4551-a407-be37aa6dfd93"
             },
             "CommandList": [
               {
