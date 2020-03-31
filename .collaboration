@@ -257,7 +257,33 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "ModuleType": 10
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-03-31T15:09:54.8443281+08:00",
+    "ModuleType": 10,
+    "ToRemoveFiles": [
+      "image\\bg_home.png",
+      "image\\bg_home1.png",
+      "image\\bg_home2.png",
+      "image\\button1.png",
+      "image\\button_hover1.png",
+      "image\\button_save1.png",
+      "image\\button_save_hover1.png",
+      "image\\Image 20.png",
+      "image\\Image 21.png",
+      "image\\Image 23.png",
+      "image\\Image 24.png",
+      "image\\Image 3.png",
+      "image\\Image 8.png",
+      "image\\logo.png",
+      "image\\QQ截图20171019120823.png",
+      "image\\Sample2_会员中心.png",
+      "image\\Sample2_会员中心1.png",
+      "image\\Sample2_会员详情.png"
+    ]
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
