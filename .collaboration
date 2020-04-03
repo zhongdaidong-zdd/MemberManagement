@@ -81,42 +81,15 @@
   },
   {
     "ModuleName": "会员信息",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-03T13:54:09.9057772+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员信息\\会员信息.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员卡信息",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-03T14:24:04.7342421+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员信息\\会员卡信息.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "挂失成功",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-03T14:32:47.8435478+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员信息\\挂失成功.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\会员管理\\会员升级",

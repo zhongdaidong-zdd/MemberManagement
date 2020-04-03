@@ -1,16 +1,19 @@
 {
   "Rows": {
-    "Count": 10
+    "Sizes": {
+      "10": 30.0
+    },
+    "Count": 12
   },
   "Cols": {
     "Count": 14
   },
   "Values": {
     "1,0": "会员原会员卡已作废，新会员卡卡号是",
-    "7,3": "确定"
+    "10,4": "确定"
   },
   "AttachInfos": {
-    "7,3": {
+    "10,4": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
@@ -20,7 +23,7 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Outline_Style3",
+        "TemplateKey": "_RS_Normal_Style2",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -43,7 +46,6 @@
     "Styles": [
       {
         "FontFamily": 0,
-        "FontSize": 14.666666984558105,
         "FontWeight": 1,
         "Formatter": 2,
         "BorderBottom": null,
@@ -53,7 +55,6 @@
       },
       {
         "FontFamily": 0,
-        "FontSize": 14.666666984558105,
         "FontWeight": 1,
         "BorderBottom": null,
         "BorderTop": null,
@@ -62,7 +63,6 @@
       },
       {
         "FontFamily": 0,
-        "FontSize": 13.333333015441895,
         "FontWeight": 1,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
@@ -72,10 +72,13 @@
         "BorderRight": null
       },
       {
+        "BorderBottom": null
+      },
+      {
         "FontFamily": null
       },
       {
-        "BorderBottom": null
+        "FontFamily": 4
       },
       {
         "BorderLeft": null
@@ -87,7 +90,13 @@
         "BorderRight": null
       },
       {
+        "FontSize": 13.333333333333332,
+        "Foreground": 5,
         "HorizontalAlignment": 3
+      },
+      {
+        "FontSize": 18.666666666666664,
+        "Foreground": 5
       }
     ],
     "Types": {
@@ -96,7 +105,8 @@
         "Bold",
         "[AUTO]General",
         "Center",
-        "宋体"
+        "宋体",
+        "Text 1 25"
       ]
     },
     "CellStyles": {
@@ -184,20 +194,28 @@
       "6,11": 2,
       "6,12": 2,
       "6,13": 2,
-      "7,3": 3,
-      "7,11": 4,
-      "8,12": 5,
-      "9,0": 6,
-      "9,1": 6,
-      "9,2": 6,
-      "9,3": 6,
-      "9,12": 6,
-      "9,13": 6
+      "7,11": 3,
+      "10,4": 4,
+      "10,5": 5,
+      "10,6": 5,
+      "10,7": 5,
+      "10,8": 5,
+      "10,9": 5,
+      "10,12": 6,
+      "11,0": 7,
+      "11,1": 7,
+      "11,2": 7,
+      "11,3": 7,
+      "11,12": 7,
+      "11,13": 7
     },
     "RowStyles": {
-      "1": 7,
-      "2": 7,
-      "3": 7
+      "1": 8,
+      "2": 8,
+      "3": 8,
+      "4": 9,
+      "5": 9,
+      "6": 9
     },
     "SheetStyle": {
       "FontFamily": 4
@@ -206,7 +224,18 @@
   "Spans": [
     "1,0,3,14",
     "4,0,3,14",
-    "7,3,2,8"
+    "10,4,1,6"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Name": "386d9914-60c5-479b-ad10-d42091af7922.png",
+      "Location": "0,180",
+      "Size": "280,70"
+    }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
