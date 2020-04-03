@@ -109,16 +109,7 @@
   },
   {
     "ModuleName": "会员消费",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-03T14:47:06.9611842+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员消费\\会员消费.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员消费列表",
