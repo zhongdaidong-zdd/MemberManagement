@@ -94,7 +94,16 @@
   },
   {
     "ModuleName": "会员卡信息",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-03T14:24:04.7342421+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\会员管理\\会员信息\\会员卡信息.json"
+    ]
   },
   {
     "ModuleName": "挂失成功",
