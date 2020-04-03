@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ServerCommand>
   <Item class="Forguncy.ServerCommands.Models.ServerCommands" assembly="Forguncy">
+    <Commands>
+      <Item class="Forguncy.Model.RequestServerCommand" assembly="Forguncy">
+        <ServerCommandName>更新会员卡状态</ServerCommandName>
+      </Item>
+    </Commands>
     <Description>判断会员卡是否到期失效</Description>
     <Name>会员卡状态更新</Name>
     <Triggers>
