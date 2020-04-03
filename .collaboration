@@ -233,7 +233,16 @@
   },
   {
     "ModuleName": "首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-03T10:07:46.9532664+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\首页.json"
+    ]
   },
   {
     "ModuleName": "FGC_母版页",
