@@ -90,12 +90,26 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=卡状态变更列表!U4"
               },
-              "Id": "fb3f5792-4c30-4876-be1b-3c849dfc2487"
+              "Id": "0adc8106-a882-4090-b0a5-61b0d26c0701"
             },
             "Params": [
               "=U4"
             ],
             "ID": "619c49324f77497a9859ad2a098c615c"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
           }
         ]
       }
@@ -124,12 +138,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "1477f0a2-79c4-42eb-9b2e-092da181f4a8"
+          "Id": "f0a07796-04a9-4174-be26-6c4003ce4281"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "2406e562-10cf-4be0-8d17-722ded8fbd90"
+          "Id": "20a59255-5fb2-4ff4-8941-d7feadcc60d1"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -141,7 +155,7 @@
               "Order": 1
             }
           ],
-          "Id": "6616a239-8902-42be-803b-66771ce24bea"
+          "Id": "19d3b236-c046-41c9-8829-04c70c9d4b78"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -167,7 +181,21 @@
             "LoadBindingDataOption": 1
           }
         ],
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",

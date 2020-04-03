@@ -27,50 +27,132 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "商品名称"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "4,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "单价"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "7,7": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "商品描述"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "15,7": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy"
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "商品图片",
         "IsImagePath": true
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "25,7": {
       "CellType": {
@@ -91,7 +173,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "60e0d238-767c-4a89-9ef2-1a2576800762"
+                  "Id": "ffbfcf95-6e62-45db-b698-4c2e362c0521"
                 },
                 "CommandList": [
                   {
@@ -125,7 +207,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Outline_Style3"
+        "TemplateKey": "_RS_Outline_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "CssName": ""
     }

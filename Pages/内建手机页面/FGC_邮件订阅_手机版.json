@@ -40,6 +40,20 @@
             "DisplayValue": "指定给我的记录被修改的时候发送通知"
           }
         ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ForguncyAttribute": "MailSubscription_Choice"
       }
     },
@@ -49,6 +63,20 @@
         "Text": "保存",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ForguncyAttribute": "MailSubscription_Button"
       }
     },
@@ -63,7 +91,21 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "_RS_Outline_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },

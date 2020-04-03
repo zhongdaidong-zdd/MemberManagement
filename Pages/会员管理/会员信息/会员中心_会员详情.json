@@ -87,6 +87,20 @@
     "4,2": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImageSizeMode": 0,
         "ImagePath": "Navigation/171_user_4.svg",
         "BuiltIn": true,
@@ -146,7 +160,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "76cfd063-42f4-4b15-9131-293f6f5f3353"
+                  "Id": "9154118f-b92b-459f-8d3e-a460fc591e7e"
                 },
                 "CommandList": [
                   {
@@ -190,7 +204,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "42af203f-2b8e-4193-a640-d049231fb6dc"
+                  "Id": "2709642a-fae3-40fc-a32d-5c8037d40db8"
                 },
                 "CommandList": [
                   {
@@ -284,7 +298,21 @@
             ]
           }
         ],
-        "ReadOnly": true
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -356,7 +384,21 @@
           }
         ],
         "Text": "充  值",
-        "TemplateKey": "_RS_Normal_Style3"
+        "TemplateKey": "_RS_Normal_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "10,11": {
@@ -387,7 +429,21 @@
           }
         ],
         "Text": "消  费",
-        "TemplateKey": "_RS_Normal_Style3"
+        "TemplateKey": "_RS_Normal_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "10,20": {
@@ -418,7 +474,21 @@
           }
         ],
         "Text": "积分兑换",
-        "TemplateKey": "_RS_Normal_Style3"
+        "TemplateKey": "_RS_Normal_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "10,29": {
@@ -576,7 +646,21 @@
           }
         ],
         "Text": "挂  失",
-        "TemplateKey": "_RS_Normal_Style3"
+        "TemplateKey": "_RS_Normal_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "10,38": {
@@ -607,7 +691,21 @@
           }
         ],
         "Text": "升  级",
-        "TemplateKey": "_RS_Normal_Style3"
+        "TemplateKey": "_RS_Normal_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "10,57": {
@@ -641,7 +739,21 @@
           }
         ],
         "Text": "编辑",
-        "TemplateKey": "_RS_Outline_Style3"
+        "TemplateKey": "_RS_Outline_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "16,8": {
@@ -710,7 +822,21 @@
           }
         ],
         "Text": "编辑",
-        "TemplateKey": "_RS_Outline_Style3"
+        "TemplateKey": "_RS_Outline_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "27,8": {
@@ -812,12 +938,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "1",
-          "Id": "abdb5ab1-a860-4b2a-883e-d5b433d843ca"
+          "Id": "71f98455-f5ba-489e-b2ab-a3e2fb8ecb0e"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "7d98ee6e-5953-4b95-ad83-c1e1bb525a9a"
+          "Id": "d9c2f5dc-d8cf-4ec9-b92e-a0a640d05c12"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -836,7 +962,7 @@
               "Order": 1
             }
           ],
-          "Id": "e2c882d0-7e48-4513-85b9-2aa424df3776"
+          "Id": "941947be-e332-46f7-b108-537c082391b9"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -895,7 +1021,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "ab9315c7-0c75-4aa6-b476-6196cfa6a938"
+                  "Id": "e1021b83-dc8c-46c7-bae7-d8364abe85af"
                 },
                 "CommandList": [
                   {
@@ -917,7 +1043,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "71df6baa-527a-41c9-81c2-9a93bf1c8f21"
+                  "Id": "da93e2a0-451d-4b55-8521-9f134138f168"
                 },
                 "CommandList": [
                   {
@@ -958,7 +1084,21 @@
           }
         ],
         "Text": "编辑",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "36,45": {
@@ -973,7 +1113,21 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "40,2": {
@@ -1032,12 +1186,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "2",
-          "Id": "66865ce0-588f-4d15-b381-5780da271406"
+          "Id": "ae22a96c-0eb4-4484-b1a2-87836fe5f7f9"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "d5d89a0a-de22-4127-8639-4e12230d12c4"
+          "Id": "0398239a-4ce4-48c5-a8e3-76c63b4d6f5f"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1056,7 +1210,7 @@
               "Order": 1
             }
           ],
-          "Id": "5338ba90-660a-4bb3-88b9-ccbd7359e594"
+          "Id": "79000fa0-bbe5-4b12-91c5-43c2518aa0be"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1115,7 +1269,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "7446ede5-88ef-493d-b04b-5dae8fc7fe41"
+                  "Id": "f5ae5afb-945c-4ada-bea4-591b071bd518"
                 },
                 "CommandList": [
                   {
@@ -1137,7 +1291,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "26337a81-bfc2-43e1-9bb7-3c4eee615cfc"
+                  "Id": "83572e25-c7cb-45e6-aa2a-dbdb5ffdc80f"
                 },
                 "CommandList": [
                   {
@@ -1178,7 +1332,21 @@
           }
         ],
         "Text": "编辑",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "45,45": {
@@ -1193,7 +1361,21 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "49,2": {
@@ -5458,7 +5640,7 @@
                 ]
               },
               "value": "失效",
-              "Id": "84cead5e-5ed2-47f3-9df5-5284f8ff3b5c"
+              "Id": "55c755ac-202f-476a-bb83-472c7e6b8468"
             },
             "CommandList": [
               {
@@ -5502,7 +5684,7 @@
                 ]
               },
               "value": "作废",
-              "Id": "8a4dcb40-d4f1-4551-a407-be37aa6dfd93"
+              "Id": "27d53d7b-a34d-4b08-a87e-52d4d85c407d"
             },
             "CommandList": [
               {

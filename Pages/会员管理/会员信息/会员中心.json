@@ -71,6 +71,20 @@
             },
             "Alignment": 2
           }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
         ]
       }
     },
@@ -81,12 +95,27 @@
           {
             "$type": "Forguncy.Model.RequestServerCommand, Forguncy",
             "ServerCommandName": "更新会员卡状态",
+            "Parameters": [],
             "RefreshAfterFinish": true,
             "CheckDataValidation": true
           }
         ],
         "Text": "更新会员卡状态",
-        "TemplateKey": "_RS_Normal_Style3"
+        "TemplateKey": "_RS_Normal_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "7,2": {
@@ -110,12 +139,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=会员中心!V4"
           },
-          "Id": "c1312cb6-580b-4e69-bbae-c592ea913e11"
+          "Id": "ccf800b5-8853-492f-a5f2-38ffa09175ac"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "d878e505-a681-423b-b0ee-35c11eb01859"
+          "Id": "9c0c5b64-7ef6-4051-82d3-d3bac175a9a3"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -127,7 +156,7 @@
               "Order": 1
             }
           ],
-          "Id": "845e2d7c-87ef-41ba-8b97-2bcae7a6363c"
+          "Id": "bca98f92-2e38-4c29-89de-22aa5c763194"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -146,7 +175,21 @@
             "LoadBindingDataOption": 1
           }
         ],
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -384,7 +427,21 @@
           }
         ],
         "Text": "删除",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },

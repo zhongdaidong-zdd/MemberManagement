@@ -34,31 +34,86 @@
             "Enabled": true
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员类型字典表",
         "ColumnName": "会员类型"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "4,8": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员类型字典表",
         "ColumnName": "说明"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "7,8": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "CellDefaultValue": 0
       },
       "BindingInfo": {
@@ -69,7 +124,12 @@
         "NumberType": 1,
         "CompareParamType": 6,
         "IgnoreBlank": false,
-        "FirstParamValue": "0"
+        "FirstParamValue": "0",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "9,8": {
@@ -78,6 +138,20 @@
         "DecimalPlacesNumber": 2,
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "WaterMark": "",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -87,7 +161,11 @@
       "DataValidationInfo": {
         "NumberType": 2,
         "FirstParamValue": "0",
-        "SecondParamValue": "1"
+        "SecondParamValue": "1",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "11,8": {
@@ -109,7 +187,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "dfb16f66-4d65-465b-b26c-c85fc41eff61"
+                  "Id": "a361f27b-d76a-4f73-8d05-959aab040a21"
                 },
                 "CommandList": [
                   {
@@ -135,7 +213,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "d1c1e8fa-8ec5-420a-a331-1611da05a3f8"
+                  "Id": "29db8063-da81-422a-bb2e-09bc34215c62"
                 },
                 "CommandList": [
                   {
@@ -156,7 +234,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Outline_Style3"
+        "TemplateKey": "_RS_Outline_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "CssName": ""
     }

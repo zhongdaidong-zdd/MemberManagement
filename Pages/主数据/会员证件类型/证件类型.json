@@ -28,26 +28,67 @@
             "Enabled": true
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "证件类型字典表",
         "ColumnName": "证件类型"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "4,6": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "证件类型字典表",
         "ColumnName": "说明"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "7,6": {
       "CellType": {
@@ -68,7 +109,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "259ad612-b97f-4b57-9206-0323b703647e"
+                  "Id": "9d29329f-6e59-45f9-880a-d8da16431f37"
                 },
                 "CommandList": [
                   {
@@ -94,7 +135,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "8b1e645d-3d6d-4a4b-bf05-758c604a2d44"
+                  "Id": "4e85a0e1-034f-4fdd-ae29-cad2656c9fdc"
                 },
                 "CommandList": [
                   {
@@ -115,7 +156,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Outline_Style3"
+        "TemplateKey": "_RS_Outline_Style3",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "CssName": ""
     }
