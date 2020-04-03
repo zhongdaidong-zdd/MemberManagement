@@ -121,7 +121,16 @@
   },
   {
     "ModuleName": "会员充值",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-03T14:37:03.1782821+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\会员管理\\充值\\会员充值.json"
+    ]
   },
   {
     "ModuleName": "会员充值列表",
