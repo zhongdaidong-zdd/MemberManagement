@@ -57,7 +57,16 @@
   },
   {
     "ModuleName": "支付类型",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-07T10:49:10.7778997+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\主数据\\支付类型\\支付类型.json"
+    ]
   },
   {
     "ModuleName": "支付类型列表",
