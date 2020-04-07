@@ -33,7 +33,16 @@
   },
   {
     "ModuleName": "证件类型",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DaisyYang",
+      "Email": "daisy.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-07T10:55:50.5768997+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\主数据\\会员证件类型\\证件类型.json"
+    ]
   },
   {
     "ModuleName": "证件类型列表",
