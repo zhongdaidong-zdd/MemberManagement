@@ -33,29 +33,11 @@
   },
   {
     "ModuleName": "证件类型",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T10:55:50.5768997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\会员证件类型\\证件类型.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "证件类型列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T10:51:48.1958997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\会员证件类型\\证件类型列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\主数据\\商品和服务",
@@ -63,29 +45,11 @@
   },
   {
     "ModuleName": "商品和服务列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T10:57:44.3428997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\商品和服务\\商品和服务列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "商品服务详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T11:03:43.2988997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\商品和服务\\商品服务详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\主数据\\支付类型",
@@ -93,29 +57,11 @@
   },
   {
     "ModuleName": "支付类型",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T10:49:10.7778997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\支付类型\\支付类型.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "支付类型列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T10:45:19.1508997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\支付类型\\支付类型列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\会员管理",

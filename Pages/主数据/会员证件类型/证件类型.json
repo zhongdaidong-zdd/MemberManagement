@@ -1,9 +1,11 @@
 {
   "Rows": {
     "Sizes": {
-      "2": 28.0,
-      "4": 28.0,
-      "5": 76.0
+      "2": 30.0,
+      "3": 15.0,
+      "4": 30.0,
+      "5": 76.0,
+      "9": 30.0
     },
     "InLogicalVisibleIndexes": [
       0
@@ -11,12 +13,12 @@
     "Count": 11
   },
   "Cols": {
-    "Count": 18
+    "Count": 19
   },
   "Values": {
     "2,1": "证件类型",
     "4,1": "说明",
-    "7,6": "确定"
+    "9,12": "确定"
   },
   "AttachInfos": {
     "2,6": {
@@ -90,7 +92,7 @@
         "SelectedDefaultRegularExpression": ""
       }
     },
-    "7,6": {
+    "9,12": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
@@ -109,7 +111,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "9d29329f-6e59-45f9-880a-d8da16431f37"
+                  "Id": "36a9a0d6-d5a5-40de-868f-ea42383db53b"
                 },
                 "CommandList": [
                   {
@@ -135,7 +137,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "4e85a0e1-034f-4fdd-ae29-cad2656c9fdc"
+                  "Id": "c9a7cb9d-59ee-4eea-a447-685b51ac606c"
                 },
                 "CommandList": [
                   {
@@ -156,7 +158,7 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Outline_Style3",
+        "TemplateKey": "_RS_Normal_Style2",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -181,7 +183,9 @@
         "FontFamily": 0,
         "FontSize": 14.666666984558105,
         "FontWeight": 1,
-        "Formatter": 2,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -203,52 +207,30 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "BorderBottom": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "BorderBottom": 0,
-        "BorderTop": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
         "BorderLeft": null,
-        "BorderRight": 0
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666984558105,
-        "FontWeight": 1
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 4
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "VerticalAlignment": 4,
+        "VerticalAlignment": 5,
         "WordWrap": true,
         "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": 0
-      },
-      {
-        "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
@@ -256,7 +238,13 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Formatter": 2,
+        "VerticalAlignment": 5,
+        "WordWrap": true
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "Formatter": 3,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -267,44 +255,29 @@
         "FontSize": 13.333333015441895,
         "BorderBottom": null,
         "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderLeft": null
       },
       {
-        "BorderBottom": 0,
+        "BorderBottom": null,
         "BorderTop": null,
-        "BorderLeft": 0,
         "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 0
       },
       {
         "FontFamily": null
+      },
+      {
+        "FontFamily": 6
       }
     ],
     "Types": {
       "Strs": [
         "微软雅黑",
         "Bold",
+        "Text 1 50",
         "[AUTO]General",
-        "#FFA9A9A9",
+        "Right",
         "Top",
         "宋体"
-      ],
-      "Borders": [
-        {
-          "Color": 3
-        }
       ]
     },
     "CellStyles": {
@@ -323,54 +296,60 @@
       "2,13": 4,
       "2,14": 4,
       "2,15": 4,
-      "2,16": 5,
-      "3,1": 6,
-      "3,2": 6,
-      "3,3": 6,
-      "3,4": 6,
+      "2,16": 4,
+      "2,17": 2,
+      "3,1": 5,
+      "3,2": 5,
+      "3,3": 5,
+      "3,4": 5,
       "3,5": 2,
-      "3,6": 2,
-      "3,7": 2,
-      "3,8": 2,
-      "3,9": 2,
-      "3,10": 2,
-      "3,11": 2,
-      "3,12": 2,
-      "3,13": 2,
+      "3,6": 3,
+      "3,7": 3,
+      "3,8": 3,
+      "3,9": 3,
+      "3,10": 3,
+      "3,11": 3,
+      "3,12": 3,
+      "3,13": 3,
+      "3,14": 4,
+      "3,15": 4,
+      "3,16": 4,
       "4,1": 0,
       "4,2": 1,
       "4,3": 1,
       "4,4": 1,
       "4,5": 2,
-      "4,6": 7,
-      "4,7": 8,
-      "4,8": 8,
-      "4,9": 8,
-      "4,10": 8,
-      "4,11": 8,
-      "4,12": 8,
-      "4,13": 8,
-      "4,14": 8,
-      "4,15": 8,
-      "4,16": 9,
-      "5,0": 10,
-      "5,1": 11,
-      "5,2": 12,
-      "5,3": 12,
-      "5,4": 12,
-      "5,5": 12,
-      "5,6": 13,
-      "5,7": 14,
-      "5,8": 14,
-      "5,9": 14,
-      "5,10": 14,
-      "5,11": 14,
-      "5,12": 14,
-      "5,13": 14,
-      "5,14": 14,
-      "5,15": 14,
-      "5,16": 15,
-      "5,17": 10,
+      "4,6": 6,
+      "4,7": 4,
+      "4,8": 4,
+      "4,9": 4,
+      "4,10": 4,
+      "4,11": 4,
+      "4,12": 4,
+      "4,13": 4,
+      "4,14": 4,
+      "4,15": 4,
+      "4,16": 4,
+      "4,17": 7,
+      "5,0": 4,
+      "5,1": 8,
+      "5,2": 3,
+      "5,3": 3,
+      "5,4": 3,
+      "5,5": 9,
+      "5,6": 4,
+      "5,7": 4,
+      "5,8": 4,
+      "5,9": 4,
+      "5,10": 4,
+      "5,11": 4,
+      "5,12": 4,
+      "5,13": 4,
+      "5,14": 4,
+      "5,15": 4,
+      "5,16": 4,
+      "5,17": 7,
+      "5,18": 10,
       "6,1": 2,
       "6,2": 2,
       "6,3": 2,
@@ -384,10 +363,16 @@
       "6,11": 2,
       "6,12": 2,
       "6,13": 2,
-      "7,6": 16
+      "7,17": 11,
+      "8,17": 11,
+      "9,12": 11,
+      "9,13": 12,
+      "9,14": 12,
+      "9,15": 12,
+      "9,16": 12
     },
     "SheetStyle": {
-      "FontFamily": 5
+      "FontFamily": 6
     }
   },
   "Spans": [
@@ -395,7 +380,18 @@
     "4,1,1,4",
     "2,6,1,11",
     "4,6,2,11",
-    "7,6,2,11"
+    "9,12,1,5"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Name": "362e38be-59a9-4ee6-b8d5-f73560d307aa.png",
+      "Location": "0,231",
+      "Size": "380,70"
+    }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
