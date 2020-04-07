@@ -2,15 +2,19 @@
   "Rows": {
     "Sizes": {
       "2": 28.0,
+      "3": 15.0,
       "4": 28.0,
       "5": 100.0,
+      "6": 15.0,
       "7": 28.0,
-      "9": 28.0
+      "8": 15.0,
+      "9": 28.0,
+      "13": 30.0
     },
     "InLogicalVisibleIndexes": [
       0
     ],
-    "Count": 14
+    "Count": 15
   },
   "Cols": {
     "Count": 20
@@ -22,7 +26,7 @@
     "7,8": 0,
     "9,1": "折上折比例",
     "9,8": 1,
-    "11,8": "确定"
+    "13,13": "确定"
   },
   "AttachInfos": {
     "2,8": {
@@ -168,7 +172,7 @@
         "SelectedDefaultRegularExpression": ""
       }
     },
-    "11,8": {
+    "13,13": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
@@ -187,7 +191,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "a361f27b-d76a-4f73-8d05-959aab040a21"
+                  "Id": "86b41f77-95ce-4d7d-b279-12eac356bc7b"
                 },
                 "CommandList": [
                   {
@@ -213,7 +217,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "29db8063-da81-422a-bb2e-09bc34215c62"
+                  "Id": "c11d74f2-2f28-4a5e-8a61-87ef1d7eeb03"
                 },
                 "CommandList": [
                   {
@@ -234,7 +238,7 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Outline_Style3",
+        "TemplateKey": "_RS_Normal_Style2",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -259,7 +263,9 @@
         "FontFamily": 0,
         "FontSize": 14.666666984558105,
         "FontWeight": 1,
-        "Formatter": 2,
+        "Foreground": 2,
+        "Formatter": 3,
+        "HorizontalAlignment": 4,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -281,51 +287,40 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "BorderBottom": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "BorderBottom": 0,
-        "BorderTop": 0,
+        "BorderBottom": null,
+        "BorderTop": null,
         "BorderLeft": null,
-        "BorderRight": 0
+        "BorderRight": null
       },
       {
         "FontFamily": 0,
         "FontSize": 14.666666984558105,
-        "FontWeight": 1
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 4
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "VerticalAlignment": 4,
+        "VerticalAlignment": 5,
         "WordWrap": true,
         "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": 0,
+        "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": 0
-      },
-      {
+        "FontFamily": 0,
+        "FontSize": 14.666666984558105,
+        "FontWeight": 1,
+        "Foreground": 2,
+        "HorizontalAlignment": 4,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -336,49 +331,28 @@
         "FontSize": 13.333333015441895,
         "BorderBottom": null,
         "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
+        "BorderLeft": null
       },
       {
-        "BorderBottom": 0,
+        "BorderBottom": null,
         "BorderTop": null,
-        "BorderLeft": 0,
         "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 0
       },
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Formatter": 5,
-        "BorderBottom": 0,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "Formatter": 5,
-        "BorderBottom": 0,
-        "BorderTop": 0,
+        "Formatter": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
       },
       {
-        "Formatter": 5,
-        "BorderBottom": 0,
-        "BorderTop": 0,
+        "Formatter": 6,
+        "BorderBottom": null,
+        "BorderTop": null,
         "BorderLeft": null,
-        "BorderRight": 0
+        "BorderRight": null
       },
       {
         "BorderBottom": null
@@ -387,25 +361,28 @@
         "BorderRight": null
       },
       {
+        "BorderLeft": null
+      },
+      {
         "FontFamily": null
       },
       {
-        "BorderLeft": null
+        "FontFamily": 7
       },
       {
         "BorderTop": null
       },
       {
         "Background": null,
-        "FontFamily": 6,
-        "FontStretch": 7,
-        "FontStyle": 7,
-        "FontWeight": 7,
+        "FontFamily": 7,
+        "FontStretch": 8,
+        "FontStyle": 8,
+        "FontWeight": 8,
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 9,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false,
@@ -419,19 +396,15 @@
       "Strs": [
         "微软雅黑",
         "Bold",
+        "Text 1 50",
         "[AUTO]General",
-        "#FFA9A9A9",
+        "Right",
         "Top",
         "0%",
         "宋体",
         "Normal",
         "General",
         "Center"
-      ],
-      "Borders": [
-        {
-          "Color": 3
-        }
       ]
     },
     "CellStyles": {
@@ -451,22 +424,24 @@
       "2,14": 4,
       "2,15": 4,
       "2,16": 4,
-      "2,17": 5,
-      "3,1": 6,
-      "3,2": 6,
-      "3,3": 6,
-      "3,4": 6,
-      "3,5": 6,
-      "3,6": 6,
+      "2,17": 4,
+      "3,1": 5,
+      "3,2": 5,
+      "3,3": 5,
+      "3,4": 5,
+      "3,5": 5,
+      "3,6": 5,
       "3,7": 2,
-      "3,8": 2,
-      "3,9": 2,
-      "3,10": 2,
-      "3,11": 2,
-      "3,12": 2,
-      "3,13": 2,
-      "3,14": 2,
-      "3,15": 2,
+      "3,8": 3,
+      "3,9": 3,
+      "3,10": 3,
+      "3,11": 3,
+      "3,12": 3,
+      "3,13": 3,
+      "3,14": 3,
+      "3,15": 3,
+      "3,16": 4,
+      "3,17": 4,
       "4,1": 0,
       "4,2": 1,
       "4,3": 1,
@@ -474,64 +449,64 @@
       "4,5": 1,
       "4,6": 1,
       "4,7": 2,
-      "4,8": 7,
-      "4,9": 8,
-      "4,10": 8,
-      "4,11": 8,
-      "4,12": 8,
-      "4,13": 8,
-      "4,14": 8,
-      "4,15": 8,
-      "4,16": 8,
-      "4,17": 9,
-      "5,0": 10,
+      "4,8": 6,
+      "4,9": 4,
+      "4,10": 4,
+      "4,11": 4,
+      "4,12": 4,
+      "4,13": 4,
+      "4,14": 4,
+      "4,15": 4,
+      "4,16": 4,
+      "4,17": 4,
+      "5,0": 4,
       "5,1": 0,
-      "5,2": 1,
-      "5,3": 1,
-      "5,4": 1,
-      "5,5": 1,
-      "5,6": 1,
-      "5,7": 11,
-      "5,8": 12,
-      "5,9": 13,
-      "5,10": 13,
-      "5,11": 13,
-      "5,12": 13,
-      "5,13": 13,
-      "5,14": 13,
-      "5,15": 13,
-      "5,16": 13,
-      "5,17": 14,
-      "5,18": 10,
-      "5,19": 10,
-      "6,0": 10,
+      "5,2": 7,
+      "5,3": 7,
+      "5,4": 7,
+      "5,5": 7,
+      "5,6": 7,
+      "5,7": 8,
+      "5,8": 4,
+      "5,9": 4,
+      "5,10": 4,
+      "5,11": 4,
+      "5,12": 4,
+      "5,13": 4,
+      "5,14": 4,
+      "5,15": 4,
+      "5,16": 4,
+      "5,17": 4,
+      "5,18": 9,
+      "5,19": 4,
+      "6,0": 4,
       "6,1": 0,
-      "6,2": 1,
-      "6,3": 1,
-      "6,4": 1,
-      "6,5": 1,
-      "6,6": 1,
-      "6,7": 11,
-      "6,8": 10,
-      "6,9": 10,
-      "6,10": 10,
-      "6,11": 10,
-      "6,12": 10,
-      "6,13": 10,
-      "6,14": 10,
-      "6,15": 10,
-      "6,16": 10,
-      "6,17": 10,
-      "6,18": 10,
-      "6,19": 10,
-      "7,0": 10,
+      "6,2": 7,
+      "6,3": 7,
+      "6,4": 7,
+      "6,5": 7,
+      "6,6": 7,
+      "6,7": 8,
+      "6,8": 4,
+      "6,9": 4,
+      "6,10": 4,
+      "6,11": 4,
+      "6,12": 4,
+      "6,13": 4,
+      "6,14": 4,
+      "6,15": 4,
+      "6,16": 4,
+      "6,17": 4,
+      "6,18": 9,
+      "6,19": 4,
+      "7,0": 4,
       "7,1": 0,
       "7,2": 1,
       "7,3": 1,
       "7,4": 1,
       "7,5": 1,
       "7,6": 1,
-      "7,7": 11,
+      "7,7": 8,
       "7,8": 3,
       "7,9": 4,
       "7,10": 4,
@@ -542,23 +517,25 @@
       "7,15": 4,
       "7,16": 4,
       "7,17": 4,
-      "7,18": 10,
-      "7,19": 10,
-      "8,1": 6,
-      "8,2": 6,
-      "8,3": 6,
-      "8,4": 6,
-      "8,5": 6,
-      "8,6": 6,
+      "7,18": 9,
+      "7,19": 4,
+      "8,1": 5,
+      "8,2": 5,
+      "8,3": 5,
+      "8,4": 5,
+      "8,5": 5,
+      "8,6": 5,
       "8,7": 2,
-      "8,8": 2,
-      "8,9": 2,
-      "8,10": 2,
-      "8,11": 2,
-      "8,12": 2,
-      "8,13": 2,
-      "8,14": 2,
-      "8,15": 2,
+      "8,8": 3,
+      "8,9": 3,
+      "8,10": 3,
+      "8,11": 3,
+      "8,12": 3,
+      "8,13": 3,
+      "8,14": 3,
+      "8,15": 3,
+      "8,16": 4,
+      "8,17": 4,
       "9,1": 0,
       "9,2": 1,
       "9,3": 1,
@@ -566,44 +543,53 @@
       "9,5": 1,
       "9,6": 1,
       "9,7": 2,
-      "9,8": 15,
-      "9,9": 16,
-      "9,10": 16,
-      "9,11": 16,
-      "9,12": 16,
-      "9,13": 16,
-      "9,14": 16,
-      "9,15": 16,
-      "9,16": 16,
-      "9,17": 17,
-      "10,8": 18,
-      "10,9": 18,
-      "10,10": 18,
-      "10,11": 18,
-      "10,12": 18,
-      "10,13": 18,
-      "10,14": 18,
-      "10,15": 18,
-      "10,16": 18,
-      "10,17": 18,
-      "11,7": 19,
-      "11,8": 20,
-      "11,18": 21,
-      "12,7": 19,
-      "12,18": 21,
-      "13,8": 22,
-      "13,9": 22,
-      "13,10": 23,
-      "13,11": 23,
-      "13,12": 23,
-      "13,13": 23,
-      "13,14": 23,
-      "13,15": 23,
-      "13,16": 23,
-      "13,17": 23
+      "9,8": 10,
+      "9,9": 11,
+      "9,10": 11,
+      "9,11": 11,
+      "9,12": 11,
+      "9,13": 11,
+      "9,14": 11,
+      "9,15": 11,
+      "9,16": 11,
+      "9,17": 11,
+      "10,8": 12,
+      "10,9": 12,
+      "10,10": 12,
+      "10,11": 12,
+      "10,12": 12,
+      "10,13": 12,
+      "10,14": 12,
+      "10,15": 12,
+      "10,16": 12,
+      "10,17": 12,
+      "11,7": 13,
+      "11,18": 14,
+      "12,8": 15,
+      "12,9": 15,
+      "12,10": 15,
+      "12,11": 15,
+      "12,12": 15,
+      "13,7": 13,
+      "13,13": 15,
+      "13,14": 16,
+      "13,15": 16,
+      "13,16": 16,
+      "13,17": 16,
+      "13,18": 14,
+      "14,8": 17,
+      "14,9": 17,
+      "14,10": 18,
+      "14,11": 18,
+      "14,12": 18,
+      "14,13": 18,
+      "14,14": 18,
+      "14,15": 18,
+      "14,16": 18,
+      "14,17": 18
     },
     "SheetStyle": {
-      "FontFamily": 6
+      "FontFamily": 7
     }
   },
   "Spans": [
@@ -615,7 +601,18 @@
     "9,8,1,10",
     "7,1,1,6",
     "7,8,1,10",
-    "11,8,2,10"
+    "13,13,1,5"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Name": "b2a76dc9-1e3d-4fc9-bf9c-4d6385daa924.png",
+      "Location": "0,337",
+      "Size": "400,70"
+    }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
