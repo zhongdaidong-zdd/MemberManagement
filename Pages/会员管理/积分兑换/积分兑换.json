@@ -1,8 +1,20 @@
 {
   "Rows": {
     "Sizes": {
-      "0": 30.0
+      "1": 30.0,
+      "2": 15.0,
+      "3": 30.0,
+      "4": 15.0,
+      "5": 30.0,
+      "9": 30.0
     },
+    "InLogicalVisibleIndexes": [
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
     "Count": 16
   },
   "Cols": {
@@ -21,18 +33,18 @@
     "Count": 28
   },
   "Values": {
-    "1,2": "会员原积分",
-    "4,2": "扣除积分",
-    "4,7": 1,
-    "7,1": "扣除后增加金额",
-    "11,7": "取 消",
-    "11,16": "确 定"
+    "1,3": "会员原积分",
+    "3,3": "扣除积分",
+    "3,9": 1,
+    "5,2": "扣除后增加金额",
+    "9,12": "取 消",
+    "9,18": "确 定"
   },
   "Formulas": {
-    "7,7": "H5*20"
+    "5,9": "J4*20"
   },
   "AttachInfos": {
-    "1,7": {
+    "1,9": {
       "CellType": {
         "$type": "Forguncy.TextCellType, Forguncy",
         "SavedValidators": [
@@ -76,7 +88,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "d6bb317f-4d35-4b73-911d-6c22c48dae28"
+          "Id": "2d5ad4f4-7b82-4add-8030-63b1f47bd07d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -84,25 +96,7 @@
         "ListViewStyleName": "_RS_Medium2"
       }
     },
-    "3,25": {
-      "BindingInfo": {
-        "TableName": "会员信息表",
-        "ColumnName": "ID"
-      }
-    },
-    "3,26": {
-      "BindingInfo": {
-        "TableName": "会员信息表",
-        "ColumnName": "金额"
-      }
-    },
-    "3,27": {
-      "BindingInfo": {
-        "TableName": "会员信息表",
-        "ColumnName": "会员编号"
-      }
-    },
-    "4,7": {
+    "3,9": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
@@ -133,7 +127,7 @@
         "FirstParamValue": "1",
         "SecondParamValue": {
           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-          "SerializeProperty": "=积分兑换!H2"
+          "SerializeProperty": "=积分兑换!J2"
         },
         "InputMessageTitle": "",
         "InputMessage": "",
@@ -141,7 +135,25 @@
         "SelectedDefaultRegularExpression": ""
       }
     },
-    "7,7": {
+    "3,25": {
+      "BindingInfo": {
+        "TableName": "会员信息表",
+        "ColumnName": "ID"
+      }
+    },
+    "3,26": {
+      "BindingInfo": {
+        "TableName": "会员信息表",
+        "ColumnName": "金额"
+      }
+    },
+    "3,27": {
+      "BindingInfo": {
+        "TableName": "会员信息表",
+        "ColumnName": "会员编号"
+      }
+    },
+    "5,9": {
       "CellType": {
         "$type": "Forguncy.TextCellType, Forguncy",
         "SavedValidators": [
@@ -170,7 +182,7 @@
         "ColumnName": "增加金额"
       }
     },
-    "11,7": {
+    "9,12": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
@@ -179,7 +191,7 @@
           }
         ],
         "Text": "取 消",
-        "TemplateKey": "_RS_Outline_Style3",
+        "TemplateKey": "_RS_Outline_Style2",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -196,7 +208,7 @@
         ]
       }
     },
-    "11,16": {
+    "9,18": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
@@ -215,7 +227,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "2ced13c1-cba2-4415-9ea2-096f585a1ceb"
+                  "Id": "aafa05d7-2295-412a-8af7-7bebd19cca67"
                 },
                 "CommandList": [
                   {
@@ -243,14 +255,14 @@
                         "ColumnName": "会员交易积分",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!H5"
+                          "SerializeProperty": "=积分兑换!J4"
                         }
                       },
                       {
                         "ColumnName": "增加金额",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!H8"
+                          "SerializeProperty": "=积分兑换!J6"
                         }
                       }
                     ]
@@ -265,14 +277,14 @@
                         "ColumnName": "金额",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!AA4+积分兑换!H8"
+                          "SerializeProperty": "=积分兑换!AA4+积分兑换!J6"
                         }
                       },
                       {
                         "ColumnName": "积分",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!H2-积分兑换!H5"
+                          "SerializeProperty": "=积分兑换!J2-积分兑换!J4"
                         }
                       }
                     ]
@@ -292,14 +304,14 @@
                         "ColumnName": "金额",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!AA4+积分兑换!H8-积分兑换!AA14"
+                          "SerializeProperty": "=积分兑换!AA4+积分兑换!J6-积分兑换!AA14"
                         }
                       },
                       {
                         "ColumnName": "积分",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!H2+积分兑换!Z14-积分兑换!H5"
+                          "SerializeProperty": "=积分兑换!J2+积分兑换!Z14-积分兑换!J4"
                         }
                       }
                     ]
@@ -314,14 +326,14 @@
                         "ColumnName": "会员交易积分",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!H5"
+                          "SerializeProperty": "=积分兑换!J4"
                         }
                       },
                       {
                         "ColumnName": "增加金额",
                         "Value": {
                           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!H8"
+                          "SerializeProperty": "=积分兑换!J6"
                         }
                       }
                     ]
@@ -337,7 +349,7 @@
           }
         ],
         "Text": "确 定",
-        "TemplateKey": "_RS_Normal_Style3",
+        "TemplateKey": "_RS_Normal_Style2",
         "UIPermissions": [
           {
             "Scope": 2,
@@ -408,13 +420,247 @@
       },
       {
         "Background": null,
-        "FontFamily": 4,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 5,
         "FontSize": 14.666666984558105,
         "FontStretch": 1,
         "FontStyle": 1,
-        "FontWeight": 5,
-        "Foreground": 6,
-        "Formatter": 7,
+        "FontWeight": 6,
+        "Foreground": 7,
+        "Formatter": 8,
+        "TextIndent": 0,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 12.0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Formatter": 9,
+        "TextIndent": 10,
+        "HorizontalAlignment": 10,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": 0,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 5,
+        "FontSize": 14.666666984558105,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 6,
+        "Foreground": 7,
+        "Formatter": 8,
+        "TextIndent": 0,
+        "HorizontalAlignment": 4,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null
+      },
+      {
+        "FontFamily": 5,
+        "FontSize": 12.0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Formatter": null,
+        "TextIndent": 50,
+        "HorizontalAlignment": 10,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": null
+      },
+      {
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "Foreground": 7,
+        "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "BorderRight": 0
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 12.0,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": 1
+      },
+      {
+        "FontFamily": null,
+        "FontSize": -1.0,
+        "BorderBottom": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
+      },
+      {
+        "Background": null,
+        "FontFamily": 5,
+        "FontSize": 14.666666984558105,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 6,
+        "Foreground": 13,
+        "Formatter": 8,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "VerticalAlignment": 3,
@@ -427,26 +673,49 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 4,
+        "BorderTop": null
+      },
+      {
+        "Background": null,
+        "FontFamily": 0,
         "FontSize": 12.0,
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Formatter": 8,
-        "TextIndent": 10,
-        "HorizontalAlignment": 9,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
         "VerticalAlignment": 3,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false,
-        "BorderTop": 0,
-        "BorderLeft": 0
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
       },
       {
-        "BorderTop": 0
+        "Background": null,
+        "FontFamily": 0,
+        "FontStretch": 1,
+        "FontStyle": 1,
+        "FontWeight": 1,
+        "Foreground": null,
+        "Formatter": null,
+        "TextIndent": 0,
+        "HorizontalAlignment": 2,
+        "VerticalAlignment": 3,
+        "WordWrap": false,
+        "Underline": false,
+        "Strikethrough": false,
+        "BorderBottom": 0,
+        "BorderTop": null,
+        "BorderLeft": 0,
+        "BorderRight": 0
       },
       {
-        "BorderTop": 0,
+        "BorderBottom": 0,
         "BorderRight": 0
       },
       {
@@ -457,121 +726,19 @@
         "BorderBottom": 0
       },
       {
-        "BorderBottom": 0,
-        "BorderRight": 0
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": 1,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "Background": null,
-        "FontFamily": 0,
-        "FontSize": 12.0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 0,
-        "HorizontalAlignment": 2,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
         "BorderRight": null
       },
       {
         "Background": null,
-        "FontFamily": 0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 0,
-        "HorizontalAlignment": 2,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": 1,
-        "BorderRight": null
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 1
-      },
-      {
-        "FontFamily": 4,
+        "FontFamily": 5,
         "FontSize": 12.0,
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Formatter": null,
-        "TextIndent": 50,
-        "HorizontalAlignment": 9,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 12.0,
-        "TextIndent": 30,
-        "HorizontalAlignment": 9,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 12.0,
-        "TextIndent": 30,
-        "HorizontalAlignment": 9,
-        "BorderBottom": null,
-        "BorderTop": 0,
-        "BorderLeft": null,
-        "BorderRight": 0
-      },
-      {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 12.0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": 12,
+        "Foreground": 14,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 9,
+        "HorizontalAlignment": 10,
         "VerticalAlignment": 3,
         "WordWrap": false,
         "Underline": false,
@@ -580,142 +747,10 @@
         "BorderTop": null,
         "BorderLeft": null,
         "BorderRight": null
-      },
-      {
-        "BorderLeft": 1,
-        "BorderRight": 1
-      },
-      {
-        "BorderRight": 1
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 12.0,
-        "TextIndent": 30,
-        "HorizontalAlignment": 9,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": 0,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 12.0,
-        "TextIndent": 30,
-        "HorizontalAlignment": 9,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 12.0,
-        "TextIndent": 30,
-        "HorizontalAlignment": 9,
-        "BorderBottom": 0,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 0
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 12.0,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "Background": null,
-        "FontFamily": 4,
-        "FontSize": 14.666666984558105,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 5,
-        "Foreground": 6,
-        "Formatter": 7,
-        "TextIndent": 0,
-        "HorizontalAlignment": 3,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": 0
-      },
-      {
-        "Background": null,
-        "FontFamily": 0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 0,
-        "HorizontalAlignment": 2,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": 1,
-        "BorderRight": 1
-      },
-      {
-        "BorderTop": null
       },
       {
         "BorderBottom": null,
         "BorderTop": null
-      },
-      {
-        "Background": null,
-        "FontFamily": 0,
-        "FontStretch": 1,
-        "FontStyle": 1,
-        "FontWeight": 1,
-        "Foreground": null,
-        "Formatter": null,
-        "TextIndent": 0,
-        "HorizontalAlignment": 2,
-        "VerticalAlignment": 3,
-        "WordWrap": false,
-        "Underline": false,
-        "Strikethrough": false,
-        "BorderBottom": 1,
-        "BorderTop": null,
-        "BorderLeft": 1,
-        "BorderRight": 1
-      },
-      {
-        "BorderBottom": 1,
-        "BorderRight": 1
-      },
-      {
-        "BorderBottom": null
-      },
-      {
-        "BorderBottom": 1,
-        "BorderLeft": 1
-      },
-      {
-        "BorderBottom": 1
-      },
-      {
-        "BorderRight": null
-      },
-      {
-        "FontFamily": null,
-        "FontSize": -1.0
-      },
-      {
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderRight": null
       },
       {
         "BorderBottom": null,
@@ -723,10 +758,10 @@
         "BorderLeft": null
       },
       {
-        "FontFamily": 4,
+        "FontFamily": 5,
         "FontSize": 14.666666984558105,
-        "Foreground": 13,
-        "Formatter": 7,
+        "Foreground": 15,
+        "Formatter": 8,
         "TextIndent": 0,
         "HorizontalAlignment": 3,
         "Underline": false,
@@ -742,23 +777,25 @@
         "Normal",
         "General",
         "Center",
+        "Right",
         "微软雅黑",
         "Bold",
-        "#FF000000",
+        "Text 1 50",
         "[AUTO]General",
         "@",
         "Left",
-        "#FFEBEBEB",
         "#FFA9A9A9",
+        "#FFEBEBEB",
+        "#FF000000",
         "#FF2B2B2B",
         "#FF0000FF"
       ],
       "Borders": [
         {
-          "Color": 10
+          "Color": 11
         },
         {
-          "Color": 11
+          "Color": 12
         }
       ]
     },
@@ -771,350 +808,300 @@
       "0,6": 1,
       "0,7": 1,
       "0,8": 1,
-      "0,9": 1,
-      "0,10": 1,
-      "0,11": 1,
-      "0,12": 1,
-      "0,13": 1,
-      "0,14": 1,
-      "0,15": 1,
-      "0,16": 1,
-      "0,17": 1,
-      "0,18": 1,
-      "0,19": 1,
-      "0,20": 1,
-      "0,21": 1,
-      "0,22": 1,
+      "0,9": 2,
+      "0,10": 2,
+      "0,11": 2,
+      "0,12": 2,
+      "0,13": 2,
+      "0,14": 2,
+      "0,15": 2,
+      "0,16": 2,
+      "0,17": 2,
+      "0,18": 2,
+      "0,19": 2,
+      "0,20": 2,
+      "0,21": 2,
+      "0,22": 2,
       "0,23": 1,
       "0,24": 1,
       "0,25": 1,
       "0,26": 1,
       "0,27": 1,
       "1,0": 1,
-      "1,1": 0,
-      "1,2": 2,
-      "1,3": 2,
-      "1,4": 2,
-      "1,5": 2,
-      "1,6": 2,
-      "1,7": 3,
-      "1,8": 4,
-      "1,9": 4,
-      "1,10": 4,
-      "1,11": 4,
-      "1,12": 4,
-      "1,13": 4,
-      "1,14": 4,
-      "1,15": 4,
-      "1,16": 4,
-      "1,17": 4,
-      "1,18": 4,
-      "1,19": 4,
-      "1,20": 4,
-      "1,21": 5,
-      "1,22": 0,
-      "1,23": 0,
+      "1,2": 3,
+      "1,3": 4,
+      "1,9": 5,
+      "1,10": 6,
+      "1,11": 6,
+      "1,12": 6,
+      "1,13": 6,
+      "1,14": 6,
+      "1,15": 6,
+      "1,16": 6,
+      "1,17": 6,
+      "1,18": 6,
+      "1,19": 6,
+      "1,20": 6,
+      "1,21": 6,
+      "1,22": 6,
+      "1,23": 7,
       "1,24": 0,
       "1,25": 0,
       "1,26": 0,
       "1,27": 0,
-      "2,1": 0,
-      "2,2": 2,
-      "2,3": 2,
-      "2,4": 2,
-      "2,5": 2,
-      "2,6": 2,
-      "2,7": 6,
-      "2,8": 7,
-      "2,9": 7,
-      "2,10": 7,
-      "2,11": 7,
-      "2,12": 7,
-      "2,13": 7,
-      "2,14": 7,
-      "2,15": 7,
-      "2,16": 7,
-      "2,17": 7,
-      "2,18": 7,
-      "2,19": 7,
-      "2,20": 7,
-      "2,21": 8,
-      "2,22": 0,
-      "2,23": 0,
+      "2,1": 8,
+      "2,2": 8,
+      "2,3": 8,
+      "2,4": 8,
+      "2,5": 8,
+      "2,6": 8,
+      "2,7": 8,
+      "2,8": 8,
+      "2,9": 9,
+      "2,10": 9,
+      "2,11": 9,
+      "2,12": 9,
+      "2,13": 9,
+      "2,14": 9,
+      "2,15": 9,
+      "2,16": 9,
+      "2,17": 9,
+      "2,18": 9,
+      "2,19": 9,
+      "2,20": 9,
+      "2,21": 9,
+      "2,22": 9,
+      "2,23": 8,
       "2,24": 0,
-      "2,25": 9,
-      "2,26": 10,
-      "2,27": 11,
+      "2,25": 10,
+      "2,26": 11,
+      "2,27": 12,
       "3,0": 0,
-      "3,1": 0,
-      "3,2": 12,
-      "3,3": 12,
-      "3,4": 12,
-      "3,5": 12,
-      "3,6": 12,
-      "3,7": 12,
-      "3,8": 12,
-      "3,9": 12,
-      "3,10": 12,
-      "3,11": 12,
-      "3,12": 12,
-      "3,13": 12,
-      "3,14": 12,
-      "3,15": 12,
-      "3,16": 12,
-      "3,17": 12,
-      "3,18": 12,
-      "3,19": 12,
-      "3,20": 12,
-      "3,21": 12,
-      "3,22": 1,
-      "3,23": 1,
+      "3,1": 8,
+      "3,2": 8,
+      "3,3": 13,
+      "3,4": 6,
+      "3,5": 6,
+      "3,6": 6,
+      "3,7": 6,
+      "3,8": 14,
+      "3,9": 15,
+      "3,10": 6,
+      "3,11": 6,
+      "3,12": 6,
+      "3,13": 6,
+      "3,14": 6,
+      "3,15": 6,
+      "3,16": 6,
+      "3,17": 6,
+      "3,18": 6,
+      "3,19": 6,
+      "3,20": 6,
+      "3,21": 6,
+      "3,22": 6,
+      "3,23": 16,
       "3,24": 1,
-      "3,25": 13,
+      "3,25": 17,
       "3,26": 0,
-      "3,27": 14,
+      "3,27": 18,
       "4,0": 0,
-      "4,1": 0,
-      "4,2": 2,
-      "4,3": 2,
-      "4,4": 2,
-      "4,5": 2,
-      "4,6": 2,
-      "4,7": 15,
-      "4,8": 16,
-      "4,9": 16,
-      "4,10": 16,
-      "4,11": 16,
-      "4,12": 16,
-      "4,13": 16,
-      "4,14": 16,
-      "4,15": 16,
-      "4,16": 16,
-      "4,17": 16,
-      "4,18": 16,
-      "4,19": 16,
-      "4,20": 16,
-      "4,21": 17,
-      "4,22": 18,
+      "4,2": 19,
       "4,23": 1,
       "4,24": 1,
-      "4,25": 19,
-      "4,26": 20,
-      "4,27": 20,
+      "4,25": 20,
+      "4,26": 21,
+      "4,27": 21,
       "5,0": 0,
-      "5,1": 0,
-      "5,2": 2,
-      "5,3": 2,
-      "5,4": 2,
-      "5,5": 2,
-      "5,6": 2,
-      "5,7": 21,
-      "5,8": 22,
-      "5,9": 22,
-      "5,10": 22,
-      "5,11": 22,
-      "5,12": 22,
-      "5,13": 22,
-      "5,14": 22,
-      "5,15": 22,
-      "5,16": 22,
-      "5,17": 22,
-      "5,18": 22,
-      "5,19": 22,
-      "5,20": 22,
-      "5,21": 23,
-      "5,22": 18,
-      "5,23": 1,
+      "5,2": 13,
+      "5,3": 6,
+      "5,4": 6,
+      "5,5": 6,
+      "5,6": 6,
+      "5,7": 22,
+      "5,8": 14,
+      "5,9": 5,
+      "5,10": 6,
+      "5,11": 6,
+      "5,12": 6,
+      "5,13": 6,
+      "5,14": 6,
+      "5,15": 6,
+      "5,16": 6,
+      "5,17": 6,
+      "5,18": 6,
+      "5,19": 6,
+      "5,20": 6,
+      "5,21": 6,
+      "5,22": 6,
+      "5,23": 16,
       "5,24": 1,
-      "5,25": 19,
-      "5,26": 20,
-      "5,27": 20,
+      "5,25": 20,
+      "5,26": 21,
+      "5,27": 21,
       "6,0": 0,
-      "6,1": 0,
-      "6,2": 24,
-      "6,3": 24,
-      "6,4": 24,
-      "6,5": 24,
-      "6,6": 24,
-      "6,7": 24,
-      "6,8": 24,
-      "6,9": 24,
-      "6,10": 24,
-      "6,11": 24,
-      "6,12": 24,
-      "6,13": 24,
-      "6,14": 24,
-      "6,15": 24,
-      "6,16": 24,
-      "6,17": 12,
-      "6,18": 12,
-      "6,19": 12,
-      "6,20": 12,
-      "6,21": 12,
-      "6,22": 1,
-      "6,23": 1,
+      "6,2": 8,
+      "6,3": 8,
+      "6,4": 8,
+      "6,5": 8,
+      "6,6": 8,
+      "6,7": 8,
+      "6,8": 8,
+      "6,9": 23,
+      "6,10": 23,
+      "6,11": 23,
+      "6,12": 23,
+      "6,13": 23,
+      "6,14": 23,
+      "6,15": 23,
+      "6,16": 23,
+      "6,17": 23,
+      "6,18": 23,
+      "6,19": 23,
+      "6,20": 23,
+      "6,21": 23,
+      "6,22": 23,
+      "6,23": 8,
       "6,24": 1,
-      "6,25": 19,
-      "6,26": 20,
-      "6,27": 20,
+      "6,25": 20,
+      "6,26": 21,
+      "6,27": 21,
       "7,0": 0,
-      "7,1": 2,
-      "7,2": 2,
-      "7,3": 2,
-      "7,4": 2,
-      "7,5": 2,
-      "7,6": 25,
-      "7,7": 3,
-      "7,8": 4,
-      "7,9": 4,
-      "7,10": 4,
-      "7,11": 4,
-      "7,12": 4,
-      "7,13": 4,
-      "7,14": 4,
-      "7,15": 4,
-      "7,16": 4,
-      "7,17": 4,
-      "7,18": 4,
-      "7,19": 4,
-      "7,20": 4,
-      "7,21": 5,
-      "7,22": 0,
       "7,23": 1,
       "7,24": 1,
-      "7,25": 26,
-      "7,26": 20,
-      "7,27": 20,
+      "7,25": 24,
+      "7,26": 21,
+      "7,27": 21,
       "8,0": 0,
-      "8,1": 2,
-      "8,2": 2,
-      "8,3": 2,
-      "8,4": 2,
-      "8,5": 2,
-      "8,6": 25,
-      "8,7": 6,
-      "8,8": 7,
-      "8,9": 7,
-      "8,10": 7,
-      "8,11": 7,
-      "8,12": 7,
-      "8,13": 7,
-      "8,14": 7,
-      "8,15": 7,
-      "8,16": 7,
-      "8,17": 7,
-      "8,18": 7,
-      "8,19": 7,
-      "8,20": 7,
+      "8,2": 25,
+      "8,3": 8,
+      "8,4": 8,
+      "8,5": 8,
+      "8,6": 8,
+      "8,7": 8,
+      "8,8": 8,
+      "8,9": 8,
+      "8,10": 8,
+      "8,11": 8,
+      "8,12": 8,
+      "8,13": 8,
+      "8,14": 8,
+      "8,15": 8,
+      "8,16": 8,
+      "8,17": 8,
+      "8,18": 8,
+      "8,19": 8,
+      "8,20": 8,
       "8,21": 8,
-      "8,22": 0,
-      "8,23": 1,
+      "8,22": 8,
+      "8,23": 8,
       "8,24": 1,
-      "8,25": 26,
-      "8,26": 20,
-      "8,27": 20,
+      "8,25": 24,
+      "8,26": 21,
+      "8,27": 21,
       "9,0": 0,
       "9,1": 0,
-      "9,2": 27,
-      "9,3": 27,
-      "9,4": 27,
-      "9,5": 27,
-      "9,6": 27,
-      "9,7": 27,
-      "9,8": 27,
-      "9,9": 27,
-      "9,10": 27,
-      "9,11": 0,
-      "9,12": 27,
-      "9,13": 27,
-      "9,14": 27,
-      "9,15": 27,
-      "9,16": 28,
-      "9,17": 28,
-      "9,18": 0,
-      "9,19": 28,
-      "9,20": 28,
-      "9,21": 28,
-      "9,22": 1,
-      "9,23": 1,
+      "9,2": 26,
+      "9,3": 8,
+      "9,4": 8,
+      "9,5": 8,
+      "9,6": 8,
+      "9,7": 8,
+      "9,8": 8,
+      "9,12": 8,
+      "9,13": 6,
+      "9,14": 6,
+      "9,15": 6,
+      "9,16": 6,
+      "9,17": 27,
+      "9,18": 8,
+      "9,19": 6,
+      "9,20": 6,
+      "9,21": 6,
+      "9,22": 6,
+      "9,23": 8,
       "9,24": 1,
-      "9,25": 29,
-      "9,26": 30,
-      "9,27": 20,
+      "9,25": 28,
+      "9,26": 29,
+      "9,27": 21,
       "10,0": 0,
       "10,1": 0,
-      "10,7": 31,
-      "10,8": 31,
-      "10,9": 31,
-      "10,10": 31,
-      "10,11": 31,
-      "10,12": 31,
-      "10,13": 1,
-      "10,14": 1,
-      "10,15": 1,
-      "10,22": 18,
-      "10,23": 1,
+      "10,3": 8,
+      "10,4": 8,
+      "10,5": 8,
+      "10,6": 8,
+      "10,7": 8,
+      "10,8": 8,
+      "10,9": 8,
+      "10,10": 8,
+      "10,11": 8,
+      "10,12": 8,
+      "10,13": 8,
+      "10,14": 8,
+      "10,15": 8,
+      "10,16": 8,
+      "10,17": 8,
+      "10,18": 8,
+      "10,19": 8,
+      "10,20": 8,
+      "10,21": 8,
+      "10,22": 8,
+      "10,23": 8,
       "10,24": 1,
-      "10,25": 32,
-      "10,26": 33,
-      "10,27": 30,
+      "10,25": 30,
+      "10,26": 31,
+      "10,27": 29,
       "11,1": 0,
-      "11,6": 34,
-      "11,7": 35,
-      "11,13": 1,
-      "11,14": 1,
-      "11,15": 1,
-      "11,16": 35,
-      "11,22": 18,
+      "11,6": 32,
+      "11,22": 33,
       "11,23": 1,
       "11,24": 1,
       "11,26": 1,
       "11,27": 1,
       "12,0": 0,
       "12,1": 0,
-      "12,2": 28,
-      "12,3": 28,
+      "12,2": 34,
+      "12,3": 34,
       "12,4": 0,
-      "12,5": 28,
-      "12,6": 36,
-      "12,13": 37,
-      "12,14": 28,
-      "12,15": 28,
+      "12,5": 34,
+      "12,6": 7,
+      "12,13": 35,
+      "12,14": 34,
+      "12,15": 34,
       "12,22": 1,
       "12,23": 1,
       "12,24": 1,
-      "12,25": 12,
+      "12,25": 27,
       "12,26": 1,
       "12,27": 1,
       "13,1": 0,
-      "13,7": 27,
-      "13,8": 27,
-      "13,9": 27,
-      "13,10": 27,
-      "13,11": 27,
-      "13,12": 27,
-      "13,22": 38,
-      "13,23": 38,
+      "13,7": 26,
+      "13,8": 26,
+      "13,9": 26,
+      "13,10": 26,
+      "13,11": 26,
+      "13,12": 26,
+      "13,22": 36,
+      "13,23": 36,
       "13,25": 0,
       "13,26": 1,
       "13,27": 1,
       "14,0": 0,
       "14,1": 0,
       "14,11": 0,
-      "14,22": 38,
-      "14,23": 38,
+      "14,22": 36,
+      "14,23": 36,
       "14,26": 1,
       "14,27": 1,
       "15,0": 0,
       "15,1": 0,
-      "15,2": 27,
-      "15,3": 27,
+      "15,2": 26,
+      "15,3": 26,
       "15,4": 0,
-      "15,5": 27,
+      "15,5": 26,
       "15,11": 0,
-      "15,14": 27,
-      "15,15": 27,
-      "15,16": 27,
+      "15,14": 26,
+      "15,15": 26,
+      "15,16": 26,
       "15,17": 1,
       "15,18": 1,
       "15,19": 1,
@@ -1137,15 +1124,26 @@
     }
   },
   "Spans": [
-    "4,2,2,5",
-    "1,2,2,5",
-    "4,7,2,15",
     "4,25,7,3",
-    "7,1,2,6",
-    "11,7,2,6",
-    "11,16,2,6",
-    "1,7,2,15",
-    "7,7,2,15"
+    "1,3,1,5",
+    "1,9,1,14",
+    "3,3,1,5",
+    "3,9,1,14",
+    "5,2,1,6",
+    "5,9,1,14",
+    "9,18,1,5",
+    "9,12,1,5"
+  ],
+  "BackgroundPictures": [
+    {
+      "StyleInfo": {
+        "Fill": "Background 1 -5"
+      },
+      "IsAutomaticFill": false,
+      "Name": "0f588752-5e10-40dc-bc0b-2574f56a26bb.png",
+      "Location": "0,180",
+      "Size": "523,70"
+    }
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

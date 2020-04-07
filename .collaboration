@@ -106,16 +106,7 @@
   },
   {
     "ModuleName": "会员升级",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T09:34:26.6808997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员升级\\会员升级.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员升级列表",
@@ -163,16 +154,7 @@
   },
   {
     "ModuleName": "积分兑换",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DaisyYang",
-      "Email": "daisy.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-07T09:28:51.5568997+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\积分兑换\\积分兑换.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "积分兑换列表",
