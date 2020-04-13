@@ -23,7 +23,7 @@
     "Count": 61
   },
   "Values": {
-    "1,8": "Member   Management",
+    "1,8": "会员管理系统",
     "4,1": "新增会员"
   },
   "AttachInfos": {
@@ -315,6 +315,25 @@
             ]
           },
           {
+            "Value": "说明文档",
+            "Text": "说明文档",
+            "IsBuiltInIconPath": false,
+            "SelectedIconColor": null,
+            "IconColor": null,
+            "IsBuiltInSelectedIconPath": false,
+            "IsOldMenuPath": false,
+            "CommandList": [
+              {
+                "$type": "Forguncy.Model.NavigateCommand, Forguncy",
+                "PageName": "说明文档",
+                "PassValues": []
+              }
+            ],
+            "CanVisitRoleList": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
             "Value": "了解活字格...",
             "Text": "了解活字格...",
             "SelectedIconColor": "Background 1",
@@ -323,7 +342,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-                "ID": "0e2f8103ee964a2e9902cbb29a370022"
+                "ID": "e10d7e1ea90f412089317d5d62d65543"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",

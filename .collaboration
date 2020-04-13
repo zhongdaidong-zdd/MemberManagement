@@ -45,16 +45,7 @@
   },
   {
     "ModuleName": "商品和服务列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-13T15:43:43.5242489+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\商品和服务\\商品和服务列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "商品服务详情",
@@ -82,16 +73,7 @@
   },
   {
     "ModuleName": "会员中心",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-13T15:36:42.5374114+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员信息\\会员中心.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员中心_会员详情",
@@ -127,16 +109,7 @@
   },
   {
     "ModuleName": "会员消费",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-13T15:50:57.5305322+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员消费\\会员消费.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员消费列表",
@@ -268,16 +241,7 @@
   },
   {
     "ModuleName": "功能母版页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "GRAPECITY\\DavidZhong",
-      "Email": "David.zhong@grapecity.com"
-    },
-    "LockDateTime": "2020-04-13T15:34:36.4032426+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "Pages\\功能母版页.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
