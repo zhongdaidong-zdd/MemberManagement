@@ -169,6 +169,7 @@
           "TableName": "会员卡状态字典表",
           "ColumnName": "卡状态"
         },
+        "ReadOnly": true,
         "UIPermissions": [
           {
             "Scope": 2,
@@ -302,7 +303,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "72a6ebfc-d20e-4348-a237-0c7029ef3799"
+                  "Id": "719c26d8-6fa9-46a2-92a6-03ea3610be80"
                 },
                 "CommandList": [
                   {
@@ -336,7 +337,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "2c1b0fbe-4064-4584-a3f7-82d34a269447"
+                  "Id": "7b1cc534-be4d-4136-92a3-b00c955b91cf"
                 },
                 "CommandList": [
                   {
