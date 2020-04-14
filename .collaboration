@@ -290,15 +290,6 @@
   },
   {
     "ModuleName": "使用文档",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T11:48:00.7830273+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\使用文档.json"
-    ]
+    "ModuleType": 1
   }
 ]
