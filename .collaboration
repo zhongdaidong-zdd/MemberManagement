@@ -9,29 +9,11 @@
   },
   {
     "ModuleName": "会员卡状态",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T13:45:56.8250022+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\会员卡状态\\会员卡状态.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员卡状态列表",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T13:45:37.7859243+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\主数据\\会员卡状态\\会员卡状态列表.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "Pages\\主数据\\会员类型",
@@ -259,16 +241,7 @@
   },
   {
     "ModuleName": "功能母版页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T12:16:21.4214346+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "Pages\\功能母版页.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
@@ -284,28 +257,7 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T12:18:28.6845706+08:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\grapecity_常用横版反白_128.png",
-      "image\\logo.png",
-      "image\\会员管理.png",
-      "image\\充值.png",
-      "image\\升级.png",
-      "image\\历史查询.png",
-      "image\\挂失.png",
-      "image\\新增会员.png",
-      "image\\消费.png",
-      "image\\消费2.png",
-      "image\\积分兑换.png",
-      "image\\编辑会员信息.png",
-      "image\\编辑会员卡信息.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
@@ -329,15 +281,6 @@
   },
   {
     "ModuleName": "使用文档",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T12:17:51.4883642+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\使用文档.json"
-    ]
+    "ModuleType": 1
   }
 ]

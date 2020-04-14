@@ -232,8 +232,8 @@
             ],
             "SubItems": [
               {
-                "Value": "会员状态",
-                "Text": "会员状态",
+                "Value": "会员卡状态",
+                "Text": "会员卡状态",
                 "SelectedIconColor": "Background 1",
                 "IsOldMenuPath": false,
                 "CommandList": [
@@ -339,7 +339,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-                "ID": "12fee101fc904ab09ed1c4b3a1b936d1"
+                "ID": "276e54402a3a401383671c8bb306fce8"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",
