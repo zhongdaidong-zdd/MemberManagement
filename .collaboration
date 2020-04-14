@@ -284,7 +284,28 @@
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "ModuleType": 10
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Jessica",
+      "Email": "jessica.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T12:18:28.6845706+08:00",
+    "ModuleType": 10,
+    "ToRemoveFiles": [
+      "image\\grapecity_常用横版反白_128.png",
+      "image\\logo.png",
+      "image\\会员管理.png",
+      "image\\充值.png",
+      "image\\升级.png",
+      "image\\历史查询.png",
+      "image\\挂失.png",
+      "image\\新增会员.png",
+      "image\\消费.png",
+      "image\\消费2.png",
+      "image\\积分兑换.png",
+      "image\\编辑会员信息.png",
+      "image\\编辑会员卡信息.png"
+    ]
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
