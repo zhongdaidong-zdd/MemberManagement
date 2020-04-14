@@ -29,9 +29,9 @@
               <TableName>会员信息表</TableName>
             </ColumnBindingInfo>
             <CompareType>LessThan</CompareType>
-            <Id>1b51bc15-a235-48de-93ed-c675639a7229</Id>
+            <Id>d2f47b8f-8ee6-491b-9876-c7b24c95a2e1</Id>
             <Value class="Forguncy.Model.FormulaReferObject" assembly="Forguncy">
-              <SerializeProperty>=TODAY()</SerializeProperty>
+              <SerializeProperty>=DATEVALUE("2017/12/1")</SerializeProperty>
             </Value>
           </Condition1>
           <Condition2 class="ForguncyDataAccess.GeneralCESqlCondition" assembly="ForguncyDataAccess">
@@ -40,12 +40,12 @@
               <TableName>会员信息表</TableName>
             </ColumnBindingInfo>
             <CompareType>EqualsTo</CompareType>
-            <Id>d9ad4f78-a4e6-4b4a-be7b-5bcb0787c196</Id>
+            <Id>38050a23-a95b-427f-a1a6-51276236ffd5</Id>
             <Value type="System.String">
               <Value>2</Value>
             </Value>
           </Condition2>
-          <Id>55738d7a-f267-456a-a1c4-1beb16c1b237</Id>
+          <Id>14dab6a0-b7ca-4714-a925-4f1c5ba57cae</Id>
           <RelationType>And</RelationType>
         </RowsToUpdateCondition>
         <ShowConfirm>False</ShowConfirm>
@@ -60,7 +60,7 @@
         </UpdateValues>
       </Item>
     </Commands>
-    <Description>判断会员卡是否过期失效</Description>
+    <Description Base64="JFKtZRpPWFRhUy9mJlTHjx9nMVlIZQ0ACgANAAoAB1nobBr/R1DFiLBzKFcvZjIAMAAxADcAdF4xADIACGcxAOVl" />
     <Name>更新会员卡状态</Name>
     <Triggers>
       <Item class="Forguncy.ServerCommands.Models.PostRequestTrigger" assembly="Forguncy">

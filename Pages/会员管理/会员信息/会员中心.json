@@ -139,12 +139,12 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=会员中心!AC2"
           },
-          "Id": "c3977bfd-9074-466d-90ec-2e2213b7cec4"
+          "Id": "37010ff1-8ac4-4e43-b44d-9a40935f785a"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "538ac19d-4e6b-4be8-aec5-2484f870efb8"
+          "Id": "9170fc49-a2ed-40ec-9ee9-f379a72b80de"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -156,7 +156,7 @@
               "Order": 1
             }
           ],
-          "Id": "ae41671e-6103-4a2b-8f44-406a812f843f"
+          "Id": "b8c601cf-5447-4f9d-94a6-b0a51ec364fd"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -324,7 +324,7 @@
             "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
             "Formula": {
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=会员中心!AB5<TODAY()"
+              "SerializeProperty": "=会员中心!AB5<DATEVALUE(\"2017/12/1\")"
             },
             "StyleInfo": {
               "Parent": "",
@@ -380,7 +380,7 @@
             "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
             "Formula": {
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-              "SerializeProperty": "=会员中心!AB5<TODAY()"
+              "SerializeProperty": "=会员中心!AB5<DATEVALUE(\"2017/12/1\")"
             },
             "StyleInfo": {
               "Parent": "",
@@ -1986,6 +1986,7 @@
     "4,50,1,3",
     "4,42,1,8",
     "1,46,1,7",
+    "5,1,19,52",
     "3,1,1,8",
     "3,9,1,6",
     "3,15,1,7",
@@ -1993,8 +1994,7 @@
     "3,27,1,9",
     "3,36,1,6",
     "3,42,1,8",
-    "3,50,1,3",
-    "5,1,19,52"
+    "3,50,1,3"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

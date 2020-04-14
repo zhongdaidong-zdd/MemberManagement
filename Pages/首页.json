@@ -48,7 +48,7 @@
     "4,46": "高级会员",
     "12,58": "1月",
     "13,58": "2月",
-    "13,59": "注：为了向您更好地展示功能，此处相关表格查询条件年份设置为2017年。\r\n如果您需要使用此模板，可以将表格查询条件相关年份设置为当前年份。\r\n使用公式YEAR(TODAY())可获取当前年份。",
+    "13,59": "注：为了向您更好地展示功能，此处相关表格查询条件年份设置为2017年。\r\n如果您需要使用此模板，可以将表格查询条件相关年份设置为当前年份。\r\n使用公式YEAR(TODAY())可获取当前年份。\r\n假装我们现在所处的时间为2017年12月1日。",
     "14,58": "3月",
     "15,58": "4月",
     "16,58": "5月",
@@ -216,7 +216,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "c62282fa-47f8-4159-a675-2ba4066e843b"
+                  "Id": "35502247-0efc-4fef-99b4-f4ebf8df64c1"
                 },
                 "CommandList": [
                   {
@@ -305,12 +305,12 @@
             "ColumnName": "办卡年份"
           },
           "Value": "2017",
-          "Id": "5ff25cba-f224-447b-a75b-6380c22d286b"
+          "Id": "ee649f62-d906-47f3-9236-b43dfc7c6d32"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "c2cdad97-d5b0-4380-a042-6471ea4f931f"
+          "Id": "012a6e20-0904-4777-ab5e-2ba7245af0be"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -355,7 +355,7 @@
               }
             },
             "Value": "2017",
-            "Id": "6b405785-5e83-48d1-8f98-a2ba3cca1b98"
+            "Id": "31a10d92-3fb2-4360-a1ce-86c4264c1ce9"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -364,14 +364,14 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "2",
-            "Id": "a58650ec-c5cb-475b-92bc-0c9b6553e2d5"
+            "Id": "65502a6c-1a1b-44f7-af6a-dd6d501e9ee6"
           },
-          "Id": "4f222d8b-bf9b-4b0d-82b9-79625115f628"
+          "Id": "fff9b6c8-432b-4579-9aae-e95d8e8f481c"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "c095b773-cf43-4c21-8674-492ff7a7ba52"
+          "Id": "de74480f-3d62-451c-821f-4a1dc47e7658"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -404,7 +404,7 @@
               }
             },
             "Value": "2017",
-            "Id": "5615b9ec-7e57-4adb-ac4e-0b380b87b5bc"
+            "Id": "1fdc38f8-726a-434f-a147-a4e8f5e3a7e9"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -413,14 +413,14 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "1",
-            "Id": "02f9d590-3bf1-4130-a901-a73205a65d62"
+            "Id": "a004d0c9-3768-48f8-9978-c427254c86ae"
           },
-          "Id": "d0614e27-4bb4-4346-980e-9dd7215be1c2"
+          "Id": "49b2d609-1214-4a1a-844f-593095a8fc63"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "0e84fed5-5ea1-4f6b-af5e-4bb5ff3a57db"
+          "Id": "1b4e85e1-bd67-4f6f-b749-159150a29812"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -475,7 +475,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e709194d-2a6a-410f-96bc-a64feafd83fa"
+          "Id": "882a14f5-185b-40a2-a63c-67d071bf08e5"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -2688,7 +2688,6 @@
               "FontStyle": "Normal",
               "FontWeight": "Normal",
               "Foreground": "Text 1 25",
-              "Formatter": null,
               "Stroke": null,
               "StrokeThickness": 1.0
             },
