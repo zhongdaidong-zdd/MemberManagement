@@ -255,7 +255,7 @@
       "UserName": "Jessica",
       "Email": "jessica.yang@grapecity.com"
     },
-    "LockDateTime": "2020-04-13T17:44:38.954788+08:00",
+    "LockDateTime": "2020-04-14T11:11:34.3015748+08:00",
     "ModuleType": 3,
     "ToRemoveFiles": [
       "Pages\\功能母版页.json"
@@ -340,16 +340,6 @@
       "Email": "jessica.yang@grapecity.com"
     },
     "LockDateTime": "2020-04-13T17:44:38.954788+08:00",
-    "ModuleType": 1
-  },
-  {
-    "ModuleName": "页面1",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T11:06:05.8320695+08:00",
     "ModuleType": 1
   }
 ]
