@@ -73,7 +73,16 @@
   },
   {
     "ModuleName": "会员中心",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T11:35:23.8701534+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\会员管理\\会员信息\\会员中心.json"
+    ]
   },
   {
     "ModuleName": "会员中心_会员详情",
