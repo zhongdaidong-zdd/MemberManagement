@@ -77,16 +77,7 @@
   },
   {
     "ModuleName": "会员中心_会员详情",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T10:04:25.6254453+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\会员管理\\会员信息\\会员中心_会员详情.json"
-    ]
+    "ModuleType": 1
   },
   {
     "ModuleName": "会员信息",
@@ -250,16 +241,7 @@
   },
   {
     "ModuleName": "功能母版页",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T11:11:34.3015748+08:00",
-    "ModuleType": 3,
-    "ToRemoveFiles": [
-      "Pages\\功能母版页.json"
-    ]
+    "ModuleType": 3
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
@@ -271,33 +253,11 @@
   },
   {
     "ModuleName": "2ddfe471-dd9c-4782-a3b4-3b67f963a6cb",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-13T18:02:57.8354422+08:00",
-    "ModuleType": 9,
-    "ToRemoveFiles": [
-      "Theme\\CellTypeStyles",
-      "Theme\\ListViewStyles",
-      "Theme\\StyleDefaultNames",
-      "Theme\\ThemeConfig"
-    ]
+    "ModuleType": 9
   },
   {
     "ModuleName": "39ae35f5-de28-40a9-be9f-ff8adef64027",
-    "State": 1,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-14T09:11:36.7512912+08:00",
-    "ModuleType": 10,
-    "ToRemoveFiles": [
-      "image\\grapecity_常用横版反白_128.png",
-      "image\\logo.png"
-    ]
+    "ModuleType": 10
   },
   {
     "ModuleName": "396e6eb8-d825-4457-85fe-f7367f51b11b",
@@ -320,26 +280,7 @@
     "ModuleType": 15
   },
   {
-    "ModuleName": "说明文档",
-    "State": 2,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-13T17:44:38.9527889+08:00",
-    "ModuleType": 1,
-    "ToRemoveFiles": [
-      "Pages\\说明文档.json"
-    ]
-  },
-  {
     "ModuleName": "使用文档",
-    "State": 3,
-    "LockedBy": {
-      "UserName": "Jessica",
-      "Email": "jessica.yang@grapecity.com"
-    },
-    "LockDateTime": "2020-04-13T17:44:38.954788+08:00",
     "ModuleType": 1
   }
 ]
