@@ -242,7 +242,16 @@
   },
   {
     "ModuleName": "首页",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T11:32:23.1067859+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\首页.json"
+    ]
   },
   {
     "ModuleName": "FGC_母版页",
