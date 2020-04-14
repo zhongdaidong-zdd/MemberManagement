@@ -317,7 +317,16 @@
   },
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
-    "ModuleType": 15
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T11:23:26.6636143+08:00",
+    "ModuleType": 15,
+    "ToRemoveFiles": [
+      "ServerCommand"
+    ]
   },
   {
     "ModuleName": "说明文档",
