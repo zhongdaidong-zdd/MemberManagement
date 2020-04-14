@@ -9,7 +9,16 @@
   },
   {
     "ModuleName": "会员卡状态",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "Jessica",
+      "Email": "jessica.yang@grapecity.com"
+    },
+    "LockDateTime": "2020-04-14T13:45:56.8250022+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\主数据\\会员卡状态\\会员卡状态.json"
+    ]
   },
   {
     "ModuleName": "会员卡状态列表",
