@@ -232,6 +232,10 @@
     "ModuleType": 1
   },
   {
+    "ModuleName": "使用文档",
+    "ModuleType": 1
+  },
+  {
     "ModuleName": "首页",
     "ModuleType": 1
   },
@@ -278,9 +282,5 @@
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
     "ModuleType": 15
-  },
-  {
-    "ModuleName": "使用文档",
-    "ModuleType": 1
   }
 ]

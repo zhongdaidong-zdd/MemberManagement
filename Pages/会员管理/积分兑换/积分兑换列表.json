@@ -87,26 +87,12 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=积分兑换列表!AN2"
               },
-              "Id": "8ecc825c-ffac-4438-addb-d717bf19b7df"
+              "Id": "e1cb2727-843e-4b03-acad-f03f9976f1cf"
             },
             "Params": [
               "=AN2"
             ],
             "ID": "a734f0c5e2194cb6b6a8428b02ebaaf4"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -134,12 +120,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "8d3ea41a-fdc0-46dd-8df8-09928923e4bc"
+          "Id": "ddcb3498-37ec-462f-ab3e-854df5a8a1af"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e14237c9-26cc-494c-8b64-3cfb03b13e4c"
+          "Id": "a77fd16a-8f96-454a-9422-3f5f53d7985c"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -151,7 +137,7 @@
               "Order": 1
             }
           ],
-          "Id": "00136d2c-4da7-462e-b8b6-2440a280633c"
+          "Id": "6642f340-82c2-4360-b8d5-07caa930070b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -186,21 +172,7 @@
             "LoadBindingDataOption": 1
           }
         ],
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "BindingInfo": {
         "TableName": "会员积分交易表",

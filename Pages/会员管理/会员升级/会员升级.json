@@ -55,21 +55,7 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -90,7 +76,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "0d6ffe2f-486c-47fe-b3c2-5a088221976d"
+          "Id": "1a8c5858-9612-4a4c-9f5d-7ed568f7d1c2"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -177,21 +163,7 @@
           "TableName": "会员类型字典表",
           "ColumnName": "会员类型"
         },
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员卡升级记录表",
@@ -240,7 +212,7 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AF10"
             },
-            "Id": "973d29e7-ea46-49c1-89e9-c0555179750f"
+            "Id": "e1b498e4-0d04-4a88-951e-1f6ef48ed567"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -253,38 +225,18 @@
               "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
               "SerializeProperty": "=会员升级!AE10"
             },
-            "Id": "bd119123-0b3b-4400-9355-32cf154236c7"
+            "Id": "9d3969fb-ebca-4ad1-a8c1-309b0d0e329a"
           },
-          "Id": "eff09ede-c8bd-43ad-8922-1e724f16bb20"
+          "Id": "8e60dd3f-747d-4640-a41f-7b1d6f6697b2"
         },
-        "AddNullItemWhenBinding": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "AddNullItemWhenBinding": true
       },
       "BindingInfo": {
         "TableName": "会员卡升级记录表",
         "ColumnName": "新卡类型"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false,
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "IgnoreBlank": false
       }
     },
     "9,16": {
@@ -296,21 +248,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     },
     "9,22": {
@@ -332,7 +270,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "024bbf7a-c096-4c62-8592-3f3fcdc9caff"
+                  "Id": "f6f32550-381f-422b-b1aa-24019e9f27b8"
                 },
                 "CommandList": [
                   {
@@ -407,7 +345,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=会员升级!AD3"
                       },
-                      "Id": "a06bc795-325b-425e-beef-eb6ccca365af"
+                      "Id": "6d4dd3d9-a65c-44fb-9505-02375869aeb5"
                     },
                     "UpdateValues": []
                   },
@@ -437,21 +375,7 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "9,29": {
@@ -1231,7 +1155,7 @@
                 ]
               },
               "value": "查看",
-              "Id": "c717856e-fc7e-45c3-a439-cdfd18e11610"
+              "Id": "24b8b849-6356-46c5-95ee-8e62afa3c540"
             },
             "CommandList": [
               {
@@ -1268,7 +1192,7 @@
                   ]
                 },
                 "value": "新增",
-                "Id": "bf46a730-2930-488e-8473-ed5d0ddd06e5"
+                "Id": "0721428d-d044-4ea7-9573-ed80ce577f43"
               },
               "Condition2": {
                 "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -1282,9 +1206,9 @@
                 },
                 "value": "%Null%",
                 "compareType": 1,
-                "Id": "5743e103-04fb-483e-9606-2e63220dbf54"
+                "Id": "66179122-7856-43b7-988b-a188732ee488"
               },
-              "Id": "7b0895c1-13f2-431e-8896-9a7683f3ebe7"
+              "Id": "3a0a1093-8abb-4bb5-a911-1bb687b38e47"
             },
             "CommandList": [
               {

@@ -171,30 +171,9 @@
             }
           }
         ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "TabIndex": 1
       },
-      "DataValidationInfo": {
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
-      }
+      "DataValidationInfo": {}
     },
     "1,27": {
       "CellType": {
@@ -216,7 +195,7 @@
                   },
                   "value": "%Null%",
                   "compareType": 1,
-                  "Id": "8398dcff-5a1d-4ab7-b246-7f2e6919a62f"
+                  "Id": "d14d8b5f-956f-4da1-8df1-d7d1e2d0bed5"
                 },
                 "CommandList": [
                   {
@@ -248,40 +227,12 @@
           "Name": "Application/047_search_8.svg",
           "BuiltIn": true,
           "Color": "Text 1 50"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       }
     },
     "4,3": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Navigation/239_user_9.svg",
         "BuiltIn": true,
         "Color": "#FF00B0F0"
@@ -305,12 +256,12 @@
             "ColumnName": "办卡年份"
           },
           "Value": "2017",
-          "Id": "fdbc8316-20b8-4a35-bbbf-9e91fc874adc"
+          "Id": "df609023-b5ce-493c-b6c4-983f249157d1"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "3a4507f3-bff4-4dbd-b381-62c11a6a7bbc"
+          "Id": "84a6fea6-2bff-4916-b87e-8886921db87f"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -355,7 +306,7 @@
               }
             },
             "Value": "2017",
-            "Id": "2ddb18d8-be24-4957-8618-8fe05313b6a4"
+            "Id": "6540ecb5-bd64-4e04-9618-07011ead4fd9"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -364,14 +315,14 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "2",
-            "Id": "3192aa14-ead6-44d2-8b1e-d061918390b7"
+            "Id": "8d315eaa-e4f9-408c-8ba2-b6ca40bf2095"
           },
-          "Id": "92288876-b7af-4b4a-b261-d06e399be8fa"
+          "Id": "a3a54fed-5e73-4f9a-813c-52b51fe1aa07"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "02263278-653a-43c4-866a-cbcb3360f961"
+          "Id": "cbbac466-04b9-4789-9ef7-d11383a6a966"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -404,7 +355,7 @@
               }
             },
             "Value": "2017",
-            "Id": "b8f34afd-98e7-4761-89d1-6c1151df1933"
+            "Id": "40d9ea14-42e9-4843-9f25-f53a7c5e7f37"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -413,14 +364,14 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "1",
-            "Id": "3230c739-7a94-4038-9ae8-df52879ad8fe"
+            "Id": "b86e539a-0da3-4940-9c1c-e693bc44a9e0"
           },
-          "Id": "2d5a5b70-4e82-4803-9f05-4916b0eedb94"
+          "Id": "4690a394-00d0-4085-8b61-65bf5a15ef35"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e4e3654a-f798-45a0-be97-b84dc2d801d3"
+          "Id": "ed61287d-b59d-42dd-9ab1-e3414ad74193"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -475,7 +426,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "5e988bcf-6251-4dac-b5f7-e9ed9fcb7880"
+          "Id": "d79edad8-169b-4a9f-ab5d-c8f5f38cef95"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true

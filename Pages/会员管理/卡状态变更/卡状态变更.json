@@ -46,52 +46,17 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
         "ColumnName": "会员信息表_ID"
       },
-      "DataValidationInfo": {
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
-      }
+      "DataValidationInfo": {}
     },
     "1,21": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Navigation/239_user_9.svg",
         "BuiltIn": true,
         "Color": "#FF0070C0"
@@ -134,21 +99,7 @@
         "DisplayColumnBindingInfo": {
           "TableName": "会员卡状态字典表",
           "ColumnName": "卡状态"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
@@ -182,21 +133,7 @@
         "DisplayColumnBindingInfo": {
           "TableName": "会员卡状态字典表",
           "ColumnName": "卡状态"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
@@ -210,21 +147,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
           "SerializeProperty": "=TODAY()"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
@@ -240,20 +163,6 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": "%CurrentUser%"
       },
       "BindingInfo": {
@@ -264,21 +173,7 @@
     "11,8": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
@@ -294,21 +189,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     },
     "19,25": {
@@ -330,7 +211,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "03fa69d2-d09f-481f-956b-73882411d6f1"
+                  "Id": "449c2e75-b970-4492-9ee5-c78e86515ea8"
                 },
                 "CommandList": [
                   {
@@ -357,7 +238,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=卡状态变更!I2"
                       },
-                      "Id": "1788e686-d095-468a-ab79-8ed80c12431a"
+                      "Id": "a01d1f6c-b2a8-4cd7-aac9-d8a1f4c92c79"
                     },
                     "UpdateValues": [
                       {
@@ -397,7 +278,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=卡状态变更!I2"
                       },
-                      "Id": "87fe1107-d222-4217-9c32-2f1c7602b168"
+                      "Id": "90aa881c-e458-48a3-984f-e72f710feacc"
                     },
                     "UpdateValues": [
                       {
@@ -420,21 +301,7 @@
           }
         ],
         "Text": "提  交",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },

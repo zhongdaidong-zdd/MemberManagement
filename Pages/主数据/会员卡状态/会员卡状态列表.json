@@ -36,21 +36,7 @@
           }
         ],
         "Text": "新 增",
-        "TemplateKey": "_RS_Normal_Style4",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style4"
       },
       "CssName": ""
     },
@@ -67,7 +53,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "fedc88e9-975f-4545-8147-592c08e68de6"
+          "Id": "07a6204c-dd2c-487e-af10-54f61e1261c3"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -106,21 +92,7 @@
           }
         ],
         "Text": "编辑",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     }
   },

@@ -53,21 +53,7 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -88,7 +74,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "2d5ad4f4-7b82-4add-8030-63b1f47bd07d"
+          "Id": "07de8426-2c62-4310-a8fa-b6b471fab5b6"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -101,20 +87,6 @@
         "$type": "Forguncy.NumberCellType, Forguncy",
         "SpinButtonvisibility": 0,
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "CellDefaultValue": 1
       },
       "BindingInfo": {
@@ -129,10 +101,7 @@
           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
           "SerializeProperty": "=积分兑换!J2"
         },
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "会员原积分不足",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "会员原积分不足"
       }
     },
     "3,25": {
@@ -161,21 +130,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员积分交易表",
@@ -191,21 +146,7 @@
           }
         ],
         "Text": "取 消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     },
     "9,18": {
@@ -227,7 +168,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "aafa05d7-2295-412a-8af7-7bebd19cca67"
+                  "Id": "80e51e6d-e7d8-4733-9979-731816758e04"
                 },
                 "CommandList": [
                   {
@@ -349,21 +290,7 @@
           }
         ],
         "Text": "确 定",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "12,25": {

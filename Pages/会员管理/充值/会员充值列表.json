@@ -89,26 +89,12 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=会员充值列表!AO2"
               },
-              "Id": "e6fffff1-177e-469c-8b15-dd59462d3a60"
+              "Id": "f373efab-a4bb-4d13-afcc-6832d73d45c7"
             },
             "Params": [
               "=AO2"
             ],
             "ID": "f68b20e9d09e4f4ea49540ecb3ffe4e5"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -132,7 +118,7 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "1",
-            "Id": "2cdc0337-3e91-48db-bf0c-8f37763e89b9"
+            "Id": "9835c142-10bb-47b1-946b-25d21e5ae699"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -147,14 +133,14 @@
               }
             },
             "Value": "%Null%",
-            "Id": "eb96f654-98b3-4427-8d81-7fcd3eec2651"
+            "Id": "6d15e0cc-91db-4db6-8b8c-464e8ad1b5f6"
           },
-          "Id": "a5f98dff-550e-4b64-834b-ef71ef233310"
+          "Id": "597058cd-9355-4ee7-874f-cbd48f40aed4"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f740af11-2d42-4929-bc05-f069f18b5a4c"
+          "Id": "3a8d7379-c4d8-4ed8-86b3-888be9e6d737"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -166,7 +152,7 @@
               "Order": 1
             }
           ],
-          "Id": "83d15bcf-2382-47b5-b651-9378a33cf972"
+          "Id": "ecb012f5-acc8-46d3-9841-698ca99e1777"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -201,21 +187,7 @@
             "LoadBindingDataOption": 1
           }
         ],
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "BindingInfo": {
         "TableName": "会员金额交易表",

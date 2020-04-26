@@ -60,21 +60,7 @@
           "Name": "Application/005_add_5.svg",
           "BuiltIn": true,
           "Color": "Background 1"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       }
     },
     "7,0": {
@@ -339,7 +325,7 @@
               {
                 "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
                 "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-                "ID": "276e54402a3a401383671c8bb306fce8"
+                "ID": "24a2e923539b4df3be9e7ccbfae26d78"
               },
               {
                 "$type": "Forguncy.Model.NavigateCommand, Forguncy",

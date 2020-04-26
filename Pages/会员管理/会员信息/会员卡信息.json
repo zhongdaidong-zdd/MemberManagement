@@ -61,52 +61,17 @@
         "DisplayColumnBindingInfo": {
           "TableName": "会员类型字典表",
           "ColumnName": "会员类型"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        }
       },
       "BindingInfo": {
         "TableName": "会员信息表",
         "ColumnName": "会员卡类型ID"
       },
-      "DataValidationInfo": {
-        "FirstParamValue": "",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
-      }
+      "DataValidationInfo": {}
     },
     "2,18": {
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ],
         "ImagePath": "Navigation/239_user_9.svg",
         "BuiltIn": true,
         "Color": "#FF00B0F0"
@@ -120,21 +85,7 @@
     "3,8": {
       "CellType": {
         "$type": "Forguncy.DateCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -169,21 +120,7 @@
           "TableName": "会员卡状态字典表",
           "ColumnName": "卡状态"
         },
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -193,21 +130,7 @@
     "7,8": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -216,32 +139,13 @@
       "DataValidationInfo": {
         "NumberType": 2,
         "CompareParamType": 6,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "FirstParamValue": "0"
       }
     },
     "9,8": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -250,12 +154,7 @@
       "DataValidationInfo": {
         "NumberType": 1,
         "CompareParamType": 6,
-        "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "",
-        "SelectedDefaultRegularExpression": ""
+        "FirstParamValue": "0"
       }
     },
     "13,15": {
@@ -267,21 +166,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     },
     "13,21": {
@@ -303,7 +188,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "719c26d8-6fa9-46a2-92a6-03ea3610be80"
+                  "Id": "4cbed692-bfd1-4529-9002-657a5fc77ca5"
                 },
                 "CommandList": [
                   {
@@ -337,7 +222,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "7b1cc534-be4d-4136-92a3-b00c955b91cf"
+                  "Id": "b60acfac-46d7-4dc9-a4e0-61dc3721854e"
                 },
                 "CommandList": [
                   {
@@ -358,21 +243,7 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     }
   },

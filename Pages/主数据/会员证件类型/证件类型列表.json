@@ -36,21 +36,7 @@
           }
         ],
         "Text": "新 增",
-        "TemplateKey": "_RS_Normal_Style4",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style4"
       },
       "CssName": ""
     },
@@ -67,7 +53,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "d298fb59-5dd3-41f6-8410-0863d1ae8c4d"
+          "Id": "c56e440d-5a74-41fb-92be-9fcfc7c62f37"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -106,21 +92,7 @@
           }
         ],
         "Text": "编辑",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     }
   },
@@ -1275,10 +1247,10 @@
     "4,1,1,7",
     "5,1,18,52",
     "4,49,1,4",
+    "4,8,1,41",
     "3,1,1,7",
-    "3,49,1,4",
     "3,8,1,41",
-    "4,8,1,41"
+    "3,49,1,4"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",

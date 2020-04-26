@@ -87,26 +87,12 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=会员升级列表!AN2"
               },
-              "Id": "8a2819a8-83ba-4f14-b875-753829477334"
+              "Id": "857164d4-f1fa-4b22-b624-2346865814e6"
             },
             "Params": [
               "=AN2"
             ],
             "ID": "38243d7dfc82429d92e41c414cec11f9"
-          }
-        ],
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
           }
         ]
       }
@@ -134,12 +120,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "50e1df23-953c-43be-a42a-c3a78003593d"
+          "Id": "4a4d7a19-9165-4424-98bf-3173bf826cfd"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f048159e-e77b-43e2-ac0e-9de406a492a3"
+          "Id": "0614a99b-f4bd-4d8a-a59a-408e6de70608"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -151,7 +137,7 @@
               "Order": 1
             }
           ],
-          "Id": "3d67b4e5-2c2f-4ba4-a508-10df923d9ee5"
+          "Id": "1f3bcf35-fb3f-4b92-a7f3-6b93c088c3e6"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -186,21 +172,7 @@
             "LoadBindingDataOption": 1
           }
         ],
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       },
       "BindingInfo": {
         "TableName": "会员卡升级记录表",

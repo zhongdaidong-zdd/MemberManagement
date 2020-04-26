@@ -54,21 +54,7 @@
           }
         ],
         "Text": "新 增",
-        "TemplateKey": "_RS_Normal_Style4",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style4"
       },
       "CssName": ""
     },
@@ -85,7 +71,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "e7cb6d99-7dfb-4d2a-8a1a-7aafd8cc3454"
+          "Id": "8239aad9-b56c-4664-a0e7-7db1efc1cf39"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -113,21 +99,7 @@
     },
     "4,41": {
       "CellType": {
-        "$type": "Forguncy.ImageCellType, Forguncy",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "$type": "Forguncy.ImageCellType, Forguncy"
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
@@ -154,21 +126,7 @@
           }
         ],
         "Text": "编辑",
-        "ClickMode": 1,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ClickMode": 1
       }
     }
   },

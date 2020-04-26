@@ -92,7 +92,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "11f14ed5-e925-489a-a87d-b339ad880339"
+          "Id": "44943c06-ed31-4bb7-97e2-b98edd60397b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -115,7 +115,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "6295b410-2203-48a9-8254-ce86fb8cf944"
+          "Id": "7a1a4c1a-6854-4f66-b8d0-e53edc4ca5ac"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -161,22 +161,8 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=会员消费!AW25"
           },
-          "Id": "69043b9d-4e26-4063-9a4a-6e2e1af81034"
-        },
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+          "Id": "ea11795d-03a6-43e9-8e13-a60f69912986"
+        }
       },
       "BindingInfo": {
         "TableName": "会员金额交易明细表",
@@ -191,21 +177,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员金额交易明细表",
@@ -215,21 +187,7 @@
     "5,18": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "SpinButtonvisibility": 0,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "SpinButtonvisibility": 0
       },
       "BindingInfo": {
         "TableName": "会员金额交易明细表",
@@ -239,11 +197,7 @@
         "NumberType": 1,
         "CompareParamType": 4,
         "FirstParamValue": "0",
-        "SecondParamValue": "",
-        "InputMessageTitle": "",
-        "InputMessage": "",
-        "ErrorMessage": "请输入一个大于0的整数。",
-        "SelectedDefaultRegularExpression": ""
+        "ErrorMessage": "请输入一个大于0的整数。"
       }
     },
     "5,24": {
@@ -254,21 +208,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员金额交易明细表",
@@ -283,21 +223,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员金额交易明细表",
@@ -312,21 +238,7 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "ReadOnly": true,
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "ReadOnly": true
       },
       "BindingInfo": {
         "TableName": "会员金额交易明细表",
@@ -399,7 +311,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "c97ac442-d499-4e6f-9d00-0a6e257feb8a"
+          "Id": "d6a5d447-c62b-4dda-82fb-9973b29511e6"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -450,21 +362,7 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Outline_Style2"
       }
     },
     "24,37": {
@@ -486,7 +384,7 @@
                     ]
                   },
                   "value": "用户余额不足",
-                  "Id": "0268d853-38ca-40d2-88de-39b9c83660b2"
+                  "Id": "861985a6-cae2-43f5-8d2c-309127677892"
                 },
                 "CommandList": [
                   {
@@ -541,7 +439,7 @@
                                 ]
                               },
                               "value": "10",
-                              "Id": "9e850c22-8285-4f65-9b5c-917cb1775594"
+                              "Id": "324c5fa2-6949-4609-a2ac-eddc06e065b1"
                             },
                             "CommandList": [
                               {
@@ -581,7 +479,7 @@
                             ]
                           },
                           "value": "新增",
-                          "Id": "7e5b6fe8-a478-4f31-abc9-5ac75916b868"
+                          "Id": "f47c1d4e-2920-4067-870c-26ff4a7067cf"
                         },
                         "CommandList": [
                           {
@@ -751,7 +649,7 @@
                               "SerializeProperty": "=TODAY()"
                             },
                             "compareType": 3,
-                            "Id": "dfac11dd-fba2-43c3-ba31-94ba6c4dc2aa"
+                            "Id": "d9de9383-69a8-4940-957f-5971516b3b67"
                           },
                           "Condition2": {
                             "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -764,9 +662,9 @@
                               ]
                             },
                             "value": "失效",
-                            "Id": "61bce448-43ac-47ae-a060-d379e3a24b31"
+                            "Id": "99eccfea-65fb-469e-9709-3bfb4660f84a"
                           },
-                          "Id": "5bbf9d2d-3e09-490e-8c1e-963931c4977c"
+                          "Id": "84c81d7f-2032-4ec0-8d98-cbc5463318fe"
                         },
                         "CommandList": [
                           {
@@ -833,21 +731,7 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
+        "TemplateKey": "_RS_Normal_Style2"
       }
     },
     "25,45": {
