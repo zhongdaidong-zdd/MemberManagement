@@ -30,7 +30,16 @@
   },
   {
     "ModuleName": "会员类型",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-05-11T16:14:01.4884339+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\主数据\\会员类型\\会员类型.json"
+    ]
   },
   {
     "ModuleName": "会员类型列表",
