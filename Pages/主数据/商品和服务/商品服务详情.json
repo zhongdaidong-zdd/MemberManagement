@@ -35,50 +35,132 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "商品名称"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "3,7": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1"
+        "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "单价"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "3,19": {
       "CellType": {
-        "$type": "Forguncy.UploadImageCellType, Forguncy"
+        "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "商品图片",
         "IsImagePath": true
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "5,7": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "商品或服务字典表",
         "ColumnName": "商品描述"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "14,24": {
       "CellType": {
@@ -99,7 +181,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "51a13cc7-2e95-423c-a5e4-a89d8b836659"
+                  "Id": "2717801b-7731-4d5c-9b25-9647ae270814"
                 },
                 "CommandList": [
                   {
@@ -133,7 +215,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "CssName": ""
     }
@@ -186,9 +282,9 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Formatter": null,
+        "Formatter": 8,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "VerticalAlignment": 6,
         "WordWrap": false,
         "Underline": false,
@@ -220,7 +316,7 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 2,
-        "Foreground": 9,
+        "Foreground": 10,
         "Formatter": 4,
         "TextIndent": 0,
         "HorizontalAlignment": 6,
@@ -254,9 +350,9 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Formatter": 10,
+        "Formatter": 11,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "VerticalAlignment": 6,
         "WordWrap": false,
         "Underline": false,
@@ -275,10 +371,10 @@
         "FontStretch": 1,
         "FontStyle": 1,
         "FontWeight": 1,
-        "Foreground": 11,
+        "Foreground": 12,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
+        "HorizontalAlignment": 9,
         "VerticalAlignment": 6,
         "WordWrap": false,
         "Underline": false,
@@ -303,8 +399,8 @@
         "FontWeight": 1,
         "Formatter": null,
         "TextIndent": 20,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 12,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 13,
         "WordWrap": true,
         "Underline": false,
         "Strikethrough": false,
@@ -407,6 +503,7 @@
         "Right",
         "Center",
         "宋体",
+        "@",
         "Left",
         "#FF000000",
         "¥#,##0_);[Red](¥#,##0)",

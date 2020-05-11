@@ -29,26 +29,67 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "支付方式字典表",
         "ColumnName": "支付方式"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "4,6": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "支付方式字典表",
         "ColumnName": "说明"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "9,12": {
       "CellType": {
@@ -69,7 +110,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "99057932-d381-448a-b6b9-d257d10f7ef7"
+                  "Id": "2bee5b03-9cdc-48b3-a49a-c65752b7c9a6"
                 },
                 "CommandList": [
                   {
@@ -95,7 +136,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "df83b452-7ba5-46e2-8957-8df511d5f424"
+                  "Id": "884dccbd-b534-4980-9740-4808de19e7dc"
                 },
                 "CommandList": [
                   {
@@ -116,7 +157,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "CssName": ""
     }
@@ -137,6 +192,7 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
+        "Formatter": 6,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -157,16 +213,24 @@
         "HorizontalAlignment": 4
       },
       {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
         "Background": null,
         "FontFamily": 5,
-        "FontStretch": 6,
-        "FontStyle": 6,
-        "FontWeight": 6,
+        "FontStretch": 7,
+        "FontStyle": 7,
+        "FontWeight": 7,
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 7,
-        "VerticalAlignment": 8,
+        "HorizontalAlignment": 8,
+        "VerticalAlignment": 9,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false,
@@ -178,7 +242,7 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "VerticalAlignment": 9,
+        "VerticalAlignment": 10,
         "WordWrap": true,
         "BorderBottom": null,
         "BorderTop": null,
@@ -237,6 +301,7 @@
         "[AUTO]General",
         "Right",
         "宋体",
+        "@",
         "Normal",
         "General",
         "Center",
@@ -263,14 +328,14 @@
       "3,2": 4,
       "3,3": 4,
       "3,4": 4,
-      "3,6": 2,
-      "3,7": 2,
-      "3,8": 5,
-      "3,9": 2,
-      "3,10": 2,
-      "3,11": 2,
-      "3,12": 2,
-      "3,13": 2,
+      "3,6": 5,
+      "3,7": 5,
+      "3,8": 6,
+      "3,9": 5,
+      "3,10": 5,
+      "3,11": 5,
+      "3,12": 5,
+      "3,13": 5,
       "3,14": 3,
       "3,15": 3,
       "3,16": 3,
@@ -278,7 +343,7 @@
       "4,2": 1,
       "4,3": 1,
       "4,4": 1,
-      "4,6": 6,
+      "4,6": 7,
       "4,7": 3,
       "4,8": 3,
       "4,9": 3,
@@ -289,12 +354,12 @@
       "4,14": 3,
       "4,15": 3,
       "4,16": 3,
-      "5,0": 7,
-      "5,1": 8,
-      "5,2": 2,
-      "5,3": 2,
-      "5,4": 2,
-      "5,5": 9,
+      "5,0": 8,
+      "5,1": 9,
+      "5,2": 5,
+      "5,3": 5,
+      "5,4": 5,
+      "5,5": 10,
       "5,6": 3,
       "5,7": 3,
       "5,8": 3,
@@ -306,42 +371,42 @@
       "5,14": 3,
       "5,15": 3,
       "5,16": 3,
-      "6,1": 10,
-      "6,2": 10,
-      "6,3": 10,
-      "6,4": 10,
-      "6,5": 10,
-      "6,6": 10,
-      "6,7": 10,
-      "6,8": 11,
-      "6,9": 11,
-      "6,10": 11,
-      "6,11": 11,
-      "6,12": 11,
-      "6,13": 11,
-      "6,14": 11,
-      "6,15": 11,
-      "6,16": 12,
-      "6,17": 12,
-      "6,18": 12,
-      "7,7": 13,
-      "9,7": 13,
-      "9,12": 14,
+      "6,1": 11,
+      "6,2": 11,
+      "6,3": 11,
+      "6,4": 11,
+      "6,5": 11,
+      "6,6": 11,
+      "6,7": 11,
+      "6,8": 12,
+      "6,9": 12,
+      "6,10": 12,
+      "6,11": 12,
+      "6,12": 12,
+      "6,13": 12,
+      "6,14": 12,
+      "6,15": 12,
+      "6,16": 13,
+      "6,17": 13,
+      "6,18": 13,
+      "7,7": 14,
+      "9,7": 14,
+      "9,12": 15,
       "9,13": 1,
       "9,14": 1,
       "9,15": 1,
       "9,16": 1,
-      "10,8": 15,
-      "10,9": 15,
-      "10,10": 15,
-      "10,11": 15,
-      "10,12": 15,
-      "10,13": 15,
-      "10,14": 15,
-      "10,15": 15,
-      "10,16": 15,
-      "10,17": 15,
-      "10,18": 15
+      "10,8": 16,
+      "10,9": 16,
+      "10,10": 16,
+      "10,11": 16,
+      "10,12": 16,
+      "10,13": 16,
+      "10,14": 16,
+      "10,15": 16,
+      "10,16": 16,
+      "10,17": 16,
+      "10,18": 16
     },
     "SheetStyle": {
       "FontFamily": 5

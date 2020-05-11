@@ -27,7 +27,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-            "ID": "8abc78992a434fe5a9b3a005ebaf04d6"
+            "ID": "723cfc3c603845dbb27b053ff4df8031"
           },
           {
             "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -36,7 +36,21 @@
           }
         ],
         "Text": "了解活字格",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "1,57": {
@@ -46,7 +60,7 @@
           {
             "$type": "Forguncy.Model.RunJavaScriptCommand, Forguncy",
             "JavaScript": "ga('send', 'event', 'Demo Click', '活字格', '会员管理系统');",
-            "ID": "ccdedfd0aae6457f872d7602b602225c"
+            "ID": "1726067c8f244bb2b8508de54913aa10"
           },
           {
             "$type": "Forguncy.Model.NavigateCommand, Forguncy",
@@ -55,7 +69,21 @@
           }
         ],
         "Text": "查看更多演示",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "12,47": {
@@ -68,10 +96,30 @@
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "  用户名",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ForguncyAttribute": "LogIn_Username"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "15,47": {
@@ -85,16 +133,50 @@
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
         "WaterMark": "  密码",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ForguncyAttribute": "LogIn_Password"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "18,47": {
       "CellType": {
         "$type": "Forguncy.CheckBoxCellType, Forguncy",
         "Caption": "保持我的登录状态",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ForguncyAttribute": "LogIn_RememberMe"
       }
     },
@@ -104,6 +186,20 @@
         "Text": "登 录",
         "AutoExecute": true,
         "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ForguncyAttribute": "LogIn_Button"
       }
     },
@@ -136,7 +232,21 @@
           }
         ],
         "Text": "Admin",
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
@@ -244,8 +354,9 @@
       {
         "FontFamily": 0,
         "FontSize": 14.0,
+        "Formatter": 12,
         "TextIndent": 15,
-        "HorizontalAlignment": 12,
+        "HorizontalAlignment": 13,
         "BorderBottom": null,
         "BorderTop": 0,
         "BorderLeft": 0,
@@ -347,7 +458,7 @@
         "FontFamily": 0,
         "FontSize": 18.666666030883789,
         "FontWeight": 8,
-        "Foreground": 14,
+        "Foreground": 15,
         "Formatter": 2,
         "TextIndent": 0,
         "HorizontalAlignment": 7,
@@ -372,14 +483,14 @@
         "FontSize": 14.0,
         "Foreground": 9,
         "Formatter": 2,
-        "HorizontalAlignment": 12
+        "HorizontalAlignment": 13
       },
       {
         "FontFamily": 0,
         "FontSize": 14.0,
         "Foreground": 9,
         "Formatter": 2,
-        "HorizontalAlignment": 12,
+        "HorizontalAlignment": 13,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -389,7 +500,7 @@
         "FontFamily": 0,
         "FontSize": 14.0,
         "Foreground": 9,
-        "HorizontalAlignment": 12,
+        "HorizontalAlignment": 13,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -398,7 +509,7 @@
       {
         "FontFamily": 0,
         "FontSize": 14.0,
-        "Foreground": 15
+        "Foreground": 16
       },
       {
         "BorderLeft": null
@@ -418,6 +529,7 @@
         "#FF4A4A4A",
         "#FF666666",
         "#FF585858",
+        "@",
         "Left",
         "#FFD8D8D8",
         "#FFFFFFFF",
@@ -425,7 +537,7 @@
       ],
       "Borders": [
         {
-          "Color": 13
+          "Color": 14
         }
       ]
     },

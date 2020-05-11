@@ -29,26 +29,67 @@
             "Enabled": true
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态字典表",
         "ColumnName": "卡状态"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "4,6": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态字典表",
         "ColumnName": "说明"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "9,12": {
       "CellType": {
@@ -69,7 +110,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "b9e02096-f0bb-4a52-9fe5-bfd7c6a7ca23"
+                  "Id": "93b990c1-e98f-4e9d-8044-3073ee72dc49"
                 },
                 "CommandList": [
                   {
@@ -95,7 +136,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "bf8fea17-7bfe-4f73-bda1-d42802afc4a6"
+                  "Id": "e87f57b3-5d46-4877-9150-1107d0fb1b02"
                 },
                 "CommandList": [
                   {
@@ -116,7 +157,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "CssName": ""
     }
@@ -151,6 +206,7 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
+        "Formatter": 5,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -171,7 +227,15 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "VerticalAlignment": 5,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
+        "VerticalAlignment": 6,
         "WordWrap": true,
         "BorderBottom": null,
         "BorderTop": null,
@@ -181,7 +245,7 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "VerticalAlignment": 5,
+        "VerticalAlignment": 6,
         "WordWrap": true
       },
       {
@@ -210,15 +274,15 @@
       },
       {
         "Background": null,
-        "FontFamily": 6,
-        "FontStretch": 7,
-        "FontStyle": 7,
-        "FontWeight": 7,
+        "FontFamily": 7,
+        "FontStretch": 8,
+        "FontStyle": 8,
+        "FontWeight": 8,
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 9,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false,
@@ -232,15 +296,15 @@
       },
       {
         "Background": null,
-        "FontFamily": 6,
-        "FontStretch": 7,
-        "FontStyle": 7,
-        "FontWeight": 7,
+        "FontFamily": 7,
+        "FontStretch": 8,
+        "FontStyle": 8,
+        "FontWeight": 8,
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 8,
-        "VerticalAlignment": 9,
+        "HorizontalAlignment": 9,
+        "VerticalAlignment": 10,
         "WordWrap": false,
         "Underline": false,
         "Strikethrough": false
@@ -252,7 +316,7 @@
         "BorderRight": null
       },
       {
-        "FontFamily": 6
+        "FontFamily": 7
       },
       {
         "BorderTop": null
@@ -265,6 +329,7 @@
         "Text 1 50",
         "[AUTO]General",
         "Right",
+        "@",
         "Top",
         "宋体",
         "Normal",
@@ -295,14 +360,14 @@
       "3,3": 5,
       "3,4": 5,
       "3,5": 2,
-      "3,6": 3,
-      "3,7": 3,
-      "3,8": 3,
-      "3,9": 3,
-      "3,10": 3,
-      "3,11": 3,
-      "3,12": 3,
-      "3,13": 3,
+      "3,6": 6,
+      "3,7": 6,
+      "3,8": 6,
+      "3,9": 6,
+      "3,10": 6,
+      "3,11": 6,
+      "3,12": 6,
+      "3,13": 6,
       "3,14": 4,
       "3,15": 4,
       "3,16": 4,
@@ -311,7 +376,7 @@
       "4,3": 1,
       "4,4": 1,
       "4,5": 2,
-      "4,6": 6,
+      "4,6": 7,
       "4,7": 4,
       "4,8": 4,
       "4,9": 4,
@@ -322,13 +387,13 @@
       "4,14": 4,
       "4,15": 4,
       "4,16": 4,
-      "4,17": 7,
+      "4,17": 8,
       "5,0": 4,
-      "5,1": 8,
-      "5,2": 3,
-      "5,3": 3,
-      "5,4": 3,
-      "5,5": 9,
+      "5,1": 9,
+      "5,2": 6,
+      "5,3": 6,
+      "5,4": 6,
+      "5,5": 10,
       "5,6": 4,
       "5,7": 4,
       "5,8": 4,
@@ -340,62 +405,62 @@
       "5,14": 4,
       "5,15": 4,
       "5,16": 4,
-      "5,17": 7,
+      "5,17": 8,
       "5,18": 4,
       "6,1": 2,
       "6,2": 2,
       "6,3": 2,
       "6,4": 2,
       "6,5": 2,
-      "6,6": 10,
-      "6,7": 10,
-      "6,8": 10,
-      "6,9": 10,
-      "6,10": 10,
-      "6,11": 10,
-      "6,12": 10,
-      "6,13": 10,
-      "6,14": 11,
-      "6,15": 11,
-      "6,16": 11,
-      "7,1": 12,
-      "7,2": 12,
-      "7,3": 12,
-      "7,4": 12,
-      "7,5": 12,
-      "7,18": 13,
-      "8,1": 14,
-      "8,2": 14,
-      "8,3": 14,
-      "8,4": 14,
-      "8,5": 14,
-      "8,6": 15,
-      "8,7": 15,
-      "8,8": 15,
-      "8,9": 15,
-      "8,10": 15,
-      "9,5": 16,
-      "9,12": 15,
-      "9,13": 17,
-      "9,14": 17,
-      "9,15": 17,
-      "9,16": 17,
-      "9,17": 15,
-      "9,18": 13,
-      "10,6": 18,
-      "10,7": 18,
-      "10,8": 18,
-      "10,9": 18,
-      "10,10": 18,
-      "10,11": 18,
-      "10,12": 18,
-      "10,13": 18,
-      "10,14": 18,
-      "10,15": 18,
-      "10,16": 18
+      "6,6": 11,
+      "6,7": 11,
+      "6,8": 11,
+      "6,9": 11,
+      "6,10": 11,
+      "6,11": 11,
+      "6,12": 11,
+      "6,13": 11,
+      "6,14": 12,
+      "6,15": 12,
+      "6,16": 12,
+      "7,1": 13,
+      "7,2": 13,
+      "7,3": 13,
+      "7,4": 13,
+      "7,5": 13,
+      "7,18": 14,
+      "8,1": 15,
+      "8,2": 15,
+      "8,3": 15,
+      "8,4": 15,
+      "8,5": 15,
+      "8,6": 16,
+      "8,7": 16,
+      "8,8": 16,
+      "8,9": 16,
+      "8,10": 16,
+      "9,5": 17,
+      "9,12": 16,
+      "9,13": 18,
+      "9,14": 18,
+      "9,15": 18,
+      "9,16": 18,
+      "9,17": 16,
+      "9,18": 14,
+      "10,6": 19,
+      "10,7": 19,
+      "10,8": 19,
+      "10,9": 19,
+      "10,10": 19,
+      "10,11": 19,
+      "10,12": 19,
+      "10,13": 19,
+      "10,14": 19,
+      "10,15": 19,
+      "10,16": 19
     },
     "SheetStyle": {
-      "FontFamily": 6
+      "FontFamily": 7
     }
   },
   "Spans": [

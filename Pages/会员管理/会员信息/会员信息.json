@@ -48,19 +48,53 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
         "ColumnName": "会员姓名"
       },
       "DataValidationInfo": {
-        "IgnoreBlank": false
+        "IgnoreBlank": false,
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
       }
     },
     "2,17": {
       "CellType": {
         "$type": "Forguncy.UploadImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImagePath": "Navigation/239_user_9.svg",
         "BuiltIn": true,
         "Color": "#FF00B0F0"
@@ -79,7 +113,21 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -89,7 +137,21 @@
     "5,7": {
       "CellType": {
         "$type": "Forguncy.DateCellType, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -109,6 +171,20 @@
           {
             "Value": "女",
             "DisplayValue": "女"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
           }
         ]
       },
@@ -144,7 +220,21 @@
         "DisplayColumnBindingInfo": {
           "TableName": "证件类型字典表",
           "ColumnName": "证件类型"
-        }
+        },
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -159,7 +249,21 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -174,7 +278,21 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -189,7 +307,21 @@
             "$type": "Forguncy.CellTypes.Models.UniqueValidadator, Forguncy"
           }
         ],
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员信息表",
@@ -198,6 +330,10 @@
       "DataValidationInfo": {
         "NumberType": 8,
         "FirstParamValue": "^((([a-z]|\\d|[!#\\$%&'\\*\\+\\-\\/=\\?\\^_`{\\|}~]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])+(\\.([a-z]|\\d|[!#\\$%&'\\*\\+\\-\\/=\\?\\^_`{\\|}~]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])+)*)|((\\x22)((((\\x20|\\x09)*(\\x0d\\x0a))?(\\x20|\\x09)+)?(([\\x01-\\x08\\x0b\\x0c\\x0e-\\x1f\\x7f]|\\x21|[\\x23-\\x5b]|[\\x5d-\\x7e]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])|(\\\\([\\x01-\\x09\\x0b\\x0c\\x0d-\\x7f]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF]))))*(((\\x20|\\x09)*(\\x0d\\x0a))?(\\x20|\\x09)+)?(\\x22)))@((([a-z]|\\d|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])|(([a-z]|\\d|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])([a-z]|\\d|-|\\.|_|~|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])*([a-z]|\\d|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])))\\.)+(([a-z]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])|(([a-z]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])([a-z]|\\d|-|\\.|_|~|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])*([a-z]|[\\u00A0-\\uD7FF\\uF900-\\uFDCF\\uFDF0-\\uFFEF])))$",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
         "SelectedDefaultRegularExpression": "邮箱"
       }
     },
@@ -210,7 +346,21 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "_RS_Outline_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     },
     "19,18": {
@@ -232,7 +382,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "4ac8f3df-3b27-4399-8a10-7b7b8bd10b0a"
+                  "Id": "a2bb6076-2b26-4164-a80b-1b622670519b"
                 },
                 "CommandList": [
                   {
@@ -294,7 +444,7 @@
                     ]
                   },
                   "value": "编辑",
-                  "Id": "f1b5408d-07f3-48d8-b9d8-d5dfad2e77f2"
+                  "Id": "3a9fab7d-6f02-44b8-93a0-bf3db0ca1de0"
                 },
                 "CommandList": [
                   {
@@ -315,7 +465,21 @@
           }
         ],
         "Text": "确定",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },
@@ -341,6 +505,7 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
+        "Formatter": 6,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -359,7 +524,7 @@
         "Foreground": 2,
         "Formatter": 3,
         "TextIndent": 0,
-        "HorizontalAlignment": 6,
+        "HorizontalAlignment": 7,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -375,6 +540,14 @@
         "FontSize": 14.666666984558105,
         "FontWeight": 1,
         "HorizontalAlignment": 4,
+        "BorderBottom": null,
+        "BorderTop": null,
+        "BorderLeft": null,
+        "BorderRight": null
+      },
+      {
+        "FontFamily": 0,
+        "FontSize": 13.333333015441895,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -404,16 +577,7 @@
         "FontFamily": 0,
         "FontWeight": 1,
         "TextIndent": 0,
-        "HorizontalAlignment": 7,
-        "BorderBottom": null,
-        "BorderTop": null,
-        "BorderLeft": null,
-        "BorderRight": null
-      },
-      {
-        "FontFamily": 0,
-        "FontSize": 13.333333015441895,
-        "Formatter": 8,
+        "HorizontalAlignment": 8,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -444,9 +608,9 @@
         "[AUTO]General",
         "Right",
         "宋体",
+        "@",
         "Left",
-        "Center",
-        "@"
+        "Center"
       ]
     },
     "CellStyles": {
@@ -547,7 +711,7 @@
       "5,4": 2,
       "5,5": 2,
       "5,6": 2,
-      "5,7": 3,
+      "5,7": 8,
       "5,8": 4,
       "5,9": 4,
       "5,10": 4,
@@ -565,19 +729,19 @@
       "5,22": 4,
       "5,23": 6,
       "6,1": 0,
-      "6,2": 8,
-      "6,3": 8,
-      "6,4": 8,
-      "6,5": 8,
+      "6,2": 9,
+      "6,3": 9,
+      "6,4": 9,
+      "6,5": 9,
       "6,6": 2,
-      "6,7": 3,
-      "6,8": 3,
-      "6,9": 3,
-      "6,10": 3,
-      "6,11": 3,
-      "6,12": 3,
-      "6,13": 3,
-      "6,14": 3,
+      "6,7": 8,
+      "6,8": 8,
+      "6,9": 8,
+      "6,10": 8,
+      "6,11": 8,
+      "6,12": 8,
+      "6,13": 8,
+      "6,14": 8,
       "6,15": 4,
       "6,16": 4,
       "6,17": 4,
@@ -593,7 +757,7 @@
       "7,4": 2,
       "7,5": 2,
       "7,6": 2,
-      "7,7": 3,
+      "7,7": 8,
       "7,8": 4,
       "7,9": 4,
       "7,10": 4,
@@ -616,8 +780,8 @@
       "8,4": 7,
       "8,5": 7,
       "8,6": 2,
-      "8,7": 9,
-      "8,8": 9,
+      "8,7": 10,
+      "8,8": 10,
       "8,9": 4,
       "8,10": 4,
       "8,11": 4,
@@ -626,19 +790,19 @@
       "8,14": 4,
       "8,15": 4,
       "8,16": 4,
-      "8,17": 10,
-      "8,18": 10,
-      "8,19": 10,
-      "8,20": 10,
-      "8,21": 10,
-      "8,22": 10,
+      "8,17": 11,
+      "8,18": 11,
+      "8,19": 11,
+      "8,20": 11,
+      "8,21": 11,
+      "8,22": 11,
       "8,23": 6,
       "9,2": 1,
       "9,3": 2,
       "9,4": 2,
       "9,5": 2,
       "9,6": 2,
-      "9,7": 3,
+      "9,7": 8,
       "9,8": 4,
       "9,9": 4,
       "9,10": 4,
@@ -668,13 +832,13 @@
       "10,12": 4,
       "10,13": 4,
       "10,14": 4,
-      "10,15": 3,
-      "10,16": 3,
-      "10,17": 3,
-      "10,18": 3,
-      "10,19": 3,
-      "10,20": 3,
-      "10,21": 3,
+      "10,15": 8,
+      "10,16": 8,
+      "10,17": 8,
+      "10,18": 8,
+      "10,19": 8,
+      "10,20": 8,
+      "10,21": 8,
       "10,22": 4,
       "10,23": 6,
       "11,2": 1,
@@ -682,7 +846,7 @@
       "11,4": 2,
       "11,5": 2,
       "11,6": 2,
-      "11,7": 11,
+      "11,7": 3,
       "11,8": 4,
       "11,9": 4,
       "11,10": 4,
@@ -727,7 +891,7 @@
       "13,4": 2,
       "13,5": 2,
       "13,6": 2,
-      "13,7": 11,
+      "13,7": 3,
       "13,8": 4,
       "13,9": 4,
       "13,10": 4,
@@ -750,8 +914,8 @@
       "14,4": 7,
       "14,5": 7,
       "14,6": 2,
-      "14,7": 9,
-      "14,8": 9,
+      "14,7": 10,
+      "14,8": 10,
       "14,9": 4,
       "14,10": 4,
       "14,11": 4,
@@ -773,7 +937,7 @@
       "15,4": 2,
       "15,5": 2,
       "15,6": 2,
-      "15,7": 11,
+      "15,7": 3,
       "15,8": 4,
       "15,9": 4,
       "15,10": 4,
@@ -807,9 +971,9 @@
       "18,14": 13,
       "18,15": 13,
       "18,16": 13,
-      "18,17": 3,
-      "18,18": 3,
-      "18,19": 3,
+      "18,17": 8,
+      "18,18": 8,
+      "18,19": 8,
       "18,23": 0,
       "18,24": 0,
       "19,12": 14,
