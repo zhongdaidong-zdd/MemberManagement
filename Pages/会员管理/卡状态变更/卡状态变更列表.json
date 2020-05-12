@@ -89,12 +89,26 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=卡状态变更列表!AN2"
               },
-              "Id": "eb821dd2-6101-4db1-9e44-aeb0c5816ad9"
+              "Id": "b5f554bc-d258-4f4e-b6b0-a290d56ec813"
             },
             "Params": [
               "=AN2"
             ],
             "ID": "619c49324f77497a9859ad2a098c615c"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
           }
         ]
       }
@@ -122,12 +136,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "a7d1d9c7-b32d-4703-ad6c-a85915b37c66"
+          "Id": "e230b5f9-4015-4098-8a73-e4c6e256f5db"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "898bcf2e-e749-4c39-9515-0a2876c02327"
+          "Id": "44d49fa0-1a59-46b7-b6d9-628751b98aaf"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -139,7 +153,7 @@
               "Order": 1
             }
           ],
-          "Id": "92eb92ea-0aee-4b59-88cf-0849be5c5624"
+          "Id": "d2b4c948-d7bb-4823-ac39-c6d8db30de6b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -156,7 +170,7 @@
             "PageName": "卡状态变更",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "查看",
                 "TargetCell": {
                   "SerializeProperty": "=卡状态变更!A1"
                 }
@@ -165,7 +179,21 @@
             "LoadBindingDataOption": 1
           }
         ],
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",

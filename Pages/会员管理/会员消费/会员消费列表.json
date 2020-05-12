@@ -89,7 +89,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=会员消费列表!AO2"
               },
-              "Id": "49a778f3-4e0b-47a7-bebf-a153a2b2a625"
+              "Id": "9e16b44f-85c2-4180-bb5c-c2f6e690f1b8"
             },
             "Params": [
               "=AO2"
@@ -132,7 +132,7 @@
               "ColumnName": "本次交易种类"
             },
             "Value": "2",
-            "Id": "24c31bb1-ae4d-42c7-b6c3-555510f5908a"
+            "Id": "29d955d4-e921-4e7a-919d-7ccb8759ebca"
           },
           "Condition2": {
             "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
@@ -147,14 +147,14 @@
               }
             },
             "Value": "%Null%",
-            "Id": "188e517c-5836-45e3-8ab9-38ffbbb74e8c"
+            "Id": "e30e9c8c-348d-484f-8103-81c0019dbfea"
           },
-          "Id": "63011809-d968-4d41-917f-db59dd6502c5"
+          "Id": "5987d36c-708c-4593-a798-60efb4ee238a"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "f06e00b7-2183-463b-98c6-0eda43ce9fab"
+          "Id": "39fa3817-041c-4ef7-8bd4-894d48217d1b"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -166,7 +166,7 @@
               "Order": 1
             }
           ],
-          "Id": "c0e04db1-ff74-41e5-9b18-c0c4cf0b9397"
+          "Id": "b4f2bffc-be96-4d94-a537-70a2892396a9"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -180,12 +180,12 @@
         "CommandList": [
           {
             "$type": "Forguncy.Model.ShowPopupCommand, Forguncy",
-            "PageName": "会员消费",
+            "PageName": "会员消费_查看",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "查看",
                 "TargetCell": {
-                  "SerializeProperty": "=会员消费!A1"
+                  "SerializeProperty": "=会员消费_查看!A1"
                 }
               },
               {
@@ -194,7 +194,7 @@
                   "SerializeProperty": "=会员消费列表!H5"
                 },
                 "TargetCell": {
-                  "SerializeProperty": "=会员消费!AZ6"
+                  "SerializeProperty": "=会员消费_查看!AZ6"
                 }
               }
             ],

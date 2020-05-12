@@ -35,7 +35,6 @@
     "1,3": "本次共消费",
     "18,45": "本次交易金额",
     "21,45": "购买会员期数量：",
-    "24,31": "取消",
     "24,37": "确定"
   },
   "Formulas": {
@@ -77,9 +76,6 @@
         "ColumnIndex": 3,
         "ColumnCount": 39,
         "RowCount": 17,
-        "AllowEditInListview": true,
-        "AllowAddNewRow": true,
-        "ShowDeleteButton": true,
         "AlwaysInEditMode": true,
         "ColumnOperation": 1,
         "Name": "表格1",
@@ -92,7 +88,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "da72b82f-81b7-4f97-8131-77bbff6722c4"
+          "Id": "feb46936-44b1-4251-a78c-165806413c19"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -115,7 +111,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "adbc9498-72bd-4831-bc91-16c4ac7e9a7d"
+          "Id": "10e25599-bd3d-462b-a939-a3b51900287f"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -159,9 +155,9 @@
           },
           "Value": {
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-            "SerializeProperty": "=会员消费!AW25"
+            "SerializeProperty": "=会员消费_查看!AW25"
           },
-          "Id": "00d19afd-e578-4177-8e69-fb4b0888a26b"
+          "Id": "44ba2920-df90-4049-9f51-d968f2e2c899"
         },
         "UIPermissions": [
           {
@@ -399,7 +395,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "dd429fe6-b62b-4467-8c10-da90c6575fc8"
+          "Id": "2467beea-9973-4993-86f3-4c81f8edf18b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -441,314 +437,12 @@
         "ColumnName": "购买会员期数量"
       }
     },
-    "24,31": {
-      "CellType": {
-        "$type": "Forguncy.ButtonCellType, Forguncy",
-        "CommandList": [
-          {
-            "$type": "Forguncy.Model.ClosePopupCommand, Forguncy"
-          }
-        ],
-        "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2",
-        "UIPermissions": [
-          {
-            "Scope": 2,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          },
-          {
-            "Scope": 1,
-            "AllowRoles": [
-              "FGC_Anonymous"
-            ]
-          }
-        ]
-      }
-    },
     "24,37": {
       "CellType": {
         "$type": "Forguncy.ButtonCellType, Forguncy",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
-            "ConditionAndCommandPairList": [
-              {
-                "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
-                  "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                    "cellLocations": [
-                      {
-                        "SerializeProperty": "=会员消费!J2"
-                      }
-                    ]
-                  },
-                  "value": "用户余额不足",
-                  "Id": "496abf84-1c2d-459a-881b-5f95a5268d8e"
-                },
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                    "MessageFormula": "用户余额不足"
-                  }
-                ],
-                "ID": "5e2219ea-2725-43ce-b96e-2f3e6271dd67"
-              },
-              {
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
-                    "PropertyItemsList": [
-                      {
-                        "Cell": {
-                          "SerializeProperty": "=会员消费!AT23"
-                        },
-                        "Value": "0"
-                      },
-                      {
-                        "Cell": {
-                          "SerializeProperty": "=会员消费!AT20"
-                        },
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员消费!J2"
-                        }
-                      }
-                    ],
-                    "Comments": "清空本次购买会员一个月有效期的数量"
-                  },
-                  {
-                    "$type": "Forguncy.Model.LoopCommand, Forguncy",
-                    "LoopInfo": {
-                      "$type": "Forguncy.Model.ListviewKindLoopInfo, Forguncy",
-                      "ListviewName": "表格1"
-                    },
-                    "CommandList": [
-                      {
-                        "$type": "Forguncy.Model.ConditionCommand, Forguncy",
-                        "ConditionAndCommandPairList": [
-                          {
-                            "Condition": {
-                              "$type": "Forguncy.Model.IfCondition, Forguncy",
-                              "param": {
-                                "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                                "cellLocations": [
-                                  {
-                                    "SerializeProperty": "=会员消费!D6"
-                                  }
-                                ]
-                              },
-                              "value": "10",
-                              "Id": "8a69c4a8-2935-4375-a071-fc9cac7ded81"
-                            },
-                            "CommandList": [
-                              {
-                                "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
-                                "PropertyItemsList": [
-                                  {
-                                    "Cell": {
-                                      "SerializeProperty": "=会员消费!AT23"
-                                    },
-                                    "Value": {
-                                      "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                                      "SerializeProperty": "=会员消费!AT23+会员消费!S6"
-                                    }
-                                  }
-                                ]
-                              }
-                            ],
-                            "ID": "b90affc7-8294-4f2d-9a5b-4b272e0f117a"
-                          }
-                        ]
-                      }
-                    ],
-                    "Comments": "计算本次交易购买会员一个月有效期的数量"
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员金额交易表",
-                    "UpdateType": "add",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定添加这条记录?",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "会员金额交易时间",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=TODAY()"
-                        }
-                      },
-                      {
-                        "ColumnName": "本次交易种类",
-                        "Value": "2"
-                      },
-                      {
-                        "ColumnName": "会员金额交易具体时间",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=NOW()"
-                        }
-                      },
-                      {
-                        "ColumnName": "会员信息表_ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员消费!AZ6"
-                        }
-                      },
-                      {
-                        "ColumnName": "会员交易方式",
-                        "Value": "6"
-                      },
-                      {
-                        "ColumnName": "会员交易金额",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员消费!AT20"
-                        }
-                      },
-                      {
-                        "ColumnName": "购买会员期数量",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员消费!AT23"
-                        }
-                      }
-                    ],
-                    "Comments": "给会员金额交易表一条记录"
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员信息表",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定要更新这行记录吗？",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "金额",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员消费!AW6-会员消费!AT20"
-                        }
-                      },
-                      {
-                        "ColumnName": "积分",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员消费!AV6+会员消费!J2/100"
-                        }
-                      },
-                      {
-                        "ColumnName": "会员截止日期",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员消费!AX6+30*会员消费!AT23"
-                        }
-                      }
-                    ],
-                    "Comments": "更新会员的金额、截止日期、积分"
-                  },
-                  {
-                    "$type": "Forguncy.Model.ConditionCommand, Forguncy",
-                    "ConditionAndCommandPairList": [
-                      {
-                        "Condition": {
-                          "$type": "ForguncyDataAccess.RelationSqlCondition, ForguncyDataAccess",
-                          "Condition1": {
-                            "$type": "Forguncy.Model.IfCondition, Forguncy",
-                            "param": {
-                              "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                              "cellLocations": [
-                                {
-                                  "SerializeProperty": "=会员消费!AX6"
-                                }
-                              ]
-                            },
-                            "value": {
-                              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                              "SerializeProperty": "=TODAY()"
-                            },
-                            "compareType": 3,
-                            "Id": "4977c5d7-2ebf-437d-9e85-4dc6bbd1acbb"
-                          },
-                          "Condition2": {
-                            "$type": "Forguncy.Model.IfCondition, Forguncy",
-                            "param": {
-                              "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                              "cellLocations": [
-                                {
-                                  "SerializeProperty": "=会员消费!AY6"
-                                }
-                              ]
-                            },
-                            "value": "失效",
-                            "Id": "72c8bf29-8ce9-4281-a09b-a538776f542b"
-                          },
-                          "Id": "7bd75629-ea8a-4d18-bb74-06a67a2a8bab"
-                        },
-                        "CommandList": [
-                          {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                            "TableName": "会员信息表",
-                            "ShowConfirm": false,
-                            "ConfirmText": "您确定要更新这行记录吗？",
-                            "UpdateValues": [
-                              {
-                                "ColumnName": "会员卡状态ID",
-                                "Value": "2"
-                              }
-                            ]
-                          },
-                          {
-                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                            "TableName": "会员卡状态变更历史表",
-                            "UpdateType": "add",
-                            "ShowConfirm": false,
-                            "ConfirmText": "您确定添加这条记录?",
-                            "UpdateValues": [
-                              {
-                                "ColumnName": "会员信息表_ID",
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                                  "SerializeProperty": "=会员消费!AZ6"
-                                }
-                              },
-                              {
-                                "ColumnName": "会员卡旧状态",
-                                "Value": "3"
-                              },
-                              {
-                                "ColumnName": "会员卡新状态",
-                                "Value": "2"
-                              },
-                              {
-                                "ColumnName": "变更日期",
-                                "Value": {
-                                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                                  "SerializeProperty": "=TODAY()"
-                                }
-                              },
-                              {
-                                "ColumnName": "操作人",
-                                "Value": "%CurrentUser%"
-                              }
-                            ]
-                          }
-                        ],
-                        "ID": "67fcf2ac-7c1e-4a8e-b56e-af0980fddefd"
-                      }
-                    ],
-                    "Comments": "检查是否需要更新会员卡状态"
-                  }
-                ],
-                "ID": "a2160a5e-1009-4ccd-9ab0-eaa6f4afb7cd"
-              }
-            ]
-          },
-          {
-            "$type": "Forguncy.Model.ClosePopupCommand, Forguncy",
-            "ReloadData": true
+            "$type": "Forguncy.Model.ClosePopupCommand, Forguncy"
           }
         ],
         "Text": "确定",
@@ -2376,6 +2070,7 @@
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
+    "Title": "会员消费",
     "AuthorizeInfo": {
       "VisitMode": 4,
       "AllowVisitedRoles": [

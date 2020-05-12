@@ -87,7 +87,7 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=积分兑换列表!AN2"
               },
-              "Id": "6b48ba94-e4b8-46fc-9c50-e2776ee2da68"
+              "Id": "528cbca2-0061-4d88-8931-1b89d231f135"
             },
             "Params": [
               "=AN2"
@@ -134,12 +134,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "86d38205-201a-44bf-83d6-4a4652e49326"
+          "Id": "a4b458ac-41da-4260-9776-24f727a8afcc"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "eb60b9fe-048f-4d4c-b9ec-419541a44839"
+          "Id": "9b83bd3d-1c17-438d-a53a-ecf3071ff17a"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -151,7 +151,7 @@
               "Order": 1
             }
           ],
-          "Id": "8a97dbc7-a566-4e1d-a396-a82ecb7a13ad"
+          "Id": "c847bb69-42ed-416a-b5f7-008bd56bdca5"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -168,7 +168,7 @@
             "PageName": "积分兑换",
             "PassValues": [
               {
-                "Source": "编辑",
+                "Source": "查看",
                 "TargetCell": {
                   "SerializeProperty": "=积分兑换!A1"
                 }

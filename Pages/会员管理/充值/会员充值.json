@@ -37,7 +37,6 @@
     "4,0": "会员卡金额",
     "5,2": "充值金额",
     "5,7": 100,
-    "6,0": "本次交易金额（原记录）",
     "7,2": "交易方式",
     "7,7": 1,
     "9,2": "交易种类",
@@ -46,8 +45,7 @@
     "13,17": "确定"
   },
   "Formulas": {
-    "9,7": "IF(ISERROR(ODATA(\"会员消费种类字典表?$select=消费种类&$filter=ID eq 1\")),\"\",ODATA(\"会员消费种类字典表?$select=消费种类&$filter=ID eq 1\"))",
-    "18,0": "A6+H6-A8"
+    "9,7": "IF(ISERROR(ODATA(\"会员消费种类字典表?$select=消费种类&$filter=ID eq 1\")),\"\",ODATA(\"会员消费种类字典表?$select=消费种类&$filter=ID eq 1\"))"
   },
   "AttachInfos": {
     "1,7": {
@@ -167,12 +165,23 @@
         "InputMessage": "",
         "ErrorMessage": "",
         "SelectedDefaultRegularExpression": ""
-      }
-    },
-    "7,0": {
-      "BindingInfo": {
-        "TableName": "会员金额交易表",
-        "ColumnName": "会员交易金额"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=会员充值!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "7,7": {
@@ -211,7 +220,7 @@
             "ColumnName": "ID"
           },
           "Value": "6",
-          "Id": "8fcfef64-16d3-4458-8ad8-d2aa4bedd04a"
+          "Id": "7771ac1f-7329-41f8-99e8-7112fe577814"
         },
         "UIPermissions": [
           {
@@ -232,6 +241,23 @@
       "BindingInfo": {
         "TableName": "会员金额交易表",
         "ColumnName": "会员交易方式"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=会员充值!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "9,7": {
@@ -282,7 +308,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "007ac92e-725b-417b-b5f4-ceb1b0632ef6"
+          "Id": "aaedcee6-356c-45cd-adb2-dceca1ca69c6"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -320,6 +346,23 @@
             ]
           }
         ]
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=会员充值!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsInvisible": true
+          }
+        ]
       }
     },
     "13,17": {
@@ -341,7 +384,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "6c21234d-e45c-4061-a0f4-052f45f43f6f"
+                  "Id": "0ec9d829-3c1d-4107-9bae-caf7355f01c7"
                 },
                 "CommandList": [
                   {
@@ -415,80 +458,12 @@
                 "ID": "72888471-6735-436a-bb59-296b01c8ee61"
               },
               {
-                "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
-                  "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                    "cellLocations": [
-                      {
-                        "SerializeProperty": "=会员充值!A19"
-                      }
-                    ]
-                  },
-                  "value": "0",
-                  "compareType": 3,
-                  "Id": "1f8c78fb-8533-41aa-a8c0-80d8d40c5062"
-                },
                 "CommandList": [
                   {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员信息表",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定要更新这行记录吗？",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "金额",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员充值!A19"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员金额交易表",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定要更新这行记录吗？",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "会员交易金额",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=会员充值!H6"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.ClosePopupCommand, Forguncy",
-                    "ReloadData": true
+                    "$type": "Forguncy.Model.ClosePopupCommand, Forguncy"
                   }
                 ],
-                "ID": "449e4cd2-eb0e-4f29-a849-ede3159a5268"
-              },
-              {
-                "Condition": {
-                  "$type": "Forguncy.Model.IfCondition, Forguncy",
-                  "param": {
-                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
-                    "cellLocations": [
-                      {
-                        "SerializeProperty": "=会员充值!H6"
-                      }
-                    ]
-                  },
-                  "value": "0",
-                  "compareType": 2,
-                  "Id": "81db5052-8b09-4099-808a-8c20b5cf30b4"
-                },
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                    "MessageFormula": "无效操作，此次操作可能导致会员卡内金额为负。"
-                  }
-                ],
-                "ID": "0d529278-1a32-46e4-87e4-bb7ac4393433"
+                "ID": "2bc6f93f-c9fb-4bfc-96ae-7fed04d93218"
               }
             ]
           }

@@ -88,7 +88,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "9344db14-242d-4e03-8c9e-519d86bc3d9f"
+          "Id": "5373b672-2b4b-4d89-adbe-313518741ab7"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -99,7 +99,6 @@
     "3,9": {
       "CellType": {
         "$type": "Forguncy.NumberCellType, Forguncy",
-        "SpinButtonvisibility": 0,
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
         "UIPermissions": [
           {
@@ -133,6 +132,23 @@
         "InputMessage": "",
         "ErrorMessage": "会员原积分不足",
         "SelectedDefaultRegularExpression": ""
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=积分兑换!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "3,25": {
@@ -180,6 +196,23 @@
       "BindingInfo": {
         "TableName": "会员积分交易表",
         "ColumnName": "增加金额"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=积分兑换!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "9,12": {
@@ -206,6 +239,23 @@
             ]
           }
         ]
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=积分兑换!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsInvisible": true
+          }
+        ]
       }
     },
     "9,18": {
@@ -227,7 +277,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "93eb9c7e-bd4b-43c6-8718-22524511595e"
+                  "Id": "6f7d82c6-d765-4df9-8dc1-8ee0c3d3dead"
                 },
                 "CommandList": [
                   {
@@ -291,55 +341,6 @@
                   }
                 ],
                 "ID": "f9737c42-4df0-43aa-87db-7f56bed3f9c0"
-              },
-              {
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员信息表",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定要更新这行记录吗？",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "金额",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!AA4+积分兑换!J6-积分兑换!AA14"
-                        }
-                      },
-                      {
-                        "ColumnName": "积分",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!J2+积分兑换!Z14-积分兑换!J4"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员积分交易表",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定要更新这行记录吗？",
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "会员交易积分",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!J4"
-                        }
-                      },
-                      {
-                        "ColumnName": "增加金额",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=积分兑换!J6"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "ID": "a4b38e44-1811-47ac-9d4a-a305203b02de"
               }
             ]
           },

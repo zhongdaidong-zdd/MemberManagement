@@ -36,6 +36,9 @@
     "19,19": "取消",
     "19,25": "提  交"
   },
+  "Formulas": {
+    "19,25": "IF(A1=\"查看\",\"确定\",\"提交\")"
+  },
   "AttachInfos": {
     "1,8": {
       "CellType": {
@@ -46,17 +49,52 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_SmallRoundCorner_Normal1",
-        "ReadOnly": true
+        "ReadOnly": true,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
         "ColumnName": "会员信息表_ID"
       },
-      "DataValidationInfo": {}
+      "DataValidationInfo": {
+        "FirstParamValue": "",
+        "SecondParamValue": "",
+        "InputMessageTitle": "",
+        "InputMessage": "",
+        "ErrorMessage": "",
+        "SelectedDefaultRegularExpression": ""
+      }
     },
     "1,21": {
       "CellType": {
         "$type": "Forguncy.ImageCellType, Forguncy",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "ImagePath": "Navigation/239_user_9.svg",
         "BuiltIn": true,
         "Color": "#FF0070C0"
@@ -99,11 +137,42 @@
         "DisplayColumnBindingInfo": {
           "TableName": "会员卡状态字典表",
           "ColumnName": "卡状态"
-        }
+        },
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
         "ColumnName": "会员卡旧状态"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=卡状态变更!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "5,8": {
@@ -133,11 +202,42 @@
         "DisplayColumnBindingInfo": {
           "TableName": "会员卡状态字典表",
           "ColumnName": "卡状态"
-        }
+        },
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
         "ColumnName": "会员卡新状态"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=卡状态变更!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "7,8": {
@@ -147,11 +247,42 @@
           "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
           "SerializeProperty": "=TODAY()"
         },
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
         "ColumnName": "变更日期"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=卡状态变更!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "9,8": {
@@ -163,21 +294,83 @@
           }
         ],
         "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ],
         "CellDefaultValue": "%CurrentUser%"
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
         "ColumnName": "操作人"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=卡状态变更!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "11,8": {
       "CellType": {
         "$type": "Forguncy.MultilineTextBox, Forguncy",
-        "TemplateKey": "_RS_LightLine_Translucent_Normal2"
+        "TemplateKey": "_RS_LightLine_Translucent_Normal2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员卡状态变更历史表",
         "ColumnName": "备注"
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=卡状态变更!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsReadOnly": true
+          }
+        ]
       }
     },
     "19,19": {
@@ -189,7 +382,38 @@
           }
         ],
         "Text": "取消",
-        "TemplateKey": "_RS_Outline_Style2"
+        "TemplateKey": "_RS_Outline_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
+      },
+      "ConditionFormatRulesCollection": {
+        "Rules": [
+          {
+            "$type": "Forguncy.ConditionFormat.FormulaRule, Forguncy",
+            "Formula": {
+              "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+              "SerializeProperty": "=卡状态变更!$A$1=\"查看\""
+            },
+            "StyleInfo": {
+              "Parent": "",
+              "Underline": null,
+              "Strikethrough": null
+            },
+            "IsInvisible": true
+          }
+        ]
       }
     },
     "19,25": {
@@ -211,7 +435,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "449c2e75-b970-4492-9ee5-c78e86515ea8"
+                  "Id": "56f6ef64-2d3d-45ed-a014-4547ce57a6b0"
                 },
                 "CommandList": [
                   {
@@ -238,7 +462,7 @@
                         "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                         "SerializeProperty": "=卡状态变更!I2"
                       },
-                      "Id": "a01d1f6c-b2a8-4cd7-aac9-d8a1f4c92c79"
+                      "Id": "9545c021-acf5-49c8-9801-759c0dd1e6a8"
                     },
                     "UpdateValues": [
                       {
@@ -252,46 +476,6 @@
                   }
                 ],
                 "ID": "f9737c42-4df0-43aa-87db-7f56bed3f9c0"
-              },
-              {
-                "CommandList": [
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员卡状态变更历史表",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定要更新这行记录吗？",
-                    "UpdateValues": []
-                  },
-                  {
-                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
-                    "TableName": "会员信息表",
-                    "ShowConfirm": false,
-                    "ConfirmText": "您确定要更新这行记录吗？",
-                    "RowsToUpdate": 1,
-                    "RowsToUpdateCondition": {
-                      "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
-                      "ColumnBindingInfo": {
-                        "TableName": "会员信息表",
-                        "ColumnName": "ID"
-                      },
-                      "Value": {
-                        "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                        "SerializeProperty": "=卡状态变更!I2"
-                      },
-                      "Id": "90aa881c-e458-48a3-984f-e72f710feacc"
-                    },
-                    "UpdateValues": [
-                      {
-                        "ColumnName": "会员卡状态ID",
-                        "Value": {
-                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                          "SerializeProperty": "=卡状态变更!I6"
-                        }
-                      }
-                    ]
-                  }
-                ],
-                "ID": "a4b38e44-1811-47ac-9d4a-a305203b02de"
               }
             ]
           },
@@ -301,7 +485,21 @@
           }
         ],
         "Text": "提  交",
-        "TemplateKey": "_RS_Normal_Style2"
+        "TemplateKey": "_RS_Normal_Style2",
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       }
     }
   },

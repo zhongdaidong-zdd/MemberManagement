@@ -165,7 +165,7 @@
               </Item>
               <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
                 <ComponentType>Number</ComponentType>
-                <Content type="System.Int32">
+                <Content type="System.Int64">
                   <Value>5</Value>
                 </Content>
               </Item>
