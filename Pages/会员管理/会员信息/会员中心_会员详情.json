@@ -1163,7 +1163,7 @@
                     "SerializeProperty": "=会员中心_会员详情!M37"
                   },
                   "compareType": 4,
-                  "Id": "4cd3751e-e0d8-4d05-80fd-7f41e5cb06d5"
+                  "Id": "0a578b34-0309-43fc-9839-fa2d12ed8123"
                 },
                 "CommandList": [
                   {
@@ -1188,12 +1188,6 @@
                         },
                         "CommandList": [
                           {
-                            "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
-                            "ShowConfirm": false,
-                            "ConfirmText": "您确定要删除吗？",
-                            "UpdateValues": []
-                          },
-                          {
                             "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
                             "TableName": "会员信息表",
                             "ShowConfirm": false,
@@ -1208,6 +1202,12 @@
                               }
                             ],
                             "ParamNameToSaveNewRowValue": "NewRow"
+                          },
+                          {
+                            "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
+                            "ShowConfirm": false,
+                            "ConfirmText": "您确定要删除吗？",
+                            "UpdateValues": []
                           }
                         ],
                         "ID": "cea16f97-c7fc-41e5-a084-9d4310d16a2f"
@@ -1488,6 +1488,12 @@
                       }
                     ],
                     "ParamNameToSaveNewRowValue": "NewRow"
+                  },
+                  {
+                    "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要删除吗？",
+                    "UpdateValues": []
                   }
                 ],
                 "ID": "a88d0bc5-4367-4d72-a887-067c996c5579"
