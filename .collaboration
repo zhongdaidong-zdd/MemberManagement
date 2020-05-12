@@ -385,5 +385,15 @@
   {
     "ModuleName": "f136f31a-5285-4164-b8e6-6a822fdf27bd",
     "ModuleType": 15
+  },
+  {
+    "ModuleName": "会员消费_查看",
+    "State": 3,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-05-12T17:42:32.2903367+08:00",
+    "ModuleType": 1
   }
 ]
