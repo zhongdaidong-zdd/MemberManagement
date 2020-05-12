@@ -87,12 +87,26 @@
                 "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
                 "SerializeProperty": "=积分兑换列表!AN2"
               },
-              "Id": "e1cb2727-843e-4b03-acad-f03f9976f1cf"
+              "Id": "6b48ba94-e4b8-46fc-9c50-e2776ee2da68"
             },
             "Params": [
               "=AN2"
             ],
             "ID": "a734f0c5e2194cb6b6a8428b02ebaaf4"
+          }
+        ],
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
           }
         ]
       }
@@ -120,12 +134,12 @@
             }
           },
           "Value": "%Null%",
-          "Id": "ddcb3498-37ec-462f-ab3e-854df5a8a1af"
+          "Id": "86d38205-201a-44bf-83d6-4a4652e49326"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "a77fd16a-8f96-454a-9422-3f5f53d7985c"
+          "Id": "eb60b9fe-048f-4d4c-b9ec-419541a44839"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -137,7 +151,7 @@
               "Order": 1
             }
           ],
-          "Id": "6642f340-82c2-4360-b8d5-07caa930070b"
+          "Id": "8a97dbc7-a566-4e1d-a396-a82ecb7a13ad"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -172,7 +186,21 @@
             "LoadBindingDataOption": 1
           }
         ],
-        "ClickMode": 1
+        "ClickMode": 1,
+        "UIPermissions": [
+          {
+            "Scope": 2,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          },
+          {
+            "Scope": 1,
+            "AllowRoles": [
+              "FGC_Anonymous"
+            ]
+          }
+        ]
       },
       "BindingInfo": {
         "TableName": "会员积分交易表",
@@ -405,7 +433,7 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Formatter": 15,
+        "Formatter": 16,
         "TextIndent": 0,
         "HorizontalAlignment": 2,
         "BorderBottom": null,
@@ -415,13 +443,13 @@
       {
         "Background": null,
         "FontFamily": 7,
-        "FontStretch": 16,
-        "FontStyle": 16,
-        "FontWeight": 16,
+        "FontStretch": 17,
+        "FontStyle": 17,
+        "FontWeight": 17,
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 17,
+        "HorizontalAlignment": 18,
         "VerticalAlignment": 2,
         "WordWrap": false,
         "Underline": false,
@@ -433,13 +461,13 @@
       {
         "Background": null,
         "FontFamily": 7,
-        "FontStretch": 16,
-        "FontStyle": 16,
-        "FontWeight": 16,
+        "FontStretch": 17,
+        "FontStyle": 17,
+        "FontWeight": 17,
         "Foreground": null,
         "Formatter": null,
         "TextIndent": 0,
-        "HorizontalAlignment": 17,
+        "HorizontalAlignment": 18,
         "VerticalAlignment": 2,
         "WordWrap": false,
         "Underline": false,
@@ -484,6 +512,7 @@
         "@",
         "Text 1 5",
         "yyyy\"年\"m\"月\"d\"日\";@",
+        "¥#,##0_);[Red](¥#,##0)",
         "0_);[Red](0)",
         "Normal",
         "General"
