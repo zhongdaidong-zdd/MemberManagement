@@ -1163,7 +1163,7 @@
                     "SerializeProperty": "=会员中心_会员详情!M37"
                   },
                   "compareType": 4,
-                  "Id": "0a578b34-0309-43fc-9839-fa2d12ed8123"
+                  "Id": "5d2e56bd-5914-46cd-97db-43af1f1826b3"
                 },
                 "CommandList": [
                   {
@@ -1175,6 +1175,20 @@
               },
               {
                 "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.SetCellPropertyCommand, Forguncy",
+                    "PropertyItemsList": [
+                      {
+                        "Cell": {
+                          "SerializeProperty": "=会员中心_会员详情!删除时当前行交易单号"
+                        },
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=会员中心_会员详情!C37"
+                        }
+                      }
+                    ]
+                  },
                   {
                     "$type": "Forguncy.Model.ConditionCommand, Forguncy",
                     "ConditionAndCommandPairList": [
@@ -1204,10 +1218,26 @@
                             "ParamNameToSaveNewRowValue": "NewRow"
                           },
                           {
-                            "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                            "TableName": "会员金额交易表",
+                            "UpdateType": "delete",
                             "ShowConfirm": false,
                             "ConfirmText": "您确定要删除吗？",
-                            "UpdateValues": []
+                            "RowsToUpdate": 1,
+                            "RowsToUpdateCondition": {
+                              "$type": "ForguncyDataAccess.GeneralCESqlCondition, ForguncyDataAccess",
+                              "ColumnBindingInfo": {
+                                "TableName": "会员金额交易表",
+                                "ColumnName": "金额交易单号"
+                              },
+                              "Value": {
+                                "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                                "SerializeProperty": "=会员中心_会员详情!删除时当前行交易单号"
+                              },
+                              "Id": "77b4c4dc-41f7-4017-9165-97629a4e26a4"
+                            },
+                            "UpdateValues": [],
+                            "ParamNameToSaveNewRowValue": "NewRow"
                           }
                         ],
                         "ID": "cea16f97-c7fc-41e5-a084-9d4310d16a2f"
@@ -1242,7 +1272,7 @@
       "CellType": {
         "$type": "Forguncy.PageNavigateCellType, Forguncy",
         "PageingListviewName": "表格1",
-        "PageLimitRowCount": 3,
+        "PageLimitRowCount": 2,
         "FirstImage": {
           "Name": "Arrow/277_move_first_3.svg",
           "BuiltIn": true,
@@ -1523,7 +1553,7 @@
       "CellType": {
         "$type": "Forguncy.PageNavigateCellType, Forguncy",
         "PageingListviewName": "表格2",
-        "PageLimitRowCount": 3,
+        "PageLimitRowCount": 2,
         "FirstImage": {
           "Name": "Arrow/277_move_first_3.svg",
           "BuiltIn": true,
@@ -4483,11 +4513,7 @@
       "36,52": 48,
       "36,53": 48,
       "36,54": 48,
-      "36,55": 48,
-      "36,56": 48,
-      "36,57": 48,
-      "36,58": 48,
-      "36,59": 48,
+      "36,55": 3,
       "36,60": 48,
       "36,61": 48,
       "36,62": 9,
@@ -5573,7 +5599,8 @@
     "28,8,2,8",
     "37,2,3,46",
     "48,2,3,46",
-    "3,42,2,6"
+    "3,42,2,6",
+    "36,55,1,5"
   ],
   "PageInfo": {
     "$type": "Forguncy.Model.Pages.NormalPage, Forguncy",
@@ -5700,5 +5727,11 @@
   "PrintInfo": {
     "Margin": {},
     "PaperSize": {}
-  }
+  },
+  "CustomNames": [
+    {
+      "Name": "删除时当前行交易单号",
+      "Formula": "会员中心_会员详情!$BD$37"
+    }
+  ]
 }
