@@ -92,7 +92,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "1359a9ef-f09e-403e-8739-83cae5183d12"
+          "Id": "cf7fe7ad-0ac4-44ae-ba04-40e2fcf6b44b"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -115,7 +115,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "2b05fd27-27e6-4bfb-a118-841bdeb60d59"
+          "Id": "58fee26f-7022-4fc1-a420-13bad390d090"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -161,7 +161,7 @@
             "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
             "SerializeProperty": "=会员消费!AW25"
           },
-          "Id": "e1518cac-232c-4b4e-8edf-7f400c2aa29f"
+          "Id": "0ee5a45f-d286-4855-b555-9dc3dde29c10"
         },
         "UIPermissions": [
           {
@@ -399,7 +399,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "51785863-bf41-4649-86e7-9aaba9aa0c8c"
+          "Id": "69fef84b-d35a-422d-910a-94a50337bccc"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -486,7 +486,7 @@
                     ]
                   },
                   "value": "用户余额不足",
-                  "Id": "a0af85fc-63d8-4878-8c84-228e905108bb"
+                  "Id": "cbff4f06-e558-491b-9851-156ff670f6a2"
                 },
                 "CommandList": [
                   {
@@ -541,7 +541,7 @@
                                 ]
                               },
                               "value": "10",
-                              "Id": "d7ece937-8074-409d-b7d2-f77e2d58e436"
+                              "Id": "ef92481a-c2f3-458b-a4f0-7db469ce91ac"
                             },
                             "CommandList": [
                               {
@@ -581,7 +581,7 @@
                             ]
                           },
                           "value": "新增",
-                          "Id": "c68f089e-b9bb-4b9b-9d93-d9a17ee2afd5"
+                          "Id": "72852555-e904-44bc-9e58-89674380e387"
                         },
                         "CommandList": [
                           {
@@ -751,7 +751,7 @@
                               "SerializeProperty": "=TODAY()"
                             },
                             "compareType": 3,
-                            "Id": "1a42a64e-1f30-41ad-b04d-d498990238fa"
+                            "Id": "df60a457-2f09-43b1-9b13-a4ed6c20956f"
                           },
                           "Condition2": {
                             "$type": "Forguncy.Model.IfCondition, Forguncy",
@@ -764,9 +764,9 @@
                               ]
                             },
                             "value": "失效",
-                            "Id": "d565aa80-972d-4d41-af98-ed4481016a61"
+                            "Id": "8ca17322-8689-4c03-a60a-5f3e480dd617"
                           },
-                          "Id": "6c2941d3-2adf-490c-9c82-c0c0f419cce8"
+                          "Id": "a1319cd6-4a14-424b-a546-a0da28a890c0"
                         },
                         "CommandList": [
                           {
@@ -1007,6 +1007,7 @@
         "BorderRight": null
       },
       {
+        "Background": 12,
         "FontFamily": 0,
         "FontSize": 13.333333333333332,
         "FontWeight": 1,
@@ -1059,7 +1060,7 @@
       {
         "FontFamily": 0,
         "FontSize": 13.333333015441895,
-        "Formatter": 13,
+        "Formatter": 14,
         "TextIndent": 0,
         "HorizontalAlignment": 8,
         "BorderBottom": null,
@@ -1153,7 +1154,7 @@
         "BorderRight": 1
       },
       {
-        "Background": 14,
+        "Background": 15,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -1224,7 +1225,7 @@
         "FontFamily": null
       },
       {
-        "Background": 15,
+        "Background": 16,
         "BorderBottom": null,
         "BorderTop": null,
         "BorderLeft": null,
@@ -1245,6 +1246,7 @@
         "#FFFFFFFF",
         "Text 1 50",
         "Background 1 -15",
+        "Background 1 0",
         "#FFA9A9A9",
         "@",
         "#FFFFFF00",
@@ -1255,7 +1257,7 @@
           "Color": 11
         },
         {
-          "Color": 12
+          "Color": 13
         }
       ]
     },
