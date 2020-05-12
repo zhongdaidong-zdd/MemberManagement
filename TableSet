@@ -160,12 +160,12 @@
               <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
                 <ComponentType>Date</ComponentType>
                 <Content type="System.String">
-                  <Value>yyyymd;@</Value>
+                  <Value>yyyymmdd</Value>
                 </Content>
               </Item>
               <Item class="CommonUtilities.AutoIDComponent" assembly="CommonUtilities">
                 <ComponentType>Number</ComponentType>
-                <Content type="System.Int64">
+                <Content type="System.Int32">
                   <Value>5</Value>
                 </Content>
               </Item>
