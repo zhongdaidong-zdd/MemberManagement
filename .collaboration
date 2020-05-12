@@ -133,7 +133,16 @@
   },
   {
     "ModuleName": "卡状态变更",
-    "ModuleType": 1
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-05-12T17:34:25.7746075+08:00",
+    "ModuleType": 1,
+    "ToRemoveFiles": [
+      "Pages\\会员管理\\卡状态变更\\卡状态变更.json"
+    ]
   },
   {
     "ModuleName": "卡状态变更列表",
