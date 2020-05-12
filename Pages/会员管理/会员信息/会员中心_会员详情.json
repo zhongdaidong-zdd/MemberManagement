@@ -1163,7 +1163,7 @@
                     "SerializeProperty": "=会员中心_会员详情!M37"
                   },
                   "compareType": 4,
-                  "Id": "c490b588-ed4a-42fe-bb92-6fcf8214e688"
+                  "Id": "4cd3751e-e0d8-4d05-80fd-7f41e5cb06d5"
                 },
                 "CommandList": [
                   {
@@ -1203,7 +1203,7 @@
                                 "ColumnName": "金额",
                                 "Value": {
                                   "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
-                                  "SerializeProperty": "=会员中心_会员详情!Z29-会员中心_会员详情!M48"
+                                  "SerializeProperty": "=会员中心_会员详情!Z29-会员中心_会员详情!M37"
                                 }
                               }
                             ],
