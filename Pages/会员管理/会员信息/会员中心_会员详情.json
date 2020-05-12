@@ -976,12 +976,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "1",
-          "Id": "606eaff0-9517-4f1e-8faf-b6cedd7ba45b"
+          "Id": "fb54e2f9-c370-486d-acbc-016dfac65a49"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "abf909e6-db97-4cd6-b600-7edd11a480c7"
+          "Id": "b8584431-b0a0-4300-8011-cef560a3a3cc"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1000,7 +1000,7 @@
               "Order": 1
             }
           ],
-          "Id": "8f6eb7f5-0e2f-41ed-b36b-c278e2e8fca8"
+          "Id": "4e940337-8373-45d9-a4aa-1fd26c05637e"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1060,7 +1060,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "51f18a8e-2bae-4129-ab2b-05d2af9a759a"
+                  "Id": "a1f49e87-c781-4815-859f-6d6d6db0e4a5"
                 },
                 "CommandList": [
                   {
@@ -1082,7 +1082,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "2a8d9eda-1df3-49fc-9941-75bbeb966a73"
+                  "Id": "9481a087-5561-4f95-ade4-2125d66f6a5a"
                 },
                 "CommandList": [
                   {
@@ -1145,10 +1145,79 @@
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
-            "ShowConfirm": true,
-            "ConfirmText": "您确定要删除吗？",
-            "UpdateValues": []
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "Condition": {
+                  "$type": "Forguncy.Model.IfCondition, Forguncy",
+                  "param": {
+                    "$type": "Forguncy.Model.IfConditionPageElementParam, Forguncy",
+                    "cellLocations": [
+                      {
+                        "SerializeProperty": "=会员中心_会员详情!Z29"
+                      }
+                    ]
+                  },
+                  "value": {
+                    "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                    "SerializeProperty": "=会员中心_会员详情!M37"
+                  },
+                  "compareType": 4,
+                  "Id": "c490b588-ed4a-42fe-bb92-6fcf8214e688"
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
+                    "MessageFormula": "无效操作，此次操作可能导致会员卡内金额为负。"
+                  }
+                ],
+                "ID": "96776509-48bc-45c2-8517-78ab9286e9b6"
+              },
+              {
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+                    "ConditionAndCommandPairList": [
+                      {
+                        "ConfirmDialogSettings": {
+                          "Title": "删除充值记录",
+                          "Text": "删除充值记录将会同步当前会员卡内金额，您确定要删除吗？",
+                          "YesButtonText": "确定",
+                          "NoButtonText": "取消",
+                          "ConfirmIcon": 1
+                        },
+                        "CommandList": [
+                          {
+                            "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
+                            "ShowConfirm": false,
+                            "ConfirmText": "您确定要删除吗？",
+                            "UpdateValues": []
+                          },
+                          {
+                            "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                            "TableName": "会员信息表",
+                            "ShowConfirm": false,
+                            "ConfirmText": "您确定要更新这行记录吗？",
+                            "UpdateValues": [
+                              {
+                                "ColumnName": "金额",
+                                "Value": {
+                                  "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                                  "SerializeProperty": "=会员中心_会员详情!Z29-会员中心_会员详情!M48"
+                                }
+                              }
+                            ],
+                            "ParamNameToSaveNewRowValue": "NewRow"
+                          }
+                        ],
+                        "ID": "cea16f97-c7fc-41e5-a084-9d4310d16a2f"
+                      }
+                    ]
+                  }
+                ],
+                "ID": "f5f8b809-35c0-48b0-811c-e2e9670b7c7a"
+              }
+            ]
           }
         ],
         "Text": "删除",
@@ -1224,12 +1293,12 @@
             "ColumnName": "本次交易种类"
           },
           "Value": "2",
-          "Id": "3f186b7f-954d-4ddd-88c7-5e62e5629f27"
+          "Id": "bd38faa8-d8db-4c2b-9f09-b78bcbf21a7b"
         },
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "13545b02-66af-4a02-9622-3de6f379bad0"
+          "Id": "8e88df72-529f-41b4-8393-646190694c96"
         },
         "OrderByCondition": {
           "OrderByColumns": [
@@ -1248,7 +1317,7 @@
               "Order": 1
             }
           ],
-          "Id": "f4ef71dc-1e0c-47a7-9a88-c9bdfafd6571"
+          "Id": "6f280f1a-46c9-4b81-9d51-8c393feca32d"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -1308,7 +1377,7 @@
                     ]
                   },
                   "value": "作废",
-                  "Id": "1a213218-7f16-41ae-b1ae-40a737657c07"
+                  "Id": "827d06c0-4d32-4701-a768-c9ba1b46e447"
                 },
                 "CommandList": [
                   {
@@ -1330,7 +1399,7 @@
                     ]
                   },
                   "value": "失效",
-                  "Id": "2c58acfb-6e77-44a3-b982-044b6e7e7f9b"
+                  "Id": "b5b1692f-8183-4fec-8a80-5d4639301d15"
                 },
                 "CommandList": [
                   {
@@ -1393,10 +1462,37 @@
         "$type": "Forguncy.HyperlinkCellType, Forguncy",
         "CommandList": [
           {
-            "$type": "Forguncy.Model.DeleteRecordCommand, Forguncy",
-            "ShowConfirm": true,
-            "ConfirmText": "您确定要删除吗？",
-            "UpdateValues": []
+            "$type": "Forguncy.Model.ConditionCommand, Forguncy",
+            "ConditionAndCommandPairList": [
+              {
+                "ConfirmDialogSettings": {
+                  "Title": "删除消费记录",
+                  "Text": "删除消费记录将会同步当前会员卡内金额，您确定要删除吗？",
+                  "YesButtonText": "确定",
+                  "NoButtonText": "取消",
+                  "ConfirmIcon": 1
+                },
+                "CommandList": [
+                  {
+                    "$type": "Forguncy.Model.UpdateDataTableCommand, Forguncy",
+                    "TableName": "会员信息表",
+                    "ShowConfirm": false,
+                    "ConfirmText": "您确定要更新这行记录吗？",
+                    "UpdateValues": [
+                      {
+                        "ColumnName": "金额",
+                        "Value": {
+                          "$type": "Forguncy.Model.FormulaReferObject, Forguncy",
+                          "SerializeProperty": "=会员中心_会员详情!Z29+会员中心_会员详情!M48"
+                        }
+                      }
+                    ],
+                    "ParamNameToSaveNewRowValue": "NewRow"
+                  }
+                ],
+                "ID": "a88d0bc5-4367-4d72-a887-067c996c5579"
+              }
+            ]
           }
         ],
         "Text": "删除",
@@ -5492,7 +5588,7 @@
                 ]
               },
               "value": "失效",
-              "Id": "47320d31-8758-4154-bee5-9e06dd534c69"
+              "Id": "84b4297b-520f-46f7-b37e-fab7ea428f71"
             },
             "CommandList": [
               {
@@ -5536,7 +5632,7 @@
                 ]
               },
               "value": "作废",
-              "Id": "8200f0b2-0ad4-4b41-bf9c-2107233f5c61"
+              "Id": "d53bbeb5-980f-4fa3-8f2e-f77fe9ac3dfc"
             },
             "CommandList": [
               {

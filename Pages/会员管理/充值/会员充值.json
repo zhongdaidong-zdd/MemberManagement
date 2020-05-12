@@ -211,7 +211,7 @@
             "ColumnName": "ID"
           },
           "Value": "6",
-          "Id": "9250a215-dd22-406d-b421-20be56420646"
+          "Id": "8fcfef64-16d3-4458-8ad8-d2aa4bedd04a"
         },
         "UIPermissions": [
           {
@@ -282,7 +282,7 @@
         "TopCondition": {
           "$type": "ForguncyDataAccess.TopCESqlCondition, ForguncyDataAccess",
           "TopCount": 500,
-          "Id": "861ff0c8-f012-48a6-9120-0c3f7d6e2aa3"
+          "Id": "007ac92e-725b-417b-b5f4-ceb1b0632ef6"
         },
         "TableLoadOnDemandInfo": {
           "IsEnabled": true
@@ -341,7 +341,7 @@
                     ]
                   },
                   "value": "新增",
-                  "Id": "dc2f6670-1e71-4cd1-88d6-e76647aab8ac"
+                  "Id": "6c21234d-e45c-4061-a0f4-052f45f43f6f"
                 },
                 "CommandList": [
                   {
@@ -427,7 +427,7 @@
                   },
                   "value": "0",
                   "compareType": 3,
-                  "Id": "912bc9f4-a1e7-49c8-acf6-cf46b7be3ae1"
+                  "Id": "1f8c78fb-8533-41aa-a8c0-80d8d40c5062"
                 },
                 "CommandList": [
                   {
@@ -480,12 +480,12 @@
                   },
                   "value": "0",
                   "compareType": 2,
-                  "Id": "dd848f3e-b5b4-4015-ac15-b13861c2a042"
+                  "Id": "81db5052-8b09-4099-808a-8c20b5cf30b4"
                 },
                 "CommandList": [
                   {
                     "$type": "Forguncy.Model.ShowMessageCommand, Forguncy",
-                    "MessageFormula": "无效操作，此次修改可能导致会员卡内金额为负。"
+                    "MessageFormula": "无效操作，此次操作可能导致会员卡内金额为负。"
                   }
                 ],
                 "ID": "0d529278-1a32-46e4-87e4-bb7ac4393433"
