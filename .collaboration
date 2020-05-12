@@ -249,7 +249,29 @@
   },
   {
     "ModuleName": "3662ae4e-b6b1-4ac1-b3e9-bf214d7e34ab",
-    "ModuleType": 7
+    "State": 1,
+    "LockedBy": {
+      "UserName": "GRAPECITY\\DavidZhong",
+      "Email": "David.zhong@grapecity.com"
+    },
+    "LockDateTime": "2020-05-12T18:11:59.4336411+08:00",
+    "ModuleType": 7,
+    "ToRemoveFiles": [
+      "TableSet",
+      "ForguncyDB.sqlite3",
+      "DataConnectionSet",
+      "Upload\\7a433a8b-fc8e-4d08-9929-4c1723d2fe97_690e8ef119c91a094258e84ff2045909.jpg",
+      "Upload\\7a433a8b-fc8e-4d08-9929-4c1723d2fe97_690e8ef119c91a094258e84ff2045909.small.jpg",
+      "Upload\\9fc691c9-94b3-4749-ae96-c8f7b390db90_1a502db9ba2150d5cf9f2045b1b4a55d.jpg",
+      "Upload\\9fc691c9-94b3-4749-ae96-c8f7b390db90_1a502db9ba2150d5cf9f2045b1b4a55d.small.jpg",
+      "Upload\\b572aa9d-52e2-4d20-8042-db7d5596608d_a34211e016373c3ec0781416deb3e19b.jpg",
+      "Upload\\b572aa9d-52e2-4d20-8042-db7d5596608d_a34211e016373c3ec0781416deb3e19b.small.jpg",
+      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.jpg",
+      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.medium.jpg",
+      "Upload\\c009b6f4-72da-4187-ab6b-c7f4ffe669a1_0f0566ee0b777388bf2e2022781d0ad1.small.jpg",
+      "Upload\\c9efe898-c1ec-44b7-9600-19f833aa02ec_690e8ef119c91a094258e84ff2045909.jpg",
+      "Upload\\c9efe898-c1ec-44b7-9600-19f833aa02ec_690e8ef119c91a094258e84ff2045909.small.jpg"
+    ]
   },
   {
     "ModuleName": "c0399537-e72c-407d-82a2-ce31c68456a2",
